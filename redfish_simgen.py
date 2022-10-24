@@ -23,7 +23,8 @@ def findReplace(directory, find, replace, filePattern):
                 f.write(s)
 
 #Get inputs
-sim_type = input("Please select simulator type [hp, dell]: ")
+sim_type = input(Style.BRIGHT+Fore.CYAN+"Please select simulator type "+Style.RESET_ALL+"[hp, dell]: ")
+print("\n")
 
 if sim_type == 'hp':
 
@@ -63,19 +64,15 @@ client = docker.from_env()
 container = client.containers.run('michzimm/redfish_sim:1.0', command=None, volumes=['/root/redfish_simgen/instances/'+instance_name+':/usr/src/app/instance'], ports={'8000/tcp': None}, detach=True)
 
 print("      "+u'\U0001F44D'+" Done.")
+print("\n")
 
 container.reload()
 
 print(Style.BRIGHT+Fore.GREEN+"When claiming this instance as a \"Redfish Server Target\" in Intersight, use the following information..."+Style.RESET_ALL)
-
 print(Style.BRIGHT+Fore.WHITE+"Intersight Assist: "+Style.RESET_ALL+"Select your local Intersight Assist.")
-
 print(Style.BRIGHT+Fore.WHITE+"Hostname/IPAddress: "+Style.RESET_ALL+socket.gethostbyname(socket.gethostname()))
-
 print(Style.BRIGHT+Fore.WHITE+"Port: "+Style.RESET_ALL+container.ports['8000/tcp'][0]['HostPort'])
-
 print(Style.BRIGHT+Fore.WHITE+"Username: "+Style.RESET_ALL+"administrator")
-
 print(Style.BRIGHT+Fore.WHITE+"Password: "+Style.RESET_ALL+"password")
-
 print(Style.BRIGHT+Fore.WHITE+"Secure: "+Style.RESET_ALL+"enabled")
+print("\n")
