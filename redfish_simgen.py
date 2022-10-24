@@ -1,4 +1,5 @@
-#!/usr/bin/env python
+#!/usr/bin/python3:wq
+
 
 import random
 import string
