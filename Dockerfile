@@ -10,6 +10,7 @@ RUN pip install --upgrade pip && \
 
 # Copy server files
 COPY rfSsdpServer.py redfishMockupServer.py /usr/src/app/
+COPY server.crt server.key /usr/src/app/
 
 # Env settings
 EXPOSE 8000
