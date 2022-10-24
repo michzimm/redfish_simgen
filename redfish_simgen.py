@@ -22,7 +22,6 @@ def findReplace(directory, find, replace, filePattern):
 
 #Get inputs
 sim_type = input("Please select simulator type [hp, dell]: ")
-port_num = input("Please enter a port number to run the simulator on between 30000-30999: ")
 
 if sim_type == 'hp':
 
@@ -60,4 +59,4 @@ if sim_type == 'hp':
 client = docker.from_env()
 container = client.containers.run('michzimm/redfish_sim:1.0', command=None, volumes=['/root/redfish_simgen/instances/'+instance_name+':/usr/src/app/instance'], ports={'8000/tcp': None}, detach=True)
 
-print(container)
+print(str(container))
