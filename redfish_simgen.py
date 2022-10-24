@@ -8,6 +8,7 @@ import os
 import fnmatch
 import docker
 import socket
+from colorama import Style, Fore
 
 
 # Functions
@@ -61,6 +62,11 @@ client = docker.from_env()
 container = client.containers.run('michzimm/redfish_sim:1.0', command=None, volumes=['/root/redfish_simgen/instances/'+instance_name+':/usr/src/app/instance'], ports={'8000/tcp': None}, detach=True)
 
 container.reload()
-print(container.ports)
-print(container.ports['8000/tcp'][0]['HostPort'])
-print(socket.gethostbyname(socket.gethostname()))
+
+print(Style.BRIGHT+Fore.GREEN+"When claiming this instance as a \"Redfish Server Target\" in Intersight, use the following information..."+Style.RESET_ALL)
+
+print(Style.BRIGHT+Fore.WHITE+"Intersight Assist: "+Style.RESET_ALL+"Select your local Intersight Assist.")
+
+print(Style.BRIGHT+Fore.WHITE+"Hostname/IPAddress: "+Style.RESET_ALL+socket.gethostbyname(socket.gethostname()))
+
+print(Style.BRIGHT+Fore.WHITE+"Port: "+Style.RESET_ALL+container.ports['8000/tcp'][0]['HostPort'])
