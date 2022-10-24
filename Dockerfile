@@ -15,4 +15,4 @@ COPY rfSsdpServer.py redfishMockupServer.py /usr/src/app/
 EXPOSE 8000
 HEALTHCHECK CMD curl --fail http://127.0.0.1:8000/redfish/v1 || exit 1
 WORKDIR /usr/src/app
-ENTRYPOINT ["python", "/usr/src/app/redfishMockupServer.py", "-H", "0.0.0.0"]
+ENTRYPOINT ["python", "/usr/src/app/redfishMockupServer.py", "-H", "0.0.0.0", "-D", "/usr/src/app/instance"]
