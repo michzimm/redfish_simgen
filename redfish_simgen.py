@@ -7,6 +7,7 @@ import shutil
 import os
 import fnmatch
 import docker
+import socket
 
 
 # Functions
@@ -62,3 +63,4 @@ container = client.containers.run('michzimm/redfish_sim:1.0', command=None, volu
 container.reload()
 print(container.ports)
 print(container.ports['8000/tcp'][0]['HostPort'])
+print(socket.gethostbyname(socket.gethostname()))
