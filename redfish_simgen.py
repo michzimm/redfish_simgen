@@ -23,6 +23,7 @@ def findReplace(directory, find, replace, filePattern):
                 f.write(s)
 
 #Get inputs
+print("\n")
 sim_type = input(Style.BRIGHT+Fore.CYAN+"Please select simulator type "+Style.RESET_ALL+"[hp, dell]: ")
 print("\n")
 
@@ -69,10 +70,11 @@ print("\n")
 container.reload()
 
 print(Style.BRIGHT+Fore.GREEN+"When claiming this instance as a \"Redfish Server Target\" in Intersight, use the following information..."+Style.RESET_ALL)
-print(Style.BRIGHT+Fore.WHITE+"Intersight Assist: "+Style.RESET_ALL+"Select your local Intersight Assist.")
-print(Style.BRIGHT+Fore.WHITE+"Hostname/IPAddress: "+Style.RESET_ALL+socket.gethostbyname(socket.gethostname()))
-print(Style.BRIGHT+Fore.WHITE+"Port: "+Style.RESET_ALL+container.ports['8000/tcp'][0]['HostPort'])
-print(Style.BRIGHT+Fore.WHITE+"Username: "+Style.RESET_ALL+"administrator")
-print(Style.BRIGHT+Fore.WHITE+"Password: "+Style.RESET_ALL+"password")
-print(Style.BRIGHT+Fore.WHITE+"Secure: "+Style.RESET_ALL+"enabled")
+print(Style.BRIGHT+Fore.WHITE+"  --> Intersight Assist: "+Style.RESET_ALL+"Select your local Intersight Assist.")
+print(Style.BRIGHT+Fore.WHITE+"  --> Hostname/IPAddress: "+Style.RESET_ALL+socket.gethostbyname(socket.gethostname()))
+print(Style.BRIGHT+Fore.WHITE+"  --> Port: "+Style.RESET_ALL+container.ports['8000/tcp'][0]['HostPort'])
+print(Style.BRIGHT+Fore.WHITE+"  --> Username: "+Style.RESET_ALL+"administrator")
+print(Style.BRIGHT+Fore.WHITE+"  --> Password: "+Style.RESET_ALL+"password")
+print(Style.BRIGHT+Fore.WHITE+"  --> Secure: "+Style.RESET_ALL+"enabled")
+print("      "+u'\U0001F44D'+" Done.")
 print("\n")
