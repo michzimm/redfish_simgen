@@ -1,0 +1,206 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "@odata.etag": "W/\"54FAE1C1\"",
+    "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory",
+    "@odata.type": "#SoftwareInventoryCollection.SoftwareInventoryCollection",
+    "Description": "Software Inventory Collection",
+    "Name": "Software Inventory Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/2"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/3"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/4"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/5"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/6"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/7"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/8"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/9"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/10"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/11"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/12"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/13"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/14"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/15"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/16"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/17"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/18"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/19"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/20"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/21"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/22"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/23"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/24"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/25"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/26"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/27"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/28"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/29"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/30"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/31"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/32"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/33"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/34"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/35"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/36"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/37"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/38"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/39"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/40"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/41"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/42"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/43"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/44"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/45"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/46"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/47"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/48"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/49"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/50"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/51"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/52"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/53"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/54"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/55"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/56"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/57"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/58"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/59"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/60"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/61"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/62"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/63"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/64"
+        },
+        {
+            "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/65"
+        }
+    ],
+    "Members@odata.count": 65
+}

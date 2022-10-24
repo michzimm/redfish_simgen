@@ -1,0 +1,49 @@
+{
+    "@odata.etag": "W/\"8e4df3ff\"",
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE009000/Drives/1",
+    "@odata.type": "#Drive.v1_7_0.Drive",
+    "Id": "1",
+    "Name": "480GB 16G NVMe SSD",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "BlockSizeBytes": 512,
+    "CapableSpeedGbs": 16,
+    "CapacityBytes": 480103981056,
+    "EncryptionAbility": "None",
+    "EncryptionStatus": "Unencrypted",
+    "FailurePredicted": false,
+    "HotspareType": "None",
+    "Identifiers": [
+        {
+            "DurableNameFormat": "NAA",
+            "DurableName": "ace42e0005fcd346"
+        }
+    ],
+    "IndicatorLED": "Off",
+    "Links": {
+        "Volumes": [
+            {
+                "@odata.id": "/redfish/v1/Systems/1/Storage/DE009000/Volumes/1"
+            }
+        ],
+        "Volumes@odata.count": 1
+    },
+    "MediaType": "SSD",
+    "Model": "VS000480KXALB",
+    "NegotiatedSpeedGbs": 16,
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationOrdinalValue": 1,
+            "LocationType": "Bay",
+            "ServiceLabel": "Slot=13:Bay=1"
+        }
+    },
+    "PredictedMediaLifeLeftPercent": 100,
+    "Protocol": "NVMe",
+    "Revision": "85031G00",
+    "SerialNumber": "FS0AN4320I110A52G",
+    "StatusIndicator": "OK",
+    "Operations": []
+}

@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"5AFE6377\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/131",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "131",
+    "Created": "2022-04-22T22:29:35Z",
+    "EntryType": "Oem",
+    "Message": "SSO Trust Mode set to Trust by Certificate by user:_HPOneViewAdmin.",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 9,
+            "Count": 1,
+            "EventNumber": 212,
+            "Severity": "Informational",
+            "Updated": "2022-04-22T22:29:35Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

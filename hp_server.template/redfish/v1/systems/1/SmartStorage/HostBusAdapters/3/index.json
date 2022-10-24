@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageHostBusAdapter.HpeSmartStorageHostBusAdapter",
+    "@odata.etag": "W/\"65B0C723\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/3",
+    "@odata.type": "#HpeSmartStorageHostBusAdapter.v2_0_0.HpeSmartStorageHostBusAdapter",
+    "Id": "3",
+    "Description": "HPE Smart Storage Host Bus Adapter View",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "1.0.14.1055"
+        }
+    },
+    "Links": {
+        "Drives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/3/DiskDrives"
+        }
+    },
+    "Location": "Slot 13",
+    "LocationFormat": "PCISlot",
+    "Model": "HPE NS204i-r Gen10+ Boot Controller",
+    "Name": "HpeSmartStorageHostBusAdapter",
+    "SerialNumber": "PZCSR0ARHEL005",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

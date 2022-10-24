@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "W/\"4DA55F10\"",
+    "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/209",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Id": "209",
+    "FirmwareVersion": "1.2839.0",
+    "Manufacturer": "Intel Corporation",
+    "Model": "K53978-004",
+    "Name": "Intel(R) Ethernet Network Adapter I350-T4 for OCP NIC 3.0",
+    "PCIeFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/1/PCIeDevices/209/PCIeFunctions"
+    },
+    "PartNumber": "K53978-004",
+    "SKU": "MM#999HCV",
+    "SerialNumber": "6805CAE1367C",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

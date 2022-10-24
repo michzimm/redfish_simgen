@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"E70D0A24\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/47",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "47",
+    "Created": "2022-08-03T12:27:30Z",
+    "EntryType": "Oem",
+    "Message": "Host REST logout: System Administrator",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1132,
+            "Count": 6,
+            "EventNumber": 120084,
+            "Severity": "Informational",
+            "Updated": "2022-08-03T12:27:36Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

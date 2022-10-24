@@ -1,0 +1,76 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeiLOSSO.HpeiLOSSO",
+    "@odata.etag": "W/\"40B50C2B\"",
+    "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO",
+    "@odata.type": "#HpeiLOSSO.v2_0_0.HpeiLOSSO",
+    "Id": "SSO",
+    "Actions": {
+        "#HpeiLOSSO.DeleteAllSSORecords": {
+            "target": "/redfish/v1/Managers/1/SecurityService/SSO/Actions/HpeiLOSSO.DeleteAllSSORecords"
+        },
+        "#HpeiLOSSO.DeleteSSORecordbyNumber": {
+            "target": "/redfish/v1/Managers/1/SecurityService/SSO/Actions/HpeiLOSSO.DeleteSSORecordbyNumber"
+        },
+        "#HpeiLOSSO.ImportCertificate": {
+            "target": "/redfish/v1/Managers/1/SecurityService/SSO/Actions/HpeiLOSSO.ImportCertificate"
+        },
+        "#HpeiLOSSO.ImportDNSName": {
+            "target": "/redfish/v1/Managers/1/SecurityService/SSO/Actions/HpeiLOSSO.ImportDNSName"
+        }
+    },
+    "ManagerTrustedCertificates": [
+        {
+            "@odata.id": "/redfish/v1/Managers/1/SecurityService/SSO/#ManagerTrustedCertificates/1/",
+            "Certificate": "-----BEGIN CERTIFICATE-----\nMIIEHzCCAwegAwIBAgICfDUwDQYJKoZIhvcNAQELBQAwejELMAkGA1UEBhMCVVMxEzARBgNVBAgM\nCkNhbGlmb3JuaWExEjAQBgNVBAcMCVBhbG8gQWx0bzEjMCEGA1UECgwaSGV3bGV0dCBQYWNrYXJk\nIEVudGVycHJpc2UxHTAbBgNVBAMMFE9uZVZpZXczLmNvbXBsYWIubGFiMB4XDTE5MDcxMTIwNDk1\nM1oXDTI5MDcxMTIwNDk1M1owejELMAkGA1UEBhMCVVMxEzARBgNVBAgMCkNhbGlmb3JuaWExEjAQ\nBgNVBAcMCVBhbG8gQWx0bzEjMCEGA1UECgwaSGV3bGV0dCBQYWNrYXJkIEVudGVycHJpc2UxHTAb\nBgNVBAMMFE9uZVZpZXczLmNvbXBsYWIubGFiMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC\nAQEAtNa25GpSVANlMtL8UhNjSNKpDcCLMbfrVesrO2b89u/rxpuaQRPu4B0ykFjmdmkKY6sFJPMl\nL3crORMSzonWseoBP2r2I92as+iLL84/Xm7OpBKMBU2MNxxNoM7DEDJQK7MKcv4mMXPP5QIAGNr3\nbiItjJvNTsJBOAdEtRRJsfj+27yw2A/bVmrnBvx17ewYxjY9xSzmPdcnMgHLcWALeN09w1g8FWLw\nbJp91nDbIEycGWwuLQDtv0p4291OVoaM5SQLcBF7zezovU13A55vd0eDtHHJeKqxk7fwZ6kEvEoh\nzodTqH2UPCqrGrrst0iKAfHCVlws4y1iJh3E1b6NqwIDAQABo4GuMIGrMIGJBgNVHREEgYEwf4IU\nT25lVmlldzMuY29tcGxhYi5sYWKCCE9uZVZpZXczhwQKHZh8gg0xMC4yOS4xNTIuMTI0hxD+gAAA\nAAAAAH6AzTdUhmTnghlmZTgwOjo3ZTgwOmNkMzc6NTQ4Njo2NGU3ghtbZmU4MDo6N2U4MDpjZDM3\nOjU0ODY6NjRlN10wHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA0GCSqGSIb3DQEBCwUA\nA4IBAQAoGZzuJ7sI9+5XPs3E3xyzr9A98KoaJKg9toQogcoT0zl6agOdImqzrV6HOklaRTRKWswV\nQwpLGkfdT/YkQAx6fnfhAK7lB1+Fz8RWFE7440ooLS0tMchhhhW/TL1ZGG3Ec3HDTjYjwMlfkTqE\nTkygdd+rh97SxuDRryTUukBnrH++m/IQfB9nKSOVIjdfgJ7mbpOr5tc5+ozIwgDoMW4kXZV/gVPJ\nwCwf3vEZB/qjxru87xNmUErFQICqcvzATMEFMvCoOzCGwKua6uWTP1B7rfpRwnm3vp+mKNy8+sut\nTm5zDMc3m4c53uDGlaal/aGfmZAsH240gGaYPltFj/tI\n-----END CERTIFICATE-----",
+            "CertificateDetails": {
+                "Issuer": "OneView3.complab.lab",
+                "Subject": "OneView3.complab.lab",
+                "ValidNotAfter": "2029-07-11T20:49:53Z",
+                "ValidNotBefore": "2019-07-11T20:49:53Z"
+            },
+            "RecordType": "Certificate",
+            "SerialNumber": 1,
+            "ServerName": "OneView3.complab.lab",
+            "Status": "OK"
+        }
+    ],
+    "SSOsettings": {
+        "AdminPrivilege": {
+            "HostBIOSConfigPriv": true,
+            "HostNICConfigPriv": true,
+            "HostStorageConfigPriv": true,
+            "LoginPriv": true,
+            "RemoteConsolePriv": true,
+            "SystemRecoveryConfigPriv": false,
+            "UserConfigPriv": true,
+            "VirtualMediaPriv": true,
+            "VirtualPowerAndResetPriv": true,
+            "iLOConfigPriv": true
+        },
+        "OperatorPrivilege": {
+            "HostBIOSConfigPriv": true,
+            "HostNICConfigPriv": false,
+            "HostStorageConfigPriv": false,
+            "LoginPriv": true,
+            "RemoteConsolePriv": true,
+            "SystemRecoveryConfigPriv": false,
+            "UserConfigPriv": false,
+            "VirtualMediaPriv": true,
+            "VirtualPowerAndResetPriv": true,
+            "iLOConfigPriv": false
+        },
+        "SSOTrustMode": "TrustbyCert",
+        "UserPrivilege": {
+            "HostBIOSConfigPriv": false,
+            "HostNICConfigPriv": false,
+            "HostStorageConfigPriv": false,
+            "LoginPriv": true,
+            "RemoteConsolePriv": false,
+            "SystemRecoveryConfigPriv": false,
+            "UserConfigPriv": false,
+            "VirtualMediaPriv": false,
+            "VirtualPowerAndResetPriv": false,
+            "iLOConfigPriv": false
+        }
+    }
+}

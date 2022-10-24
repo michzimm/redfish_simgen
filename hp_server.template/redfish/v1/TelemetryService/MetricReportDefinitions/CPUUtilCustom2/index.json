@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.etag": "W/\"9A613B5C\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPUUtilCustom2",
+    "@odata.type": "#MetricReportDefinition.v1_0_0.MetricReportDefinition",
+    "Id": "CPUUtilCustom2",
+    "Description": "Metric report of CPU Utilization for 60 minutes with sensing interval of 20 seconds.",
+    "MetricProperties": [
+        "SystemUsage/CPUUtil"
+    ],
+    "MetricReport": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPUUtilCustom2"
+    },
+    "MetricReportDefinitionType": "OnRequest",
+    "Metrics": [
+        {
+            "CollectionDuration": "PT20S",
+            "CollectionFunction": "Average",
+            "CollectionTimeScope": "Interval",
+            "MetricId": "CPUUtil"
+        }
+    ],
+    "Name": "Metric report of CPU Utilization for 60 minutes with sensing interval of 20 seconds.",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

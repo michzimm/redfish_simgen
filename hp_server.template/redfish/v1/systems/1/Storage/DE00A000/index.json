@@ -1,0 +1,94 @@
+{
+    "@odata.etag": "\"fc874d4b\"",
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000",
+    "@odata.type": "#Storage.v1_7_1.Storage",
+    "Id": "DE00A000",
+    "Name": "HPE MR416i-p Gen10+",
+    "Status": {
+        "State": "Enabled",
+        "HealthRollup": "OK"
+    },
+    "Drives@odata.count": 3,
+    "Drives": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/Drives/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/Drives/1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/Drives/2"
+        }
+    ],
+    "Volumes": {
+        "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/Volumes"
+    },
+    "StorageControllers": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000#/StorageControllers/0",
+            "CacheSummary": {
+                "TotalCacheSizeMiB": 4096,
+                "PersistentCacheSizeMiB": 3687,
+                "Status": {
+                    "State": "Enabled",
+                    "Health": "OK"
+                }
+            },
+            "ControllerRates": {
+                "ConsistencyCheckRatePercent": 30,
+                "RebuildRatePercent": 30,
+                "TransformationRatePercent": 30
+            },
+            "FirmwareVersion": "52.16.3-3913",
+            "Identifiers": [
+                {
+                    "DurableName": "606B7C745A21816FF",
+                    "DurableNameFormat": "NAA"
+                }
+            ],
+            "Location": {
+                "PartLocation": {
+                    "ServiceLabel": "Slot 1",
+                    "LocationType": "Slot",
+                    "LocationOrdinalValue": 1
+                }
+            },
+            "Manufacturer": "HPE",
+            "MemberId": "0",
+            "Model": "HPE MR416i-p Gen10+",
+            "PartNumber": "P28344-001",
+            "PCIeInterface": {
+                "MaxPCIeType": "Gen4",
+                "PCIeType": "Gen4",
+                "MaxLanes": 16,
+                "LanesInUse": 6
+            },
+            "Ports": {
+                "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/StorageControllers/0/Ports"
+            },
+            "SKU": "P06367-B21",
+            "SerialNumber": "PWTXP0ACDEX05D",
+            "Status": {
+                "State": "Enabled",
+                "Health": "OK"
+            },
+            "SupportedControllerProtocols": [
+                "PCIe"
+            ],
+            "SupportedDeviceProtocols": [
+                "NVMe",
+                "SAS",
+                "SATA"
+            ],
+            "SupportedRAIDTypes": [
+                "RAID0",
+                "RAID1",
+                "RAID10",
+                "RAID5",
+                "RAID50",
+                "RAID6",
+                "RAID60"
+            ]
+        }
+    ]
+}

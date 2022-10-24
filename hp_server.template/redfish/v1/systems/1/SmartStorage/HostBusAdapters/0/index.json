@@ -1,0 +1,27 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageHostBusAdapter.HpeSmartStorageHostBusAdapter",
+    "@odata.etag": "W/\"552B04BD\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/0",
+    "@odata.type": "#HpeSmartStorageHostBusAdapter.v2_0_0.HpeSmartStorageHostBusAdapter",
+    "Id": "0",
+    "Description": "HPE Smart Storage Host Bus Adapter View",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "52.16.3-3913"
+        }
+    },
+    "Links": {
+        "Drives": {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/0/DiskDrives"
+        }
+    },
+    "Location": "Slot 1",
+    "LocationFormat": "PCISlot",
+    "Model": "HPE MR416i-p Gen10+",
+    "Name": "HpeSmartStorageHostBusAdapter",
+    "SerialNumber": "PWTXP0ACDEX05D",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

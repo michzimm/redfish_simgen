@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"4EF58552\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/4",
+    "@odata.type": "#HpeServerDevice.v2_0_0.HpeServerDevice",
+    "Id": "4",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/4"
+        }
+    ],
+    "DeviceType": "SAS/SATA Storage Controller",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "1.0.14.1055"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/5"
+        }
+    },
+    "Location": "PCI-E Slot 13",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "HPE",
+    "Name": "HPE NS204i-r Gen10+ Boot Controller",
+    "PartNumber": "P28340-001",
+    "ProductPartNumber": "P26463-B21",
+    "ProductVersion": "X4",
+    "SerialNumber": "PZCSR0ARHEL005",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

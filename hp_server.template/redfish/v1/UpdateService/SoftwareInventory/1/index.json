@@ -1,0 +1,21 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/SoftwareInventory/1",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "1",
+    "Description": "IMA plugin for elxiscsi driver",
+    "Name": "Broadcom-ELX-IMA-plugin",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "e7a8b7dd-a6c0-4056-b14a-97bc423ddc7b",
+            "Targets": [
+                "20a6e8e4-bf33-4c71-a6bf-d9ec7b6d8690"
+            ]
+        }
+    },
+    "Updateable": false,
+    "Version": "12.0.1200.0-2vmw.700.1.0.15843807"
+}

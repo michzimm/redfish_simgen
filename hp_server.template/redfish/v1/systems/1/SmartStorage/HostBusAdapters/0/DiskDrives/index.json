@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection",
+    "@odata.etag": "W/\"570254F2\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/0/DiskDrives",
+    "@odata.type": "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection",
+    "Description": "HpeSmartStorageDiskDrive Collection View",
+    "Name": "HpeSmartStorageDiskDrive Collection",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/0/DiskDrives/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/0/DiskDrives/1"
+        }
+    ],
+    "Members@odata.count": 2
+}

@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"542C1060\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/25",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "25",
+    "Description": "VO000960KXAVL",
+    "Name": "960GB 32G NVMe SSD",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811",
+            "DeviceContext": "Port=1I:Box=1:Bay=2",
+            "Targets": [
+                "562340a5-304f-3030-3936-304b5841564c"
+            ]
+        }
+    },
+    "RelatedItem": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/Drives/2"
+        }
+    ],
+    "SoftwareId": "f6de0320-2e0f-489a-b238-6dd8ae7c3811:562340a5-304f-3030-3936-304b5841564c",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": false,
+    "Version": "HPK3"
+}

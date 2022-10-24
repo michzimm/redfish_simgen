@@ -1,0 +1,8 @@
+{
+    "@odata.etag": "\"54b42149\"",
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/Volumes",
+    "@odata.type": "#VolumeCollection.VolumeCollection",
+    "Name": "MR Volume Collection",
+    "Members@odata.count": 0,
+    "Members": []
+}

@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"5D1510CE\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/117",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "117",
+    "Created": "2022-02-17T12:54:24Z",
+    "EntryType": "Oem",
+    "Message": "The Boot Mode has been changed to Legacy Boot Mode for this boot only.  On the next reboot, the Boot Mode will return to UEFI Boot Mode.",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 50,
+            "ClassDescription": "UEFI",
+            "Code": 664,
+            "Count": 1,
+            "EventNumber": 898,
+            "RecommendedAction": "No action required.",
+            "Severity": "Informational",
+            "Updated": "2022-02-17T12:54:24Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}
