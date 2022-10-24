@@ -70,3 +70,9 @@ print(Style.BRIGHT+Fore.WHITE+"Intersight Assist: "+Style.RESET_ALL+"Select your
 print(Style.BRIGHT+Fore.WHITE+"Hostname/IPAddress: "+Style.RESET_ALL+socket.gethostbyname(socket.gethostname()))
 
 print(Style.BRIGHT+Fore.WHITE+"Port: "+Style.RESET_ALL+container.ports['8000/tcp'][0]['HostPort'])
+
+print(Style.BRIGHT+Fore.WHITE+"Username: "+Style.RESET_ALL+"administrator")
+
+print(Style.BRIGHT+Fore.WHITE+"Password: "+Style.RESET_ALL+"password")
+
+print(Style.BRIGHT+Fore.WHITE+"Secure: "+Style.RESET_ALL+"enabled")
