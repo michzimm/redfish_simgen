@@ -39,10 +39,11 @@ if sim_type == 'hp':
     # Generate random IP address
     ip = "10."+(".".join(str(random.randint(0, 255)) for _ in range(3)))
 
-    print("Serial Number: "+serial)
-    print ("ILO Hostname: "+hostname)
-    print ("Server Name: "+server_name)
-    print ("IP Address: "+ip)
+    print(Style.BRIGHT+Fore.GREEN+"Creating simulated redfish server as a container with the following randomly generated attributes...")
+    print(Style.BRIGHT+Fore.WHITE+"  --> Serial Number: "+Style.RESET_ALL+serial)
+    print(Style.BRIGHT+Fore.WHITE+"  --> ILO Hostname: "+Style.RESET_ALL+hostname)
+    print(Style.BRIGHT+Fore.WHITE+"  --> Server Name: "+Style.RESET_ALL+server_name)
+    print(Style.BRIGHT+Fore.WHITE+"  --> IP Address: "+Style.RESET_ALL+ip)
 
     # Generate instance name
     instance_name = "hp_server."+serial
@@ -60,6 +61,8 @@ if sim_type == 'hp':
 
 client = docker.from_env()
 container = client.containers.run('michzimm/redfish_sim:1.0', command=None, volumes=['/root/redfish_simgen/instances/'+instance_name+':/usr/src/app/instance'], ports={'8000/tcp': None}, detach=True)
+
+print("      "+u'\U0001F44D'+" Done.")
 
 container.reload()
 
