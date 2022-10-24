@@ -58,4 +58,4 @@ if sim_type == 'hp':
     findReplace("./hp_server_test", "{{IP_ADDRESS}}", ip, "*")
 
 client = docker.from_env()
-container = client.containers.run('michzimm/redfish_sim', command='python /usr/src/app/redfishMockupServer.py -H "0.0.0.0"', volumes=['/root/redfish_simgen/instances/'+instance_name])
+container = client.containers.run('michzimm/redfish_sim', command=None, volumes=['/root/redfish_simgen/instances/'+instance_name])
