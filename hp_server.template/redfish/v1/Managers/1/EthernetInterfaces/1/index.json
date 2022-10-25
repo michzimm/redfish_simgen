@@ -23,10 +23,10 @@
     "Description": "Configuration of this Manager Network Interface",
     "FQDN": null,
     "FullDuplex": true,
-    "HostName": "{{ILO_HOSTNAME}}",
+    "HostName": "ILO2M2132047K",
     "IPv4Addresses": [
         {
-            "Address": "{{IP_ADDRESS}}",
+            "Address": "10.29.152.145",
             "AddressOrigin": "Static",
             "Gateway": "10.29.152.1",
             "SubnetMask": "255.255.255.0"
@@ -34,7 +34,7 @@
     ],
     "IPv4StaticAddresses": [
         {
-            "Address": "{{IP_ADDRESS}}",
+            "Address": "10.29.152.145",
             "Gateway": "10.29.152.1",
             "SubnetMask": "255.255.255.0"
         }
@@ -110,7 +110,7 @@
                 "UseRapidCommit": false
             },
             "DomainName": "",
-            "HostName": "{{ILO_HOSTNAME}}",
+            "HostName": "ILO2M2132047K",
             "IPv4": {
                 "DDNSRegistration": true,
                 "DNSServers": [

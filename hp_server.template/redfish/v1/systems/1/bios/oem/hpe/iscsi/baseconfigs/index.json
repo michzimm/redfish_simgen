@@ -6,7 +6,7 @@
     "BaseConfigs": [
         {
             "default": {
-                "iSCSIInitiatorName": "iqn.2015-02.com.hpe:uefi-U46-{{SERIAL_NUMBER}}",
+                "iSCSIInitiatorName": "iqn.2015-02.com.hpe:uefi-U46-2M2132047K",
                 "iSCSISources": [
                     {
                         "StructuredBootString": null,

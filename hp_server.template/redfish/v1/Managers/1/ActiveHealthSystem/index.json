@@ -28,13 +28,13 @@
     },
     "Links": {
         "AHSLocation": {
-            "extref": "/ahsdata/HPE_{{SERIAL_NUMBER}}_20220803.ahs?downloadAll=1"
+            "extref": "/ahsdata/HPE_2M2132047K_20220803.ahs?downloadAll=1"
         },
         "RecentWeek": {
-            "extref": "/ahsdata/HPE_{{SERIAL_NUMBER}}_20220803.ahs?days=7"
+            "extref": "/ahsdata/HPE_2M2132047K_20220803.ahs?days=7"
         },
         "InfoSight": {
-            "extref": "/ahsdata/HPE_{{SERIAL_NUMBER}}_20220803.ahs?minimalDL=1&&days=1"
+            "extref": "/ahsdata/HPE_2M2132047K_20220803.ahs?minimalDL=1&&days=1"
         }
     },
     "LocationParameters": {

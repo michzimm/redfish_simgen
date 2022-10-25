@@ -1,6 +1,6 @@
 Redfish service captured by the Redfish Mockup Creator, Version 1.1.9
 Created: 2022-08-03 17:11:27
-Service: https://{{IP_ADDRESS}}
+Service: https://10.29.152.145
 User: Administrator
 Description: 
 Total response time: 233.40668869018555
