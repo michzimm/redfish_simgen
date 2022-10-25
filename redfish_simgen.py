@@ -56,6 +56,7 @@ if sim_type == 'hp':
     shutil.copytree(source_dir, dest_dir)
 
     # Replace unique identifiers (serial, hostname, server_name, ip) in server directory tree
+    findReplace("./hp_server_test", "systems", "Systems", "*")
     findReplace("./hp_server_test", "{{SERIAL_NUMBER}}", serial, "*")
     findReplace("./hp_server_test", "{{ILO_HOSTNAME}}", hostname, "*")
     findReplace("./hp_server_test", "{{SERVER_NAME}}", server_name, "*")
