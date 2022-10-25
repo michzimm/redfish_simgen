@@ -5,8 +5,7 @@ RUN apt-get update && apt-get install curl -y
 
 # Install python requirements
 COPY requirements.txt /tmp/
-RUN pip install --upgrade pip && \
-    pip install --no-cache-dir -r /tmp/requirements.txt
+RUN pip install --no-cache-dir -r /tmp/requirements.txt
 
 # Copy server files
 COPY rfSsdpServer.py redfishMockupServer.py /usr/src/app/
