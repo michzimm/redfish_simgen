@@ -1203,7 +1203,7 @@
             {
                 "AttributeName": "AutoPowerOn",
                 "DisplayName": "Automatic Power-On",
-                "HelpText": "Use this option to configure the server power state when AC power is applied to the system. \nRestore Last Power State returns the system to its previous power state when AC power is restored after an AC power loss. \nNote: This option is not available on all systems. \nAlways Power On and Always Power Off causes the system to always return to the \"on\" and \"off\" state, respectively, whenever power is applied, even if the system is in the \"off\" state when power is lost.",
+                "HelpText": "Use this option to configure the server power state when AC power is applied to the system. \nRestore Last Power State returns the system to its previous power state when AC power is restored after an AC power loss. \nNote: This option is not available on all Systems. \nAlways Power On and Always Power Off causes the system to always return to the \"on\" and \"off\" state, respectively, whenever power is applied, even if the system is in the \"off\" state when power is lost.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -1734,7 +1734,7 @@
             {
                 "AttributeName": "ProcX2Apic",
                 "DisplayName": "Processor x2APIC Support",
-                "HelpText": "x2APIC support enables operating systems to run more efficiently on high core count configurations. It also optimizes interrupt distribution in virtualized environments. In most cases, set this option to enabled. This configures the operating system to optionally enable x2APIC support when it loads. Some older hypervisors and operating systems might have issues with optional x2APIC support, in which case disabling x2APIC might be necessary to address those issues. Additionally, some hypervisors and operating systems will not use X2APIC unless this option is set to Force Enabled prior to booting.  The Force Enabled option also causes the Intel(R) VT-d setting to be set to enabled.",
+                "HelpText": "x2APIC support enables operating Systems to run more efficiently on high core count configurations. It also optimizes interrupt distribution in virtualized environments. In most cases, set this option to enabled. This configures the operating system to optionally enable x2APIC support when it loads. Some older hypervisors and operating Systems might have issues with optional x2APIC support, in which case disabling x2APIC might be necessary to address those issues. Additionally, some hypervisors and operating Systems will not use X2APIC unless this option is set to Force Enabled prior to booting.  The Force Enabled option also causes the Intel(R) VT-d setting to be set to enabled.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -3099,7 +3099,7 @@
                 "AttributeName": "EAdr",
                 "DisplayName": "eADR",
                 "HelpText": "Select this option to configure the Intel Optane Enhanced Asynchronous DRAM Refresh (eADR) feature. When disabled, the system will operate in Legacy ADR mode. When enabled, the eADR logic becomes enabled which can provide performance benefits to the Persistent Memory solution at the risk of data loss due to an unexpected shutdown event. It is recommended that servers configured for eADR have an appropriate battery source, such as a UPS, to ensure graceful resets and shutdowns are achieved. This feature also requires that applications are updated to support eADR properly. Please consult Intel Optane documentation for the risks and benefits of this feature.",
-                "WarningText": "Informational: Enabling eADR can put the persistent memory at risk for data loss when an unexpected shutdown or reset occurs. It is recommended that systems with eADR enabled provide an appropriate battery backup source to the server to avoid these conditions.",
+                "WarningText": "Informational: Enabling eADR can put the persistent memory at risk for data loss when an unexpected shutdown or reset occurs. It is recommended that Systems with eADR enabled provide an appropriate battery backup source to the server to avoid these conditions.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -3345,7 +3345,7 @@
             {
                 "AttributeName": "BootMode",
                 "DisplayName": "Boot Mode",
-                "HelpText": "Use this option to select the boot mode of the system. Selecting UEFI Mode configures the system to boot Unified Extensible Firmware Interface (UEFI) compatible operating systems. Selecting Legacy BIOS Mode configures the system to boot traditional operating systems in Legacy BIOS compatibility mode. The operating system can only boot in the mode in which it is installed. The following options require booting in UEFI Mode: Secure Boot, IPv6 PXE Boot, boot > 2.2 TB Disks in AHCI SATA Mode, and SmartRAID SW RAID.",
+                "HelpText": "Use this option to select the boot mode of the system. Selecting UEFI Mode configures the system to boot Unified Extensible Firmware Interface (UEFI) compatible operating Systems. Selecting Legacy BIOS Mode configures the system to boot traditional operating Systems in Legacy BIOS compatibility mode. The operating system can only boot in the mode in which it is installed. The following options require booting in UEFI Mode: Secure Boot, IPv6 PXE Boot, boot > 2.2 TB Disks in AHCI SATA Mode, and SmartRAID SW RAID.",
                 "WarningText": "Boot Mode changes require a system reboot in order to take effect. Changing the Boot Mode can impact the ability of the server to boot the installed operating system. An operating system is installed in the same mode as the platform during the installation. If the Boot Mode does not match the operating system installation, the system cannot boot. The following features require that the server be configured for UEFI Mode: Secure Boot, IPv6 PXE Boot, Boot > 2.2 TB Disks in AHCI SATA Mode, and SmartRAID SW RAID.",
                 "ReadOnly": false,
                 "GrayOut": false,
@@ -3367,7 +3367,7 @@
             {
                 "AttributeName": "UefiOptimizedBoot",
                 "DisplayName": "UEFI Optimized Boot",
-                "HelpText": "When enabled, the system BIOS boots using native UEFI graphics drivers. When disabled, the system BIOS boots using INT10 legacy video support. You cannot disable this option if Secure Boot is enabled. You can only configure this option if Boot Mode is configured to UEFI Mode. \nSet this option to disabled for compatibility with Microsoft Windows 2008 and Windows 2008 R2 operating systems on a system configured for UEFI Mode. \nSet this option to enabled for compatibility with VMWare ESXi operating systems on a system configured for UEFI Mode.",
+                "HelpText": "When enabled, the system BIOS boots using native UEFI graphics drivers. When disabled, the system BIOS boots using INT10 legacy video support. You cannot disable this option if Secure Boot is enabled. You can only configure this option if Boot Mode is configured to UEFI Mode. \nSet this option to disabled for compatibility with Microsoft Windows 2008 and Windows 2008 R2 operating Systems on a system configured for UEFI Mode. \nSet this option to enabled for compatibility with VMWare ESXi operating Systems on a system configured for UEFI Mode.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -7836,7 +7836,7 @@
             {
                 "AttributeName": "EnergyPerfBias",
                 "DisplayName": "Energy/Performance Bias",
-                "HelpText": "You can only configure this option if the Workload Profile is set to Custom. Use this option to configure several processor subsystems to optimize the performance and power usage of the processor. Balanced Performance provides optimum power efficiency, and is recommended for most environments. Maximum Performance Mode is recommended for environments that require the highest performance and lowest latency but are not sensitive to power consumption. Only use Power Savings Mode in environments that are power sensitive and can accept reduced performance.",
+                "HelpText": "You can only configure this option if the Workload Profile is set to Custom. Use this option to configure several processor subSystems to optimize the performance and power usage of the processor. Balanced Performance provides optimum power efficiency, and is recommended for most environments. Maximum Performance Mode is recommended for environments that require the highest performance and lowest latency but are not sensitive to power consumption. Only use Power Savings Mode in environments that are power sensitive and can accept reduced performance.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -7865,7 +7865,7 @@
             {
                 "AttributeName": "CollabPowerControl",
                 "DisplayName": "Collaborative Power Control",
-                "HelpText": "For operating systems that support the Processor Clocking Control (PCC) Interface, enabling this option enables the Operating System to request processor frequency changes even if the Power Regulator option on the server are configured for Dynamic Power Savings Mode. For Operating Systems that do not support the PCC Interface, or when the Power Regulator Mode is not configured for Dynamic Power Savings Mode, this option has no effect on system operation.",
+                "HelpText": "For operating Systems that support the Processor Clocking Control (PCC) Interface, enabling this option enables the Operating System to request processor frequency changes even if the Power Regulator option on the server are configured for Dynamic Power Savings Mode. For Operating Systems that do not support the PCC Interface, or when the Power Regulator Mode is not configured for Dynamic Power Savings Mode, this option has no effect on system operation.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -8225,7 +8225,7 @@
             {
                 "AttributeName": "AcpiSlit",
                 "DisplayName": "ACPI SLIT",
-                "HelpText": "The ACPI SLIT (System Locality Information Table) defines the relative access times between processors, memory subsystems, and I/O subsystems. Operating systems that support the SLIT can use this information to improve performance by allocating resources and workloads more efficiently.",
+                "HelpText": "The ACPI SLIT (System Locality Information Table) defines the relative access times between processors, memory subSystems, and I/O subSystems. Operating Systems that support the SLIT can use this information to improve performance by allocating resources and workloads more efficiently.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -8267,7 +8267,7 @@
             {
                 "AttributeName": "AcpiRootBridgePxm",
                 "DisplayName": "Memory Proximity Reporting for I/O",
-                "HelpText": "When enabled, the System BIOS reports the proximity relationship between I/O devices and system memory to the operating system. Most operating systems can use this information to efficiently assign memory resources for devices, such as network controllers and storage devices. Additionally, certain I/O devices might not be able to take advantage of I/O handling benefits if their OS drivers are not properly optimized to support this feature. See your operating system and I/O device documentation for more details.",
+                "HelpText": "When enabled, the System BIOS reports the proximity relationship between I/O devices and system memory to the operating system. Most operating Systems can use this information to efficiently assign memory resources for devices, such as network controllers and storage devices. Additionally, certain I/O devices might not be able to take advantage of I/O handling benefits if their OS drivers are not properly optimized to support this feature. See your operating system and I/O device documentation for more details.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -8529,7 +8529,7 @@
             {
                 "AttributeName": "PciPeerToPeerSerialization",
                 "DisplayName": "PCI Peer to Peer Serialization",
-                "HelpText": "Select this option to configure the PCIe Peer to Peer Serialization Option. When set to enabled, PCIe transactions are interleaved across PCIe root ports of a processor which can result in increased performance in peer to peer communication. Certain configurations such as systems populated with multiple GPUs on a processor socket may see increased performance when this feature is enabled. ",
+                "HelpText": "Select this option to configure the PCIe Peer to Peer Serialization Option. When set to enabled, PCIe transactions are interleaved across PCIe root ports of a processor which can result in increased performance in peer to peer communication. Certain configurations such as Systems populated with multiple GPUs on a processor socket may see increased performance when this feature is enabled. ",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -8647,7 +8647,7 @@
             {
                 "AttributeName": "RedundantPowerSupply",
                 "DisplayName": "Redundant Power Supply Mode",
-                "HelpText": "Use this option to configure how the system handles redundant power supply configurations. Balanced Mode shares the power delivery equally between all installed power supplies. All High Efficiency Mode options provide the most power efficient operation with redundant power supplies by keeping half of the power supplies in standby mode at lower power usage levels. The High Efficiency Mode options enable the system to select which power supply to place in standby. Auto enables the system to select between the odd or even power supply based on a semi-random distribution within a group of systems.",
+                "HelpText": "Use this option to configure how the system handles redundant power supply configurations. Balanced Mode shares the power delivery equally between all installed power supplies. All High Efficiency Mode options provide the most power efficient operation with redundant power supplies by keeping half of the power supplies in standby mode at lower power usage levels. The High Efficiency Mode options enable the system to select which power supply to place in standby. Auto enables the system to select between the odd or even power supply based on a semi-random distribution within a group of Systems.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -12130,7 +12130,7 @@
             {
                 "AttributeName": "ConsistentDevNaming",
                 "DisplayName": "Consistent Device Naming",
-                "HelpText": "Use this option to select the level of Consistent Device Naming. On supported operating systems, NIC ports are named based on their location in the system. CDN Support for LOMs Only names Embedded NICs and FlexibleLOMs. Existing NIC connections retain their names until reinstalled under the OS environment.",
+                "HelpText": "Use this option to select the level of Consistent Device Naming. On supported operating Systems, NIC ports are named based on their location in the system. CDN Support for LOMs Only names Embedded NICs and FlexibleLOMs. Existing NIC connections retain their names until reinstalled under the OS environment.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -12239,7 +12239,7 @@
             {
                 "AttributeName": "PlatformRASPolicy",
                 "DisplayName": "Platform RAS Policy",
-                "HelpText": "This option controls the platform Resiliency and Serviceability (RAS) policy. When in Firmware First mode (default), the BIOS will monitor corrected errors and log an event for any cases where the customer needs to take action on corrected errors. The OS will not monitor and log corrected errors. In OS First mode, corrected errors are unmasked to the OS and the OS will control the policy for logging corrected errors. With some operating systems, the OS will log all corrected errors. Even in OS First mode, the BIOS will monitor corrected errors and log an event in any case where the customer needs to take action. Corrected errors are an expected and natural occurrence and no action is required based on OS logging of corrected errors (unless the BIOS has also logged an event). It is recommended that this option is left in its default configuration. Warranty support will only be provided for memory errors that have exceeded correctable error thresholds as determined by Customer Support.",
+                "HelpText": "This option controls the platform Resiliency and Serviceability (RAS) policy. When in Firmware First mode (default), the BIOS will monitor corrected errors and log an event for any cases where the customer needs to take action on corrected errors. The OS will not monitor and log corrected errors. In OS First mode, corrected errors are unmasked to the OS and the OS will control the policy for logging corrected errors. With some operating Systems, the OS will log all corrected errors. Even in OS First mode, the BIOS will monitor corrected errors and log an event in any case where the customer needs to take action. Corrected errors are an expected and natural occurrence and no action is required based on OS logging of corrected errors (unless the BIOS has also logged an event). It is recommended that this option is left in its default configuration. Warranty support will only be provided for memory errors that have exceeded correctable error thresholds as determined by Customer Support.",
                 "ReadOnly": false,
                 "GrayOut": false,
                 "Type": "Enumeration",
@@ -12561,7 +12561,7 @@
             {
                 "AttributeName": "TimeFormat",
                 "DisplayName": "Time Format",
-                "HelpText": "This option controls how the system time is stored in the hardware Real Time Clock (RTC). When configured to 'Coordinated Universal Time (UTC)' (default) the local time is calculated from the associated time zone value. When configured to 'Local Time' the time is stored directly as local time and the time zone option does not have meaning. Setting this option to 'Local Time' works around an issue when using Microsoft Windows operating systems in Legacy Boot Mode where the time is set incorrectly.",
+                "HelpText": "This option controls how the system time is stored in the hardware Real Time Clock (RTC). When configured to 'Coordinated Universal Time (UTC)' (default) the local time is calculated from the associated time zone value. When configured to 'Local Time' the time is stored directly as local time and the time zone option does not have meaning. Setting this option to 'Local Time' works around an issue when using Microsoft Windows operating Systems in Legacy Boot Mode where the time is set incorrectly.",
                 "WarningText": "Important: Changing this option might result in the operating system incorrectly managing the system time.",
                 "ReadOnly": false,
                 "GrayOut": false,

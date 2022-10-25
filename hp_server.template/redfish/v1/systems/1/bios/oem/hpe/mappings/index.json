@@ -1,7 +1,7 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeBiosMapping.HpeBiosMapping",
     "@odata.etag": "W/\"A5189465C76EB6B6B61958020311B25F\"",
-    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/mappings/",
+    "@odata.id": "/redfish/v1/Systems/1/bios/oem/hpe/mappings/",
     "@odata.type": "#HpeBiosMapping.v2_0_0.HpeBiosMapping",
     "BiosPciSettingsMappings": [
         {

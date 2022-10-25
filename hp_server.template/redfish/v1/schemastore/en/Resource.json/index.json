@@ -262,7 +262,7 @@
                 "ForceRestart": "Shut down immediately and non-gracefully and restart the system.",
                 "GracefulRestart": "Shut down gracefully and restart the system.",
                 "GracefulShutdown": "Shut down gracefully and power off.",
-                "Nmi": "Generate a diagnostic interrupt, which is usually an NMI on x86 systems, to stop normal operations, complete diagnostic actions, and, typically, halt the system.",
+                "Nmi": "Generate a diagnostic interrupt, which is usually an NMI on x86 Systems, to stop normal operations, complete diagnostic actions, and, typically, halt the system.",
                 "On": "Turn on the unit.",
                 "PowerCycle": "Power cycle the unit.",
                 "PushPowerButton": "Simulate the pressing of the physical power button on this unit."

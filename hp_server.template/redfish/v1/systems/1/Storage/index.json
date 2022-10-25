@@ -3,7 +3,7 @@
     "@odata.etag": "W/\"570254F2\"",
     "@odata.id": "/redfish/v1/Systems/1/Storage",
     "@odata.type": "#StorageCollection.StorageCollection",
-    "Description": "Storage subsystems known to this system",
+    "Description": "Storage subSystems known to this system",
     "Name": "Storage",
     "Members": [
         {

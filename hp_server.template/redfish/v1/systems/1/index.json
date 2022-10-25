@@ -20,7 +20,7 @@
     },
     "AssetTag": "hp-new",
     "Bios": {
-        "@odata.id": "/redfish/v1/systems/1/bios"
+        "@odata.id": "/redfish/v1/Systems/1/bios"
     },
     "BiosVersion": "U46 v1.56 (11/29/2021)",
     "Boot": {
@@ -73,7 +73,7 @@
     "EthernetInterfaces": {
         "@odata.id": "/redfish/v1/Systems/1/EthernetInterfaces"
     },
-    "HostName": "jabbah1.complab.lab",
+    "HostName": "{{SERVER_NAME}}",
     "IndicatorLED": "Off",
     "Links": {
         "ManagedBy": [
@@ -220,7 +220,7 @@
             "EstimatedEraseTimeInMinutes": 0,
             "HostOS": {
                 "OsName": "VMware ESXi",
-                "OsSysDescription": "VMkernel jabbah1.complab.lab 7.0.0 #1 SMP Release build-16324942 Jun  2 2020 10:08:07 x86_64 x86_64 x86_64 ESXi",
+                "OsSysDescription": "VMkernel {{SERVER_NAME}} 7.0.0 #1 SMP Release build-16324942 Jun  2 2020 10:08:07 x86_64 x86_64 x86_64 ESXi",
                 "OsType": 25,
                 "OsVersion": "7.0.0 Build-16324942 Patch 25"
             },
@@ -231,7 +231,7 @@
             "IsColdBooting": false,
             "Links": {
                 "SUT": {
-                    "@odata.id": "/redfish/v1/systems/1/hpsut"
+                    "@odata.id": "/redfish/v1/Systems/1/hpsut"
                 },
                 "PCIDevices": {
                     "@odata.id": "/redfish/v1/Systems/1/PCIDevices"
@@ -320,7 +320,7 @@
     "SecureBoot": {
         "@odata.id": "/redfish/v1/Systems/1/SecureBoot"
     },
-    "SerialNumber": "2M2132047K",
+    "SerialNumber": "{{SERIAL_NUMBER}}",
     "Status": {
         "Health": "OK",
         "HealthRollup": "OK",

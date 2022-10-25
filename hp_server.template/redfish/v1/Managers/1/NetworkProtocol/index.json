@@ -13,7 +13,7 @@
         "Port": 443,
         "ProtocolEnabled": true
     },
-    "HostName": "ILO2M2132047K",
+    "HostName": "{{ILO_HOSTNAME}}",
     "IPMI": {
         "Port": 623,
         "ProtocolEnabled": false

@@ -1,7 +1,7 @@
 {
     "@odata.context": "/redfish/v1/$metadata#HpeiSCSISoftwareInitiator.HpeiSCSISoftwareInitiator",
     "@odata.etag": "W/\"CB481BE787534A4A4A1EC439DA313400\"",
-    "@odata.id": "/redfish/v1/systems/1/bios/oem/hpe/iscsi/settings/",
+    "@odata.id": "/redfish/v1/Systems/1/bios/oem/hpe/iscsi/settings/",
     "@odata.type": "#HpeiSCSISoftwareInitiator.v2_0_0.HpeiSCSISoftwareInitiator",
     "Id": "settings",
     "Name": "iSCSI Software Initiator Pending Settings",

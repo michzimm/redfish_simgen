@@ -341,7 +341,7 @@
             "type": "string"
         },
         "LicenseSeats": {
-            "description": "The number of systems authorized to use this activation key.",
+            "description": "The number of Systems authorized to use this activation key.",
             "etag": true,
             "readonly": true,
             "type": "integer"

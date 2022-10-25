@@ -6,7 +6,7 @@
             "ComputerSystem.Reset": {
                 "additionalProperties": false,
                 "description": "This action resets the system.",
-                "longDescription": "This action shall reset the system represented by the resource.  For systems that implement ACPI Power Button functionality, the PushPowerButton value shall perform or emulate an ACPI Power Button Push.  The ForceOff value shall remove power from the system or perform an ACPI Power Button Override, commonly known as a four-second hold of the Power Button.  The ForceRestart value shall perform a ForceOff action, followed by an On action.",
+                "longDescription": "This action shall reset the system represented by the resource.  For Systems that implement ACPI Power Button functionality, the PushPowerButton value shall perform or emulate an ACPI Power Button Push.  The ForceOff value shall remove power from the system or perform an ACPI Power Button Override, commonly known as a four-second hold of the Power Button.  The ForceRestart value shall perform a ForceOff action, followed by an On action.",
                 "properties": {
                     "Action": {
                         "enum": [
@@ -109,7 +109,7 @@
         },
         "BiosVersion": {
             "description": "The version of the system BIOS or primary system firmware.",
-            "longDescription": "The value of this property shall be the version string of the currently installed and running BIOS (for x86 systems).  For other systems, the value may contain a version string representing the primary system firmware.",
+            "longDescription": "The value of this property shall be the version string of the currently installed and running BIOS (for x86 Systems).  For other Systems, the value may contain a version string representing the primary system firmware.",
             "type": [
                 "string",
                 "null"
@@ -138,7 +138,7 @@
                             "null"
                         ]
                     },
-                    "longDescription": "The value of this property shall be an ordered array of BootOptionReference strings representing the persistent Boot Order of this computer system. For UEFI systems, this is the UEFI BootOrder as defined by the UEFI Specification.",
+                    "longDescription": "The value of this property shall be an ordered array of BootOptionReference strings representing the persistent Boot Order of this computer system. For UEFI Systems, this is the UEFI BootOrder as defined by the UEFI Specification.",
                     "readonly": false,
                     "type": "array"
                 },

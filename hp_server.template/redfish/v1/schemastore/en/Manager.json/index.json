@@ -30,7 +30,7 @@
     },
     "additionalProperties": false,
     "copyright": "Copyright 2014-2019 Hewlett Packard Enterprise Development, LP.  Portions Copyright 2014-2019 Distributed Management Task Force. All rights reserved.",
-    "description": "The Manager resource describes a manager.  Examples of managers are BMCs, Enclosure Managers, Management Controllers and other subsystems assigned manageability functions.",
+    "description": "The Manager resource describes a manager.  Examples of managers are BMCs, Enclosure Managers, Management Controllers and other subSystems assigned manageability functions.",
     "properties": {
         "@odata.context": {
             "$ref": "Resource.json#/definitions/odatacontext"
@@ -286,7 +286,7 @@
             ],
             "enumDescriptions": {
                 "BMC": "A controller which provides management functions for a single computer system",
-                "EnclosureManager": "A controller which provides management functions for a chassis or group of devices or systems",
+                "EnclosureManager": "A controller which provides management functions for a chassis or group of devices or Systems",
                 "ManagementController": "A controller used primarily to monitor or manage the operation of a device or system"
             },
             "etag": true,

@@ -214,7 +214,7 @@
                 "CNSA": "Same as FIPS. Additionally meets the criteria for NSA Commercial National Security Algorithm suite.  Must be in FIPS mode to transition to CNSA.",
                 "FIPS": "Similar to High Security. This mode is intended to meet the FIPS 140-2 level 1 and Common Criteria security requirements. A reset to defaults is required to exit this mode.",
                 "HighSecurity": "Manager is operating in high security mode, requiring extra authentication on host interface(s), and stronger encryption on network interfaces.",
-                "Production": "Manager is operating in a normal security mode.  Default state for new systems.",
+                "Production": "Manager is operating in a normal security mode.  Default state for new Systems.",
                 "SuiteB": "Same as FIPS. Additionally meets the criteria for NSA SuiteB Top Secret installations.  Must be in FIPS mode to transition to SuiteB.",
                 "SynergySecurityMode": "Synergy Security Mode is the mode supported by the Synergy Composer.",
                 "Wipe": "Manager is currently wiping security related content and returning to a lower security mode.  This state will transition automatically when finished."

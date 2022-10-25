@@ -21,7 +21,7 @@
         "System": {
             "ChipId": "D53514189AF2D015",
             "Product": "ProLiant DL360 Gen10 Plus",
-            "SerialNumber": "2M2132047K"
+            "SerialNumber": "{{SERIAL_NUMBER}}"
         }
     },
     "Description": "iLO License View",

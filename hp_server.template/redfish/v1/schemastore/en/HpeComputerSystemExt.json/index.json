@@ -65,7 +65,7 @@
                 "additionalProperties": false,
                 "properties": {
                     "Action": {
-                        "description": "Enables the Intelligent Diagnostics mode which can automatically diagnose and isolate the failures during POST operation by systematically disabling the sub-systems in an automatic manner.",
+                        "description": "Enables the Intelligent Diagnostics mode which can automatically diagnose and isolate the failures during POST operation by systematically disabling the sub-Systems in an automatic manner.",
                         "enum": [
                             "HpeComputerSystemExt.ServerIntelligentDiagnosticsMode"
                         ],
@@ -697,7 +697,7 @@
             "type": "integer"
         },
         "EndOfPostDelaySeconds": {
-            "description": "Supported on UEFI based systems only. The number of seconds to delay before finalizing POST with the Mode action (e.g. delay before shutdown). If > 255 seconds is requested, the value is rounded up to the nearest minute.",
+            "description": "Supported on UEFI based Systems only. The number of seconds to delay before finalizing POST with the Mode action (e.g. delay before shutdown). If > 255 seconds is requested, the value is rounded up to the nearest minute.",
             "etag": true,
             "readonly": false,
             "type": [
@@ -1343,7 +1343,7 @@
             "readonly": true
         },
         "VirtualProfile": {
-            "description": "The current state of the systems virtual profile.  This profile is the one that, when the server is rebooted, will set the  Virtual properties.  Intent is to use this state to determine whether the server needs to be rebooted so these values are set.  Additional informaiton about the profile will be considered later.",
+            "description": "The current state of the Systems virtual profile.  This profile is the one that, when the server is rebooted, will set the  Virtual properties.  Intent is to use this state to determine whether the server needs to be rebooted so these values are set.  Additional informaiton about the profile will be considered later.",
             "enum": [
                 "Active",
                 "Busy",

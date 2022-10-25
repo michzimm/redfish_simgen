@@ -38,7 +38,7 @@
         },
         "BootOptionReference": {
             "description": "The unique boot option string that is referenced in the BootOrder.",
-            "longDescription": "The value of this property shall contain a string that corresponds to the bootable option or device. For UEFI systems, this string shall match the UEFI Boot Option variable name (e.g. Boot####). This value is referenced by the ComputerSystem BootOrder array.",
+            "longDescription": "The value of this property shall contain a string that corresponds to the bootable option or device. For UEFI Systems, this string shall match the UEFI Boot Option variable name (e.g. Boot####). This value is referenced by the ComputerSystem BootOrder array.",
             "readonly": true,
             "type": [
                 "string",

@@ -412,7 +412,7 @@
                     "type": "string"
                 },
                 "Port": {
-                    "description": "The network adapter port number that is used for sharing. This feature is only applicable on systems and network adapters that support it.",
+                    "description": "The network adapter port number that is used for sharing. This feature is only applicable on Systems and network adapters that support it.",
                     "etag": true,
                     "maximum": 2,
                     "minimum": 1,

@@ -41,7 +41,7 @@
                 {
                     "DefaultLanguage": "en",
                     "FQDN": null,
-                    "HostName": "ILO2M2132047K",
+                    "HostName": "{{ILO_HOSTNAME}}",
                     "IPManager": {
                         "BiosManaged": false,
                         "FirmwareManaged": false,
@@ -111,7 +111,7 @@
                 "WWWSWLIC": "www.hpe.com/software/SWLicensing"
             },
             "Sessions": {
-                "CertCommonName": "ILO2M2132047K",
+                "CertCommonName": "{{ILO_HOSTNAME}}",
                 "CertificateLoginEnabled": false,
                 "KerberosEnabled": false,
                 "LDAPAuthLicenced": true,
@@ -126,7 +126,7 @@
                     }
                 },
                 "SecurityOverride": false,
-                "ServerName": "jabbah1.complab.lab"
+                "ServerName": "{{SERVER_NAME}}"
             },
             "System": [
                 {

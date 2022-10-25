@@ -23,7 +23,7 @@
     "Description": "Configuration of this Manager Network Interface",
     "FQDN": null,
     "FullDuplex": false,
-    "HostName": "ILO2M2132047K",
+    "HostName": "{{ILO_HOSTNAME}}",
     "IPv4Addresses": [
         {
             "Address": "0.0.0.0",
@@ -95,7 +95,7 @@
                 "UseRapidCommit": false
             },
             "DomainName": "",
-            "HostName": "ILO2M2132047K",
+            "HostName": "{{ILO_HOSTNAME}}",
             "IPv4": {
                 "DDNSRegistration": true,
                 "DNSServers": [

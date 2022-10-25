@@ -117,11 +117,11 @@
                     "type": "string"
                 },
                 "SupportedSystems": {
-                    "description": "Array of systems supported by this attribute registry.",
+                    "description": "Array of Systems supported by this attribute registry.",
                     "items": {
                         "$ref": "#/definitions/SupportedSystems"
                     },
-                    "longDescription": "The value of this property shall be an array containing a list of systems supported by this attribute registry.",
+                    "longDescription": "The value of this property shall be an array containing a list of Systems supported by this attribute registry.",
                     "type": "array"
                 }
             },

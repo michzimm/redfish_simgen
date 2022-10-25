@@ -58,7 +58,7 @@
             "type": "object"
         },
         "AlertDestinationAssociations": {
-            "description": "Associate up to 8 remote management systems to receive SNMP alerts from the management processor.",
+            "description": "Associate up to 8 remote management Systems to receive SNMP alerts from the management processor.",
             "items": {
                 "additionalProperties": false,
                 "properties": {
@@ -98,7 +98,7 @@
             "type": "array"
         },
         "AlertDestinations": {
-            "description": "The IP addresses or FQDNs of up to 8 remote management systems that receive SNMP alerts from the management processor.",
+            "description": "The IP addresses or FQDNs of up to 8 remote management Systems that receive SNMP alerts from the management processor.",
             "items": {
                 "type": [
                     "string",
@@ -221,7 +221,7 @@
         },
         "SNMPv1Traps": {
             "deprecated": "This property has been deprecated in favor of AlertDestinationAssociations.SNMPAlertProtocol",
-            "description": "When enabled, SNMPv1 traps are sent to the remote management systems configured in the SNMP Alert Destination(s) boxes.",
+            "description": "When enabled, SNMPv1 traps are sent to the remote management Systems configured in the SNMP Alert Destination(s) boxes.",
             "etag": true,
             "readonly": false,
             "type": "boolean"

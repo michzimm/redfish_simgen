@@ -217,7 +217,7 @@
             "type": "object"
         },
         "Systems": {
-            "description": "The URI to this systems resource.",
+            "description": "The URI to this Systems resource.",
             "properties": {
                 "@odata.id": {
                     "$ref": "Resource.json#/definitions/odataid"
