@@ -62,7 +62,7 @@ if sim_type == 'hp':
     findReplace(dest_dir, "{{IP_ADDRESS}}", ip, "*")
 
 client = docker.from_env()
-container = client.containers.run('michzimm/redfish_sim:1.0', command=None, volumes=['/root/redfish_simgen/instances/'+instance_name+':/usr/src/app/instance'], ports={'8000/tcp': None}, detach=True)
+container = client.containers.run('michzimm/redfish_sim:1.0', command=None, name=instance_name, volumes=['/root/redfish_simgen/instances/'+instance_name+':/usr/src/app/instance'], ports={'8000/tcp': None}, detach=True)
 
 print("      "+u'\U0001F44D'+" Done.")
 print("\n")
