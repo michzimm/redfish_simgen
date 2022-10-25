@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"374E6620\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/132",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "132",
+    "Created": "2022-04-22T22:29:35Z",
+    "EntryType": "Oem",
+    "Message": "SSO server OneView3.complab.lab added by user:_HPOneViewAdmin.",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 55,
+            "ClassDescription": "Security Configuration",
+            "Code": 34,
+            "Count": 1,
+            "EventNumber": 213,
+            "Severity": "Informational",
+            "Updated": "2022-04-22T22:29:35Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

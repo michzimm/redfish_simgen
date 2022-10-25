@@ -1,0 +1,35 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeServerDevice.HpeServerDevice",
+    "@odata.etag": "W/\"E78C8146\"",
+    "@odata.id": "/redfish/v1/Chassis/1/Devices/1",
+    "@odata.type": "#HpeServerDevice.v2_0_0.HpeServerDevice",
+    "Id": "1",
+    "DeviceInstances": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/PCIDevices/2"
+        }
+    ],
+    "DeviceType": "SAS/SATA Storage Controller",
+    "FirmwareVersion": {
+        "Current": {
+            "VersionString": "52.16.3-3913"
+        }
+    },
+    "Links": {
+        "PCISlot": {
+            "@odata.id": "/redfish/v1/Systems/1/PCISlots/1"
+        }
+    },
+    "Location": "PCI-E Slot 1",
+    "MCTPProtocolDisabled": false,
+    "Manufacturer": "HPE",
+    "Name": "HPE MR416i-p Gen10+",
+    "PartNumber": "P28344-001",
+    "ProductPartNumber": "P06367-B21",
+    "ProductVersion": "0A",
+    "SerialNumber": "PWTXP0ACDEX05D",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    }
+}

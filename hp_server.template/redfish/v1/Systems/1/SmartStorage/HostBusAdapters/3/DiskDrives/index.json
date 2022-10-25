@@ -1,0 +1,10 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection",
+    "@odata.etag": "W/\"75983E8D\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/3/DiskDrives",
+    "@odata.type": "#HpeSmartStorageDiskDriveCollection.HpeSmartStorageDiskDriveCollection",
+    "Description": "HpeSmartStorageDiskDrive Collection View",
+    "Name": "HpeSmartStorageDiskDrive Collection",
+    "Members": [],
+    "Members@odata.count": 0
+}

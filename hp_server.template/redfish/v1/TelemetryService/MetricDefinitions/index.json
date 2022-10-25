@@ -1,0 +1,38 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinitionCollection.MetricDefinitionCollection",
+    "@odata.etag": "W/\"1E796226\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions",
+    "@odata.type": "#MetricDefinitionCollection.MetricDefinitionCollection",
+    "Description": "Metric Definitions view",
+    "Name": "Metric Definitions",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUUtil"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/MemoryBusUtil"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/IOBusUtil"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPUICUtil"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/JitterCount"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AvgCPU0Freq"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/AvgCPU1Freq"
+        },
+        {
+            "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU1Power"
+        }
+    ],
+    "Members@odata.count": 9
+}

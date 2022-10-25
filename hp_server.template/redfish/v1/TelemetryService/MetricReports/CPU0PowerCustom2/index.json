@@ -1,0 +1,1454 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MetricReport.MetricReport",
+    "@odata.etag": "W/\"CC2D3773\"",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReports/CPU0PowerCustom2",
+    "@odata.type": "#MetricReport.v1_0_0.MetricReport",
+    "Id": "CPU0PowerCustom2",
+    "Description": "Metric report of average CPU0 power for 60 minutes with sensing interval of 20 seconds.",
+    "MetricReportDefinition": {
+        "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPU0PowerCustom2"
+    },
+    "MetricValues": [
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:15:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:15:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:16:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:16:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:16:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "52",
+            "Timestamp": "2022-08-03T16:17:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T16:17:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:17:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:18:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T16:18:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:18:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:19:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:19:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "59",
+            "Timestamp": "2022-08-03T16:19:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "53",
+            "Timestamp": "2022-08-03T16:20:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T16:20:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:20:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:21:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:21:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:21:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:22:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "53",
+            "Timestamp": "2022-08-03T16:22:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:22:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:23:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:23:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:23:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:24:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:24:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "56",
+            "Timestamp": "2022-08-03T16:24:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:25:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:25:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:25:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:26:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:26:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T16:26:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:27:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "56",
+            "Timestamp": "2022-08-03T16:27:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:27:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:28:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:28:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T16:28:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:29:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:29:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "57",
+            "Timestamp": "2022-08-03T16:29:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:30:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T16:30:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:30:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:31:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:31:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T16:31:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "56",
+            "Timestamp": "2022-08-03T16:32:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:32:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:32:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:33:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:33:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:33:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:34:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:34:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "57",
+            "Timestamp": "2022-08-03T16:34:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:35:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:35:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:35:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:36:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:36:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "52",
+            "Timestamp": "2022-08-03T16:36:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "54",
+            "Timestamp": "2022-08-03T16:37:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:37:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:37:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:38:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:38:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:38:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:39:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "56",
+            "Timestamp": "2022-08-03T16:39:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:39:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:40:06Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:40:26Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:40:46Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:41:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:41:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:41:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "57",
+            "Timestamp": "2022-08-03T16:42:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:42:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:42:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "57",
+            "Timestamp": "2022-08-03T16:43:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "52",
+            "Timestamp": "2022-08-03T16:43:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:43:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:44:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T16:44:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:44:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "53",
+            "Timestamp": "2022-08-03T16:45:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:45:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T16:45:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:46:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T16:46:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "52",
+            "Timestamp": "2022-08-03T16:46:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T16:47:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:47:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:47:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:48:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:48:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:48:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:49:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "56",
+            "Timestamp": "2022-08-03T16:49:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:49:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T16:50:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:50:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:50:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:51:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:51:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "54",
+            "Timestamp": "2022-08-03T16:51:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:52:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "56",
+            "Timestamp": "2022-08-03T16:52:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T16:52:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:53:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:53:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:53:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:54:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "59",
+            "Timestamp": "2022-08-03T16:54:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:54:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:55:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:55:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:55:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:56:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:56:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T16:56:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:57:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:57:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T16:57:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "57",
+            "Timestamp": "2022-08-03T16:58:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "52",
+            "Timestamp": "2022-08-03T16:58:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T16:58:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:59:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T16:59:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T16:59:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:00:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:00:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T17:00:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:01:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:01:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "56",
+            "Timestamp": "2022-08-03T17:01:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "52",
+            "Timestamp": "2022-08-03T17:02:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:02:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:02:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:03:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:03:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:03:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "58",
+            "Timestamp": "2022-08-03T17:04:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:04:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:04:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T17:05:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T17:05:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:05:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:06:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "52",
+            "Timestamp": "2022-08-03T17:06:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T17:06:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:07:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:07:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:07:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:08:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:08:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T17:08:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "58",
+            "Timestamp": "2022-08-03T17:09:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:09:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:09:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:10:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:10:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:10:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:11:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "53",
+            "Timestamp": "2022-08-03T17:11:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T17:11:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:12:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:12:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:12:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:13:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "56",
+            "Timestamp": "2022-08-03T17:13:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "51",
+            "Timestamp": "2022-08-03T17:13:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "55",
+            "Timestamp": "2022-08-03T17:14:07Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "49",
+            "Timestamp": "2022-08-03T17:14:27Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "48",
+            "Timestamp": "2022-08-03T17:14:47Z"
+        },
+        {
+            "MetricDefinition": {
+                "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/CPU0Power"
+            },
+            "MetricId": "CPU0Power",
+            "MetricValue": "50",
+            "Timestamp": "2022-08-03T17:15:07Z"
+        }
+    ],
+    "Name": "Metric report of average CPU0 power for 60 minutes with sensing interval of 20 seconds."
+}

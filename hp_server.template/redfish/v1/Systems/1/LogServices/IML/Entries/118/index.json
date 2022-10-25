@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"39173218\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/118",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "118",
+    "Created": "2022-02-17T12:56:19Z",
+    "EntryType": "Oem",
+    "Message": "A new storage device has been detected and has been added to the end of the Boot Controller Order.",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Administration"
+            ],
+            "Class": 10,
+            "ClassDescription": "UEFI",
+            "Code": 648,
+            "Count": 1,
+            "EventNumber": 899,
+            "RecommendedAction": "No action required.",
+            "Severity": "Informational",
+            "Updated": "2022-02-17T12:56:19Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

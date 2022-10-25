@@ -1,0 +1,31 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"B1545C9D\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/SL/Entries/104",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "104",
+    "Created": "2022-02-01T02:27:14Z",
+    "EntryType": "Oem",
+    "Message": "iLO detected 3 unauthorized login attempts.",
+    "Name": "Security Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 56,
+            "ClassDescription": "Denial of Service",
+            "Code": 2,
+            "Count": 1,
+            "EventNumber": 185,
+            "Severity": "Informational",
+            "Updated": "2022-02-01T02:27:14Z",
+            "UserAction": "Not Applicable"
+        }
+    },
+    "OemRecordFormat": "Hpe-SL",
+    "Severity": "OK"
+}

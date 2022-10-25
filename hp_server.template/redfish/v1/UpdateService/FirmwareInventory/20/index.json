@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.etag": "W/\"0539D502\"",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/20",
+    "@odata.type": "#SoftwareInventory.v1_2_0.SoftwareInventory",
+    "Id": "20",
+    "Description": "VO000960KXAVL",
+    "Name": "Drive",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeiLOSoftwareInventory.HpeiLOSoftwareInventory",
+            "@odata.type": "#HpeiLOSoftwareInventory.v2_0_0.HpeiLOSoftwareInventory",
+            "DeviceClass": "f6de0320-2e0f-489a-b238-6dd8ae7c3811",
+            "DeviceContext": "Port 1I Box 1 Bay 3",
+            "Targets": [
+                "562340a5-304f-3030-3936-304b5841564c"
+            ]
+        }
+    },
+    "Updateable": false,
+    "Version": "HPK3"
+}

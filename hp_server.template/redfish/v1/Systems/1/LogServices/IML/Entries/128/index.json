@@ -1,0 +1,32 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"D8FEF613\"",
+    "@odata.id": "/redfish/v1/Systems/1/LogServices/IML/Entries/128",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "128",
+    "Created": "2022-02-17T13:08:09Z",
+    "EntryType": "Oem",
+    "Message": "Slot=13 Storage - Drive at Port 1I Box 0 Bay 2 status changed to Ok",
+    "Name": "Integrated Management Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Hardware"
+            ],
+            "Class": 19,
+            "ClassDescription": "Drive Array",
+            "Code": 20,
+            "Count": 1,
+            "EventNumber": 909,
+            "LearnMoreLink": "http://www.hpe.com/support/class0x0013code0x0014-gen10",
+            "RecommendedAction": "1. Verify cables are good and fully seated.\n2. Ensure all drives are fully seated.\n3. Set drive to Unconfigured Good\n4. Verify backplane, controller, RAID config, and drive compatibility.\n5. Replace the defective drive.",
+            "Repaired": true,
+            "Severity": "Repaired",
+            "Updated": "2022-02-17T13:08:09Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-IML",
+    "Severity": "OK"
+}

@@ -1,0 +1,45 @@
+{
+    "@odata.etag": "\"dd7bcdb3\"",
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/Drives/1",
+    "@odata.type": "#Drive.v1_7_0.Drive",
+    "Id": "1",
+    "Name": "960GB 32G NVMe SSD",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK"
+    },
+    "BlockSizeBytes": 512,
+    "CapableSpeedGbs": 32.0,
+    "CapacityBytes": 960197124096,
+    "EncryptionAbility": "None",
+    "EncryptionStatus": "Unencrypted",
+    "FailurePredicted": false,
+    "HotspareType": "None",
+    "Identifiers": [
+        {
+            "DurableName": "3CE42E000613ACCA",
+            "DurableNameFormat": "NAA"
+        }
+    ],
+    "IndicatorLED": "Off",
+    "Links": {
+        "Volumes": [],
+        "Volumes@odata.count": 0
+    },
+    "MediaType": "SSD",
+    "Model": "VO000960KXAVL",
+    "NegotiatedSpeedGbs": 32.0,
+    "Operations": [],
+    "PhysicalLocation": {
+        "PartLocation": {
+            "ServiceLabel": "Port=1I:Box=1:Bay=3",
+            "LocationType": "Bay",
+            "LocationOrdinalValue": 3
+        }
+    },
+    "PredictedMediaLifeLeftPercent": 100.0,
+    "Protocol": "NVMe",
+    "Revision": "HPK3",
+    "SerialNumber": "SS0AN9970I010BC3U",
+    "StatusIndicator": "OK"
+}

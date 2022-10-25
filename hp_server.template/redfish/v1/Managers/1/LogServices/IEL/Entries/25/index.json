@@ -1,0 +1,30 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.etag": "W/\"87559AD8\"",
+    "@odata.id": "/redfish/v1/Managers/1/LogServices/IEL/Entries/25",
+    "@odata.type": "#LogEntry.v1_1_0.LogEntry",
+    "Id": "25",
+    "Created": "2022-08-03T11:59:38Z",
+    "EntryType": "Oem",
+    "Message": "Browser logout: engineer - 10.105.219.160(maimahes-vm.cisco.com).",
+    "Name": "iLO Event Log",
+    "Oem": {
+        "Hpe": {
+            "@odata.context": "/redfish/v1/$metadata#HpeLogEntry.HpeLogEntry",
+            "@odata.type": "#HpeLogEntry.v2_3_0.HpeLogEntry",
+            "Categories": [
+                "Security",
+                "Administration"
+            ],
+            "Class": 35,
+            "ClassDescription": "iLO 5",
+            "Code": 1018,
+            "Count": 1,
+            "EventNumber": 120062,
+            "Severity": "Informational",
+            "Updated": "2022-08-03T11:59:38Z"
+        }
+    },
+    "OemRecordFormat": "Hpe-iLOEventLog",
+    "Severity": "OK"
+}

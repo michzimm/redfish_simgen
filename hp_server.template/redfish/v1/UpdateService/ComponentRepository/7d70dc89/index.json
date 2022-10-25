@@ -1,0 +1,28 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponent.HpeComponent",
+    "@odata.etag": "W/\"CD21D410\"",
+    "@odata.id": "/redfish/v1/UpdateService/ComponentRepository/7d70dc89",
+    "@odata.type": "#HpeComponent.v1_0_1.HpeComponent",
+    "Id": "7d70dc89",
+    "Activates": "AfterReboot",
+    "ComponentUri": "/fwrepo/U46_1.42_05_26_2021.signed.flash",
+    "Configuration": "",
+    "Created": "2021-08-18T06:44:35Z",
+    "Criticality": "Optional",
+    "DeviceClass": "aa148d2e-6e09-453e-bc6f-63baa5f5ccc4",
+    "ExecutionParameters": "",
+    "Filename": "U46_1.42_05_26_2021.signed.flash",
+    "Filepath": "U46_1.42_05_26_2021.signed.flash",
+    "Locked": true,
+    "Name": "System BIOS - U46",
+    "SizeBytes": 33564540,
+    "Targets": [
+        "00000000-0000-0000-0000-000000000225",
+        "00000000-0000-0000-0000-000000000226",
+        "00000000-0000-0000-0000-00000000022c"
+    ],
+    "UpdatableBy": [
+        "Bmc"
+    ],
+    "Version": "v1.42 (05/26/2021)"
+}

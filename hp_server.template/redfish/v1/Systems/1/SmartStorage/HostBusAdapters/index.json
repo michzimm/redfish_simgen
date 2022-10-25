@@ -1,0 +1,17 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeSmartStorageHostBusAdapterCollection.HpeSmartStorageHostBusAdapterCollection",
+    "@odata.etag": "W/\"570254F2\"",
+    "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters",
+    "@odata.type": "#HpeSmartStorageHostBusAdapterCollection.HpeSmartStorageHostBusAdapterCollection",
+    "Description": "HPE Smart Storage Host Bus Adapters View",
+    "Name": "HpeSmartStorageHostBusAdapters",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/0"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/1/SmartStorage/HostBusAdapters/3"
+        }
+    ],
+    "Members@odata.count": 2
+}

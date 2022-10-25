@@ -1,0 +1,69 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#HpeComponentInstallSet.HpeComponentInstallSet",
+    "@odata.etag": "W/\"298E1A70\"",
+    "@odata.id": "/redfish/v1/UpdateService/InstallSets/a74b22b6",
+    "@odata.type": "#HpeComponentInstallSet.v1_1_0.HpeComponentInstallSet",
+    "Id": "a74b22b6",
+    "Actions": {
+        "#HpeComponentInstallSet.Invoke": {
+            "target": "/redfish/v1/UpdateService/InstallSets/a74b22b6/Actions/HpeComponentInstallSet.Invoke"
+        }
+    },
+    "Created": "2021-08-18T06:45:40Z",
+    "Description": "Essential System Firmware Components",
+    "IsRecovery": true,
+    "Modified": "2021-08-18T06:45:40Z",
+    "Name": "System Recovery Set",
+    "Sequence": [
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/224c0cdf",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "ilo5_244.bin",
+            "Name": "iLO 5",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/59018d2e",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "IEGen10Plus_1.0.0.20.signed.bin",
+            "Name": "Innovation Engine (IE) Universal Image",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/52a0a2f4",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "SPSGEN10PLUS_04.04.04.053.signed.bin",
+            "Name": "Server Platform Services (SPS) Firmware",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/3e96efee",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "CPLD_DL360_DL380_Gen10Plus_v1515_signed.vme",
+            "Name": "System Programmable Logic Device",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        },
+        {
+            "Command": "ApplyUpdate",
+            "Component": "/redfish/v1/UpdateService/ComponentRepository/7d70dc89",
+            "ExecutionTimeoutMinutes": 0,
+            "Filename": "U46_1.42_05_26_2021.signed.flash",
+            "Name": "System BIOS - U46",
+            "UpdatableBy": [
+                "Bmc"
+            ]
+        }
+    ]
+}

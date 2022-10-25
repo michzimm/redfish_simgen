@@ -1,0 +1,21 @@
+{
+    "@odata.etag": "\"4befaebf\"",
+    "@odata.id": "/redfish/v1/Systems/1/Storage/DE00A000/StorageControllers/0/Ports/1I",
+    "@odata.type": "#Port.v1_1_3.Port",
+    "Id": "1I",
+    "Name": "Port 1I",
+    "CurrentSpeedGbps": 12.0,
+    "Location": {
+        "PartLocation": {
+            "ServiceLabel": "Port 1I",
+            "LocationType": "Connector",
+            "LocationOrdinalValue": 1
+        }
+    },
+    "MaxSpeedGbps": 12.0,
+    "PortId": "1I",
+    "Status": {
+        "Health": "OK"
+    },
+    "Width": 8
+}
