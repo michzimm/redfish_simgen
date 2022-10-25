@@ -56,11 +56,10 @@ if sim_type == 'hp':
     shutil.copytree(source_dir, dest_dir)
 
     # Replace unique identifiers (serial, hostname, server_name, ip) in server directory tree
-    findReplace("./hp_server_test", "systems", "Systems", "*")
-    findReplace("./hp_server_test", "{{SERIAL_NUMBER}}", serial, "*")
-    findReplace("./hp_server_test", "{{ILO_HOSTNAME}}", hostname, "*")
-    findReplace("./hp_server_test", "{{SERVER_NAME}}", server_name, "*")
-    findReplace("./hp_server_test", "{{IP_ADDRESS}}", ip, "*")
+    findReplace(dest_dir, "{{SERIAL_NUMBER}}", serial, "*")
+    findReplace(dest_dir, "{{ILO_HOSTNAME}}", hostname, "*")
+    findReplace(dest_dir, "{{SERVER_NAME}}", server_name, "*")
+    findReplace(dest_dir, "{{IP_ADDRESS}}", ip, "*")
 
 client = docker.from_env()
 container = client.containers.run('michzimm/redfish_sim:1.0', command=None, volumes=['/root/redfish_simgen/instances/'+instance_name+':/usr/src/app/instance'], ports={'8000/tcp': None}, detach=True)
