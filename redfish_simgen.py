@@ -52,8 +52,6 @@ if sim_type == 'hp':
 
     print(Style.BRIGHT+Fore.GREEN+"Creating simulated redfish server as a container with the following randomly generated attributes...")
     print(Style.BRIGHT+Fore.CYAN+"  --> Serial Number: "+Style.RESET_ALL+serial)
-    print(Style.BRIGHT+Fore.CYAN+"  --> ILO Hostname: "+Style.RESET_ALL+hostname)
-    print(Style.BRIGHT+Fore.CYAN+"  --> Server Name: "+Style.RESET_ALL+server_name)
     print(Style.BRIGHT+Fore.CYAN+"  --> IP Address: "+Style.RESET_ALL+ip)
 
     # Generate instance name
@@ -83,7 +81,6 @@ elif sim_type == 'dell':
 
     print(Style.BRIGHT+Fore.GREEN+"Creating simulated redfish server as a container with the following randomly generated attributes...")
     print(Style.BRIGHT+Fore.CYAN+"  --> Serial Number: "+Style.RESET_ALL+serial_num)
-    print(Style.BRIGHT+Fore.CYAN+"  --> Service Tag: "+Style.RESET_ALL+service_tag)
     print(Style.BRIGHT+Fore.CYAN+"  --> IP Address: "+Style.RESET_ALL+ip)
 
     # Generate instance name
