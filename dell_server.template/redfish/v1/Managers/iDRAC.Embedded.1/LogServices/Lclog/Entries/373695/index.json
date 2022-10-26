@@ -1,0 +1,33 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Lclog/Entries/373695",
+    "@odata.type": "#LogEntry.v1_6_1.LogEntry",
+    "Created": "2022-10-25T03:00:43-05:00",
+    "Description": "Log Entry 373695",
+    "EntryType": "Oem",
+    "Id": "373695",
+    "Links": {
+        "OriginOfCondition": {
+            "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1"
+        }
+    },
+    "Message": "The session for root from 10.29.152.130 using REDFISH is logged off.",
+    "MessageArgs": [
+        "root",
+        "10.29.152.130",
+        "REDFISH"
+    ],
+    "MessageArgs@odata.count": 3,
+    "MessageId": "USR0032",
+    "Name": "Log Entry 373695",
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellLCLogEntry.v1_0_0.DellLCLogEntry",
+            "Category": "Audit",
+            "Comment": null,
+            "LastUpdatedByUser": null
+        }
+    },
+    "OemRecordFormat": "Dell",
+    "Severity": "OK"
+}

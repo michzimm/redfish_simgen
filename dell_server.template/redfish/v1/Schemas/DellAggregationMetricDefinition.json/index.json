@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellAggregationMetricDefinition.json",
+    "$ref": "#/definitions/DellAggregationMetricDefinition",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellAggregationMetricDefinition": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellAggregationMetricDefinition.v1_0_0.json#/definitions/DellAggregationMetricDefinition"
+                }
+            ],
+            "deletable": false,
+            "description": "DellAggregationMetricDefinition represents the definitions-related information of a metric.",
+            "insertable": false,
+            "longDescription": "DellAggregationMetricDefinition represents the definitions-related information of a metric.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Managers/{ManagerId}/Oem/Dell/DellAggregationMetricDefinitions/{AggregationMetricDefinitionId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellAggregationMetricDefinition.DellAggregationMetricDefinition"
+}

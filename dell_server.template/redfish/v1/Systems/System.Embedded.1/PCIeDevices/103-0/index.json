@@ -1,0 +1,39 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "1661896871",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/103-0",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+    },
+    "AssetTag": null,
+    "Description": "PERC H745 Front",
+    "DeviceType": "SingleFunction",
+    "FirmwareVersion": "51.14.0-3900",
+    "Id": "103-0",
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+            }
+        ],
+        "Chassis@odata.count": 1,
+        "PCIeFunctions": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/103-0/PCIeFunctions/103-0-0"
+            }
+        ],
+        "PCIeFunctions@odata.count": 1
+    },
+    "Manufacturer": "Broadcom / LSI",
+    "Model": null,
+    "Name": "PERC H745 Front",
+    "PartNumber": "0JT47Y",
+    "SKU": null,
+    "SerialNumber": "CNIVC0013I0887",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

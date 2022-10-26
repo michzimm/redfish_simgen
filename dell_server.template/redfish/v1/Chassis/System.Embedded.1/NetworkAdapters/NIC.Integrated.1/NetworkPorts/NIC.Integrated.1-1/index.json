@@ -1,0 +1,75 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-1",
+    "@odata.type": "#NetworkPort.v1_2_5.NetworkPort",
+    "ActiveLinkTechnology": "Ethernet",
+    "AssociatedNetworkAddresses": [
+        "B8:CE:F6:94:F0:B8"
+    ],
+    "CurrentLinkSpeedMbps": 10000,
+    "Description": "Network Port View",
+    "EEEEnabled": null,
+    "FlowControlConfiguration": "None",
+    "FlowControlStatus": "None",
+    "Id": "NIC.Integrated.1-1",
+    "LinkStatus": "Up",
+    "Name": "Network Port View",
+    "NetDevFuncMaxBWAlloc": [
+        {
+            "MaxBWAllocPercent": null,
+            "NetworkDeviceFunction": {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkDeviceFunctions/NIC.Integrated.1-1-1"
+            }
+        }
+    ],
+    "NetDevFuncMaxBWAlloc@odata.count": 1,
+    "NetDevFuncMinBWAlloc": [
+        {
+            "MinBWAllocPercent": null,
+            "NetworkDeviceFunction": {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkDeviceFunctions/NIC.Integrated.1-1-1"
+            }
+        }
+    ],
+    "NetDevFuncMinBWAlloc@odata.count": 1,
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellNetworkTransceiver": {
+                "DeviceDescription": "Network Transceiver in Integrated NIC 1 Port 1",
+                "FQDD": "NetworkTransceiver.Integrated.1:NIC.Integrated.1-1",
+                "Id": "NetworkTransceiver.Integrated.1:NIC.Integrated.1-1",
+                "IdentifierType": "SFP/SFP+/SFP28",
+                "InterfaceType": "OpticalFiber",
+                "Name": "DellNetworkTransceiver",
+                "PartNumber": "FTLX8571D3BCL-C2",
+                "Revision": "A",
+                "SerialNumber": "FNS1651019S",
+                "VendorName": "CISCO-FINISAR",
+                "@odata.context": "/redfish/v1/$metadata#DellNetworkTransceiver.DellNetworkTransceiver",
+                "@odata.type": "#DellNetworkTransceiver.v1_0_0.DellNetworkTransceiver",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-1/Oem/Dell/DellNetworkTransceivers/NetworkTransceiver.Integrated.1:NIC.Integrated.1-1"
+            }
+        }
+    },
+    "PhysicalPortNumber": "1",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "SupportedEthernetCapabilities": [
+        "WakeOnLAN"
+    ],
+    "SupportedEthernetCapabilities@odata.count": 1,
+    "SupportedLinkCapabilities": [
+        {
+            "AutoSpeedNegotiation": true,
+            "LinkNetworkTechnology": "Ethernet",
+            "LinkSpeedMbps": 10000
+        }
+    ],
+    "SupportedLinkCapabilities@odata.count": 1,
+    "VendorId": "15b3",
+    "WakeOnLANEnabled": true
+}

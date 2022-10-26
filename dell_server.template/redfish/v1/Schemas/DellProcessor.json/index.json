@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellProcessor.json",
+    "$ref": "#/definitions/DellProcessor",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellProcessor": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellProcessor.v1_1_0.json#/definitions/DellProcessor"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellProcessor will have CPU specific data.",
+            "insertable": false,
+            "longDescription": "An instance of DellProcessor will have CPU specific data.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Processors/Oem/Dell/DellProcessors/{ProcessorId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/Processors/{ProcessorId}/Oem/Dell/DellProcessors/{ProcessorId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellProcessor.DellProcessor"
+}

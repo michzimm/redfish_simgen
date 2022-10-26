@@ -1,0 +1,42 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+    "@odata.type": "#Assembly.v1_2_3.Assembly",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/Assembly",
+    "Assemblies": [
+        {
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/Assembly#/Assemblies/0",
+            "BinaryDataURI": null,
+            "Description": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
+            "EngineeringChangeLevel": "A03",
+            "MemberId": "0",
+            "Model": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
+            "Name": "NIC.Integrated.1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "DeviceFQDD": "NIC.Integrated.1",
+                        "Id": "NIC.Integrated.1#FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Module/Card",
+                        "SerialNumber": "INJBNM414TJ0AL",
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/NIC.Integrated.1_0x23_FRU"
+                    }
+                }
+            },
+            "PartNumber": "04TRD3",
+            "Producer": "Dell",
+            "ProductionDate": "2021-04-30T10:54:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        }
+    ],
+    "Assemblies@odata.count": 1,
+    "Id": "PCIE Assembly",
+    "Name": "NIC.Integrated.1#FRU"
+}

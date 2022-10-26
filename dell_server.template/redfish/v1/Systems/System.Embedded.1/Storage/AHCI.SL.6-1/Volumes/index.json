@@ -1,0 +1,19 @@
+{
+    "@Redfish.OperationApplyTimeSupport": {
+        "@odata.type": "#Settings.v1_3_1.OperationApplyTimeSupport",
+        "SupportedValues": [
+            "OnReset"
+        ]
+    },
+    "@odata.context": "/redfish/v1/$metadata#VolumeCollection.VolumeCollection",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1/Volumes",
+    "@odata.type": "#VolumeCollection.VolumeCollection",
+    "Description": "Collection Of Volume",
+    "Members": [
+        {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1/Volumes/Disk.Virtual.0:AHCI.SL.6-1"
+        }
+    ],
+    "Members@odata.count": 1,
+    "Name": "Volume Collection"
+}

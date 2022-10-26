@@ -1,0 +1,9 @@
+Redfish service captured by the Redfish Mockup Creator, Version 1.1.9
+Created: 2022-10-26 17:21:11
+Service: https://{{IP_ADDRESS}}
+User: engineer
+Description: 
+Total response time: 3454.295036792755
+Average response time: 0.33153805900688693
+Minimum response time: 0.2048647403717041, /redfish/v1/TelemetryService/Oem/Dell/D4D/Reports/TemperatureSensorD4D-2022-07-14T11:01:01-05:00
+Maximum response time: 2.605245351791382, /redfish/v1/Schemas/DellSoftwareInventoryCollection_v1.xml

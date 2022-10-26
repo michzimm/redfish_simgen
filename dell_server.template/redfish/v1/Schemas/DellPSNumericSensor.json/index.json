@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellPSNumericSensor.json",
+    "$ref": "#/definitions/DellPSNumericSensor",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellPSNumericSensor": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellPSNumericSensor.v1_1_0.json#/definitions/DellPSNumericSensor"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellPSNumericSensor will have data specific to a power sensor device that returns only numeric readings and optionally supports of thresholds settings.",
+            "insertable": false,
+            "longDescription": "An instance of DellPSNumericSensor will have data specific to a power sensor device that returns only numeric readings and optionally supports of thresholds settings.",
+            "updatable": true,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Oem/Dell/DellPSNumericSensors/{PSNumericSensorId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellPSNumericSensor.DellPSNumericSensor"
+}

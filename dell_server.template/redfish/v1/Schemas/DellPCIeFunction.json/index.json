@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellPCIeFunction.json",
+    "$ref": "#/definitions/DellPCIeFunction",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellPCIeFunction": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellPCIeFunction.v1_3_0.json#/definitions/DellPCIeFunction"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellPCIeFunction will have PCI device specific data.",
+            "insertable": false,
+            "longDescription": "An instance of DellPCIeFunction will have PCI device specific data.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Oem/Dell/DellPCIeFunctions/{PCIeFunctionId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/PCIeDevices/{PCIeDeviceId}/PCIeFunctions/{PCIeFunctionId}/Oem/Dell/DellPCIeFunctions/{PCIeFunctionId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellPCIeFunction.DellPCIeFunction"
+}

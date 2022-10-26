@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellLicense.json",
+    "$ref": "#/definitions/DellLicense",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellLicense": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellLicense.v1_2_0.json#/definitions/DellLicense"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellLicense represents a feature license installed on a system.",
+            "insertable": false,
+            "longDescription": "An instance of DellLicense represents a feature license installed on a system.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Managers/{ManagerId}/Oem/Dell/DellLicenses/{LicenseId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellLicense.DellLicense"
+}

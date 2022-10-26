@@ -1,0 +1,15 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellFCCapabilities.DellFCCapabilities",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-2/Oem/Dell/DellFCCapabilities/FC.Slot.1-2",
+    "@odata.type": "#DellFCCapabilities.v1_0_0.DellFCCapabilities",
+    "Description": "This resource shall represents Fibre Channel HBA capabilities in the managed system.",
+    "FCMaxNumberExchanges": 6144,
+    "FCMaxNumberOutStandingCommands": 12289,
+    "FeatureLicensingSupport": "NotSupported",
+    "FlexAddressingSupport": "Supported",
+    "Id": "FC.Slot.1-2",
+    "Name": "DellFCCapabilities",
+    "OnChipThermalSensor": "Supported",
+    "PersistencePolicySupport": "Supported",
+    "uEFISupport": "Supported"
+}

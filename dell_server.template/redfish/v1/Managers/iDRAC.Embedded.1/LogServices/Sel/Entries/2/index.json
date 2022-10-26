@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Sel/Entries/2",
+    "@odata.type": "#LogEntry.v1_6_1.LogEntry",
+    "Created": "2022-03-04T21:01:01-06:00",
+    "Description": "Log Entry 2",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "GeneratorId": "0x0020",
+    "Id": "2",
+    "Links": {},
+    "Message": "Unable to access Front LED Panel because of a hardware error condition.",
+    "MessageArgs": [],
+    "MessageArgs@odata.count": 0,
+    "MessageId": "6f03ffff",
+    "Name": "Log Entry 2",
+    "SensorNumber": 88,
+    "SensorType": "Management Subsystem Health",
+    "Severity": "Critical"
+}

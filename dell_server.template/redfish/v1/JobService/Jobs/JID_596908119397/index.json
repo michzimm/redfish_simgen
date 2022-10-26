@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Job.Job",
+    "@odata.id": "/redfish/v1/JobService/Jobs/JID_596908119397",
+    "@odata.type": "#Job.v1_0_4.Job",
+    "Description": "Represent a job in Redfish",
+    "Id": "JID_596908119397",
+    "Name": "ConfigBIOS:BIOS.Setup.1-1",
+    "JobState": "Completed",
+    "JobStatus": "OK",
+    "PercentComplete": 100,
+    "StartTime": "2022-08-05T04:13:31-05:00",
+    "EndTime": "2022-08-30T17:01:06-05:00",
+    "Messages": [
+        {
+            "Message": "Job completed successfully.",
+            "MessageId": "PR19",
+            "MessageArgs": [],
+            "MessageArgs@odata.count": 0
+        }
+    ],
+    "Messages@odata.count": 1
+}

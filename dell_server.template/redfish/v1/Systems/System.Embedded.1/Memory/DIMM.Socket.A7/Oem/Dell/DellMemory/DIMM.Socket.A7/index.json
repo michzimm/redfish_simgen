@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A7/Oem/Dell/DellMemory/DIMM.Socket.A7",
+    "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+    "BankLabel": "A",
+    "Description": "An instance of DellMemory will have Memory Device specific data.",
+    "Id": "DIMM.Socket.A7",
+    "LastSystemInventoryTime": "2022-08-30T22:00:48+00:00",
+    "LastUpdateTime": "2021-07-02T21:31:25+00:00",
+    "ManufactureDate": "Mon Apr 26 07:00:00 2021 UTC",
+    "MemoryTechnology": "DRAM",
+    "Model": "DDR4 DIMM",
+    "Name": "DellMemory",
+    "RemainingRatedWriteEndurancePercent": null,
+    "SystemEraseCapability": "NotSupported"
+}

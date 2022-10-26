@@ -1,0 +1,39 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "1661896872",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/101-0",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+    },
+    "AssetTag": null,
+    "Description": "Ent NVMe v2 AGN MU U.2 1.6TB",
+    "DeviceType": "SingleFunction",
+    "FirmwareVersion": "2.0.0",
+    "Id": "101-0",
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+            }
+        ],
+        "Chassis@odata.count": 1,
+        "PCIeFunctions": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/101-0/PCIeFunctions/101-0-0"
+            }
+        ],
+        "PCIeFunctions@odata.count": 1
+    },
+    "Manufacturer": "Samsung Electronics Co Ltd",
+    "Model": null,
+    "Name": "Ent NVMe v2 AGN MU U.2 1.6TB",
+    "PartNumber": "00MNMV",
+    "SKU": null,
+    "SerialNumber": "KRSSK0015M00ZR",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

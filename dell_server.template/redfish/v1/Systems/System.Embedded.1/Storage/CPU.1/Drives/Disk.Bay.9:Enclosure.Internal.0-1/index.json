@@ -1,0 +1,158 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/CPU.1/Drives/Disk.Bay.9:Enclosure.Internal.0-1",
+    "@odata.type": "#Drive.v1_10_0.Drive",
+    "Actions": {
+        "#Drive.SecureErase": {
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_3_1.OperationApplyTimeSupport",
+                "SupportedValues": [
+                    "Immediate",
+                    "OnReset"
+                ]
+            },
+            "target": "/redfish/v1/Systems/System.Embedded.1/Storage/CPU.1/Drives/Disk.Bay.9:Enclosure.Internal.0-1/Actions/Drive.SecureErase"
+        }
+    },
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+    },
+    "BlockSizeBytes": 0,
+    "CapableSpeedGbs": 15.753846153846155,
+    "CapacityBytes": 1600321314816,
+    "Description": "PCIe SSD in Slot 9 in Bay 1",
+    "EncryptionAbility": "None",
+    "EncryptionStatus": "Unencrypted",
+    "FailurePredicted": false,
+    "HotspareType": "None",
+    "Id": "Disk.Bay.9:Enclosure.Internal.0-1",
+    "Identifiers": [
+        {
+            "DurableName": null,
+            "DurableNameFormat": null
+        }
+    ],
+    "Identifiers@odata.count": 1,
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1"
+        },
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                "CPUAffinity": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                    }
+                ],
+                "CPUAffinity@odata.count": 1
+            }
+        },
+        "PCIeFunctions": [],
+        "PCIeFunctions@odata.count": 0,
+        "Volumes": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/CPU.1/Volumes/Disk.Bay.9:Enclosure.Internal.0-1"
+            }
+        ],
+        "Volumes@odata.count": 1
+    },
+    "Location": [],
+    "Manufacturer": "Samsung Electronics Co Ltd ",
+    "MediaType": "SSD",
+    "Model": "Dell Ent NVMe v2 AGN MU U.2 1.6TB",
+    "Name": "PCIe SSD in Slot 9 in Bay 1",
+    "NegotiatedSpeedGbs": 15.753846153846155,
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellDriveSMARTAttributes": null,
+            "DellNVMeSMARTAttributes": {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/CPU.1/Drives/Disk.Bay.9:Enclosure.Internal.0-1/Oem/Dell/DellNVMeSMARTAttributes"
+            },
+            "DellPCIeSSD": {
+                "@odata.context": "/redfish/v1/$metadata#DellPCIeSSD.DellPCIeSSD",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/CPU.1/Drives/Disk.Bay.9:Enclosure.Internal.0-1/Oem/Dell/DellPCIeSSDs/Disk.Bay.9:Enclosure.Internal.0-1",
+                "@odata.type": "#DellPCIeSSD.v1_4_0.DellPCIeSSD",
+                "Bus": "65",
+                "BusProtocol": "PCIE",
+                "Description": "An instance of DellPCIeSSD will have PCIe Solid State Drive specific data.",
+                "Device": "0",
+                "DeviceProtocol": "NVMe-MI1.0",
+                "DriveFormFactor": "2.5Inch",
+                "FreeSizeInBytes": null,
+                "Function": "0",
+                "HotSpareStatus": null,
+                "Id": "Disk.Bay.9:Enclosure.Internal.0-1",
+                "MediaType": "SolidStateDrive",
+                "Name": "DellPCIeSSD",
+                "PCIeCapableLinkWidth": "x4",
+                "PCIeNegotiatedLinkWidth": "x4",
+                "ProductID": "a824",
+                "RAIDType": "Unknown",
+                "RaidStatus": null,
+                "Slot": 9,
+                "SystemEraseCapability": "CryptographicErasePD",
+                "UsedSizeInBytes": 0
+            },
+            "DellPhysicalDisk": {
+                "@odata.context": "/redfish/v1/$metadata#DellPhysicalDisk.DellPhysicalDisk",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/CPU.1/Drives/Disk.Bay.9:Enclosure.Internal.0-1/Oem/Dell/DellDrives/Disk.Bay.9:Enclosure.Internal.0-1",
+                "@odata.type": "#DellPhysicalDisk.v1_4_0.DellPhysicalDisk",
+                "Certified": null,
+                "Connector": null,
+                "CryptographicEraseCapable": null,
+                "Description": "An instance of DellPhysicalDisk will have Physical Disk specific data.",
+                "DeviceProtocol": "NVMe-MI1.0",
+                "DriveFormFactor": "2.5Inch",
+                "EncryptionProtocol": null,
+                "ForeignKeyIdentifier": null,
+                "FreeSizeInBytes": null,
+                "Id": "Disk.Bay.9:Enclosure.Internal.0-1",
+                "LastSystemInventoryTime": null,
+                "LastUpdateTime": null,
+                "ManufacturingDay": null,
+                "ManufacturingWeek": null,
+                "ManufacturingYear": null,
+                "Name": "DellPhysicalDisk",
+                "NonRAIDDiskCachePolicy": null,
+                "OperationName": null,
+                "OperationPercentCompletePercent": null,
+                "PCIeCapableLinkWidth": "x4",
+                "PCIeNegotiatedLinkWidth": "x4",
+                "PPID": null,
+                "PowerStatus": null,
+                "PredictiveFailureState": null,
+                "ProductID": "a824",
+                "RAIDType": "Unknown",
+                "RaidStatus": null,
+                "SASAddress": null,
+                "Slot": 9,
+                "SystemEraseCapability": "CryptographicErasePD",
+                "T10PICapability": null,
+                "UsedSizeInBytes": 0,
+                "WWN": null
+            }
+        }
+    },
+    "Operations": [],
+    "Operations@odata.count": 0,
+    "PartNumber": "KR00MNMVSSK0015M00ZRA00",
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationOrdinalValue": 9,
+            "LocationType": "Slot"
+        }
+    },
+    "PredictedMediaLifeLeftPercent": 100,
+    "Protocol": "PCIe",
+    "Revision": "2.0.0",
+    "RotationSpeedRPM": null,
+    "SerialNumber": "S6CTNE0R501191",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "WriteCacheEnabled": false
+}

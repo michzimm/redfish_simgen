@@ -1,0 +1,687 @@
+{
+    "$id": "/redfish/v1/Schemas/DellPhysicalDisk.v1_4_0.json",
+    "$ref": "#/definitions/DellPhysicalDisk",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "Certified": {
+            "enum": [
+                "No",
+                "NotApplicable",
+                "Yes"
+            ],
+            "enumDescriptions": {
+                "No": "No",
+                "NotApplicable": "NotApplicable",
+                "Yes": "Yes"
+            },
+            "enumLongDescriptions": {
+                "No": "No",
+                "NotApplicable": "NotApplicable",
+                "Yes": "Yes"
+            },
+            "enumVersionAdded": {
+                "No": "v1_2_0",
+                "NotApplicable": "v1_2_0",
+                "Yes": "v1_2_0"
+            },
+            "type": "string"
+        },
+        "CryptographicEraseCapable": {
+            "enum": [
+                "Capable",
+                "NotCapable"
+            ],
+            "enumDescriptions": {
+                "Capable": "Capable",
+                "NotCapable": "Not Capable"
+            },
+            "enumLongDescriptions": {
+                "Capable": "Capable",
+                "NotCapable": "Not Capable"
+            },
+            "enumVersionAdded": {
+                "Capable": "v1_4_0",
+                "NotCapable": "v1_4_0"
+            },
+            "type": "string"
+        },
+        "DellPhysicalDisk": {
+            "additionalProperties": false,
+            "description": "An instance of DellPhysicalDisk will have Physical Disk specific data.",
+            "longDescription": "An instance of DellPhysicalDisk will have Physical Disk specific data.",
+            "patternProperties": {
+                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_]*$": {
+                    "description": "This property shall specify a valid odata or Redfish property.",
+                    "type": [
+                        "array",
+                        "boolean",
+                        "integer",
+                        "number",
+                        "null",
+                        "object",
+                        "string"
+                    ]
+                }
+            },
+            "properties": {
+                "@odata.context": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/context"
+                },
+                "@odata.etag": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/etag"
+                },
+                "@odata.id": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/id"
+                },
+                "@odata.type": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/type"
+                },
+                "Certified": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/Certified"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property provides information about the drives behind the RAID controller is certified or not.",
+                    "longDescription": "The property provides information about the drives behind the RAID controller is certified or not.",
+                    "readonly": true,
+                    "versionAdded": "v1_2_0"
+                },
+                "Connector": {
+                    "description": "The property shall represent the controller port that the physical disk is connected to.",
+                    "longDescription": "The property shall represent the controller port that the physical disk is connected to.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "CryptographicEraseCapable": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/CryptographicEraseCapable"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the storage component cryptographic erase capability.",
+                    "longDescription": "This property represents the storage component cryptographic erase capability.",
+                    "readonly": true,
+                    "versionAdded": "v1_4_0"
+                },
+                "Description": {
+                    "anyOf": [
+                        {
+                            "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Description"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "readonly": true
+                },
+                "DeviceProtocol": {
+                    "description": "This property indicates the device protocol. For example, NVMe 1.1, NVMe 1.2 and so on.",
+                    "longDescription": "This property indicates the device protocol. For example, NVMe 1.1, NVMe 1.2 and so on.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_2_0"
+                },
+                "DriveFormFactor": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/DriveFormFactor"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property shall represent the physical disk form factor.",
+                    "longDescription": "This property shall represent the physical disk form factor.",
+                    "readonly": true
+                },
+                "EncryptionProtocol": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/EncryptionProtocol"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property provides information about the encryption protocol used to encrypt the data stored on the PD.",
+                    "longDescription": "The property provides information about the encryption protocol used to encrypt the data stored on the PD.",
+                    "readonly": true,
+                    "versionAdded": "v1_2_0"
+                },
+                "ForeignKeyIdentifier": {
+                    "description": "This property indicates foreign key identifier of a secured drive. If the drive is not locked or secured by a foreign key, this property is an empty string.",
+                    "longDescription": "This property indicates foreign key identifier of a secured drive. If the drive is not locked or secured by a foreign key, this property is an empty string.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "FreeSizeInBytes": {
+                    "description": "The property shall represent the free space available for a virtual disk.",
+                    "longDescription": "The property shall represent the free space available for a virtual disk.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "units": "Bytes"
+                },
+                "Id": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Id",
+                    "readonly": true
+                },
+                "LastSystemInventoryTime": {
+                    "description": "This property provides the time when System Inventory Collection On Reboot (CSIOR) was last performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.",
+                    "format": "date-time",
+                    "longDescription": "This property provides the time when System Inventory Collection On Reboot (CSIOR) was last performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "LastUpdateTime": {
+                    "description": "This property represents the time when the data was last updated. The value is represented as yyyymmddHHMMSS.",
+                    "format": "date-time",
+                    "longDescription": "This property represents the time when the data was last updated. The value is represented as yyyymmddHHMMSS.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "ManufacturingDay": {
+                    "description": "The property shall represent the physical disks manufacturing day.",
+                    "longDescription": "The property shall represent the physical disks manufacturing day.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "ManufacturingWeek": {
+                    "description": "The property shall represent the physical disks manufacturing week.",
+                    "longDescription": "The property shall represent the physical disks manufacturing week.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "ManufacturingYear": {
+                    "description": "The property shall represent the physical disks manufacturing year.",
+                    "longDescription": "The property shall represent the physical disks manufacturing year.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "Name": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Name",
+                    "readonly": true
+                },
+                "NonRAIDDiskCachePolicy": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/NonRAIDDiskCachePolicy"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property provides information about the Non RAID Disks (PERC 9 System PDs and not related to EPD-PTs) Cache policy.",
+                    "longDescription": "The property provides information about the Non RAID Disks (PERC 9 System PDs and not related to EPD-PTs) Cache policy.",
+                    "readonly": true,
+                    "versionAdded": "v1_2_0"
+                },
+                "Oem": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Oem",
+                    "description": "The OEM extension property.",
+                    "longDescription": "This property shall contain the OEM extensions.  All values for properties that this object contains shall conform to the Redfish Specification-described requirements."
+                },
+                "OperationName": {
+                    "description": "This property represents the background operation that is running on a virtual disk. If no operation is running, the value is \"None\".",
+                    "longDescription": "This property represents the background operation that is running on a virtual disk. If no operation is running, the value is \"None\".",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "OperationPercentCompletePercent": {
+                    "description": "This property represents the percentage completion of the operation that is represented by the OperationName property.",
+                    "longDescription": "This property represents the percentage completion of the operation that is represented by the OperationName property.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "units": "Percent",
+                    "versionAdded": "v1_1_0"
+                },
+                "PCIeCapableLinkWidth": {
+                    "description": "The property indicates the Capable Link width of the NVMe drive and has value x4.",
+                    "longDescription": "The property indicates the Capable Link width of the NVMe drive and has value x4.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_2_0"
+                },
+                "PCIeNegotiatedLinkWidth": {
+                    "description": "The property indicates the Negotiated Link Width of the NVMe drive and is one of the following values x1, x2, x4.",
+                    "longDescription": "The property indicates the Negotiated Link Width of the NVMe drive and is one of the following values x1, x2, x4.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_2_0"
+                },
+                "PPID": {
+                    "description": "The property shall represent the Part Piece Identification (PPID) value for the physical disk.",
+                    "longDescription": "The property shall represent the Part Piece Identification (PPID) value for the physical disk.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "PowerStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/PowerStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property provides information about drive power mode.",
+                    "longDescription": "This property provides information about drive power mode.",
+                    "readonly": true,
+                    "versionAdded": "v1_2_0"
+                },
+                "PredictiveFailureState": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/PredictiveFailureState"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent the smart alert presence.",
+                    "longDescription": "The property shall represent the smart alert presence.",
+                    "readonly": true
+                },
+                "ProductID": {
+                    "description": "This property represents the DeviceID of the drive.",
+                    "longDescription": "This property represents the DeviceID of the drive.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_2_0"
+                },
+                "RAIDType": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/RAIDType"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the type of RAID configuration.",
+                    "longDescription": "This property represents the type of RAID configuration.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "RaidStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/RaidStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent the RAID specific status.",
+                    "longDescription": "The property shall represent the RAID specific status.",
+                    "readonly": true
+                },
+                "SASAddress": {
+                    "description": "The property shall represent the SAS address of the drive.",
+                    "longDescription": "The property shall represent the SAS address of the drive.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ]
+                },
+                "Slot": {
+                    "description": "This property represents the slot where drive is located. For PCIe SSDs and Add-in cards, refer Name property to get the slot information",
+                    "longDescription": "This property represents the slot where drive is located. For PCIe SSDs and Add-in cards, refer Name property to get the slot information",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "SystemEraseCapability": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/SystemEraseCapability"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the storage component system-erase capability.",
+                    "longDescription": "This property represents the storage component system-erase capability.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "T10PICapability": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/T10PICapability"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents if this physical disk supports T10 Protection Information.",
+                    "longDescription": "This property represents if this physical disk supports T10 Protection Information.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "UsedSizeInBytes": {
+                    "description": "The property shall represent the space already consumed by virtual disks.",
+                    "longDescription": "The property shall represent the space already consumed by virtual disks.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "units": "Bytes"
+                },
+                "WWN": {
+                    "description": "This property represents the WWN of the drive.",
+                    "longDescription": "This property represents the WWN of the drive.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_2_0"
+                }
+            },
+            "required": [
+                "@odata.id",
+                "@odata.type",
+                "Id",
+                "Name"
+            ],
+            "type": "object"
+        },
+        "DriveFormFactor": {
+            "enum": [
+                "1.8Inch",
+                "2.5Inch",
+                "3.5Inch",
+                "AddInCard",
+                "EDSFF-E1.L",
+                "M.2",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "1.8Inch": "1.8 inch",
+                "2.5Inch": "2.5 inch",
+                "3.5Inch": "3.5 inch",
+                "AddInCard": "Add-in card",
+                "EDSFF-E1.L": "EDSFF-E1.L",
+                "M.2": "M.2",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "1.8Inch": "1.8 inch",
+                "2.5Inch": "2.5 inch",
+                "3.5Inch": "3.5 inch",
+                "AddInCard": "Add-in card",
+                "EDSFF-E1.L": "EDSFF-E1.L",
+                "M.2": "M.2",
+                "Unknown": "Unknown"
+            },
+            "type": "string"
+        },
+        "EncryptionProtocol": {
+            "enum": [
+                "None",
+                "TCGEnterpriseSSC",
+                "TCGOpalSSC",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "None": "None",
+                "TCGEnterpriseSSC": "TCGEnterpriseSSC",
+                "TCGOpalSSC": "TCGOpalSSC",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "None": "None",
+                "TCGEnterpriseSSC": "TCGEnterpriseSSC",
+                "TCGOpalSSC": "TCGOpalSSC",
+                "Unknown": "Unknown"
+            },
+            "enumVersionAdded": {
+                "None": "v1_2_0",
+                "TCGEnterpriseSSC": "v1_2_0",
+                "TCGOpalSSC": "v1_2_0",
+                "Unknown": "v1_2_0"
+            },
+            "type": "string"
+        },
+        "NonRAIDDiskCachePolicy": {
+            "enum": [
+                "Default",
+                "Disabled",
+                "Enabled",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "Default": "Default",
+                "Disabled": "Disabled",
+                "Enabled": "Enabled",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "Default": "Default",
+                "Disabled": "Disabled",
+                "Enabled": "Enabled",
+                "Unknown": "Unknown"
+            },
+            "enumVersionAdded": {
+                "Default": "v1_2_0",
+                "Disabled": "v1_2_0",
+                "Enabled": "v1_2_0",
+                "Unknown": "v1_2_0"
+            },
+            "type": "string"
+        },
+        "PowerStatus": {
+            "enum": [
+                "On",
+                "Spun-Down",
+                "Spun-Up",
+                "Transition"
+            ],
+            "enumDescriptions": {
+                "On": "On",
+                "Spun-Down": "Spun-Down",
+                "Spun-Up": "Spun-Up",
+                "Transition": "Transition"
+            },
+            "enumLongDescriptions": {
+                "On": "On",
+                "Spun-Down": "Spun-Down",
+                "Spun-Up": "Spun-Up",
+                "Transition": "Transition"
+            },
+            "enumVersionAdded": {
+                "On": "v1_2_0",
+                "Spun-Down": "v1_2_0",
+                "Spun-Up": "v1_2_0",
+                "Transition": "v1_2_0"
+            },
+            "type": "string"
+        },
+        "PredictiveFailureState": {
+            "enum": [
+                "SmartAlertAbsent",
+                "SmartAlertPresent"
+            ],
+            "enumDescriptions": {
+                "SmartAlertAbsent": "Smart Alert Absent",
+                "SmartAlertPresent": "Smart Alert Present"
+            },
+            "enumLongDescriptions": {
+                "SmartAlertAbsent": "Smart Alert Absent",
+                "SmartAlertPresent": "Smart Alert Present"
+            },
+            "type": "string"
+        },
+        "RAIDType": {
+            "enum": [
+                "HardwareRAID",
+                "MDSoftwareRAID",
+                "Unknown",
+                "WindowsSoftwareRAID"
+            ],
+            "enumDescriptions": {
+                "HardwareRAID": "HardwareRAID",
+                "MDSoftwareRAID": "MDSoftwareRAID",
+                "Unknown": "Unknown",
+                "WindowsSoftwareRAID": "WindowsSoftwareRAID"
+            },
+            "enumLongDescriptions": {
+                "HardwareRAID": "HardwareRAID",
+                "MDSoftwareRAID": "MDSoftwareRAID",
+                "Unknown": "Unknown",
+                "WindowsSoftwareRAID": "WindowsSoftwareRAID"
+            },
+            "enumVersionAdded": {
+                "HardwareRAID": "v1_1_0",
+                "MDSoftwareRAID": "v1_1_0",
+                "Unknown": "v1_1_0",
+                "WindowsSoftwareRAID": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "RaidStatus": {
+            "enum": [
+                "Blocked",
+                "Degraded",
+                "Failed",
+                "Foreign",
+                "Missing",
+                "NonRAID",
+                "Offline",
+                "Online",
+                "Ready",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "Blocked": "Blocked",
+                "Degraded": "Degraded",
+                "Failed": "Failed",
+                "Foreign": "Foreign",
+                "Missing": "Missing",
+                "NonRAID": "Non-RAID",
+                "Offline": "Offline",
+                "Online": "Online",
+                "Ready": "Ready",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "Blocked": "Blocked",
+                "Degraded": "Degraded",
+                "Failed": "Failed",
+                "Foreign": "Foreign",
+                "Missing": "Missing",
+                "NonRAID": "Non-RAID",
+                "Offline": "Offline",
+                "Online": "Online",
+                "Ready": "Ready",
+                "Unknown": "Unknown"
+            },
+            "type": "string"
+        },
+        "SystemEraseCapability": {
+            "enum": [
+                "CryptographicErasePD",
+                "NotSupported",
+                "OverwritePD"
+            ],
+            "enumDescriptions": {
+                "CryptographicErasePD": "CryptographicErasePD",
+                "NotSupported": "Not Supported",
+                "OverwritePD": "OverwritePD"
+            },
+            "enumLongDescriptions": {
+                "CryptographicErasePD": "CryptographicErasePD",
+                "NotSupported": "Not Supported",
+                "OverwritePD": "OverwritePD"
+            },
+            "enumVersionAdded": {
+                "CryptographicErasePD": "v1_1_0",
+                "NotSupported": "v1_1_0",
+                "OverwritePD": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "T10PICapability": {
+            "enum": [
+                "NotSupported",
+                "Supported"
+            ],
+            "enumDescriptions": {
+                "NotSupported": "Not supported",
+                "Supported": "Supported"
+            },
+            "enumLongDescriptions": {
+                "NotSupported": "Not supported",
+                "Supported": "Supported"
+            },
+            "enumVersionAdded": {
+                "NotSupported": "v1_1_0",
+                "Supported": "v1_1_0"
+            },
+            "type": "string"
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellPhysicalDisk.v1_4_0.DellPhysicalDisk"
+}

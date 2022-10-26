@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellPowerSupply.json",
+    "$ref": "#/definitions/DellPowerSupply",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellPowerSupply": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellPowerSupply.v1_1_0.json#/definitions/DellPowerSupply"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellPowerSupply will have data specific to the Power Supply devices in the managed system.",
+            "insertable": false,
+            "longDescription": "An instance of DellPowerSupply will have data specific to the Power Supply devices in the managed system.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Chassis/{ComputerSystemId}/Power/Oem/Dell/DellPowerSupply/{PowerSupplyId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellPowerSupply.DellPowerSupply"
+}

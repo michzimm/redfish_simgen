@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellVirtualDisk.json",
+    "$ref": "#/definitions/DellVirtualDisk",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellVirtualDisk": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellVirtualDisk.v1_2_0.json#/definitions/DellVirtualDisk"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellVirtualDisk will have data specific to the Virtual Disks in the system.",
+            "insertable": false,
+            "longDescription": "An instance of DellVirtualDisk will have data specific to the Virtual Disks in the system.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Storage/{StorageId}/Volumes/Oem/Dell/DellVolumes/{VirtualDiskId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/Storage/{StorageId}/Volumes/{VolumeId}/Oem/Dell/DellVolumes/{VirtualDiskId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellVirtualDisk.DellVirtualDisk"
+}

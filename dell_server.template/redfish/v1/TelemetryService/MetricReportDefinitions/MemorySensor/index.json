@@ -1,0 +1,83 @@
+{
+    "@odata.type": "#MetricReportDefinition.v1_4_0.MetricReportDefinition",
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/MemorySensor",
+    "Id": "MemorySensor",
+    "Name": "Memory Sensor Metric Report",
+    "Description": "Memory temperature sensor",
+    "AppendLimit": 2400,
+    "MetricReportDefinitionEnabled": false,
+    "MetricReportDefinitionType": "Periodic",
+    "MetricReportHeartbeatInterval": "PT0H0M0S",
+    "SuppressRepeatedMetricValue": false,
+    "ReportTimespan": "PT0H0M0S",
+    "ReportUpdates": "Overwrite",
+    "MetricReportDefinitionType@Redfish.AllowableValues": [
+        "Periodic",
+        "OnChange",
+        "OnRequest"
+    ],
+    "MetricReportDefinitionType@Redfish.AllowableValues@odata.count": 3,
+    "ReportUpdates@Redfish.AllowableValues": [
+        "AppendStopsWhenFull",
+        "AppendWrapsWhenFull",
+        "NewReport",
+        "Overwrite"
+    ],
+    "ReportUpdates@Redfish.AllowableValues@odata.count": 4,
+    "ReportActions": [
+        "RedfishEvent",
+        "LogToMetricReportsCollection"
+    ],
+    "ReportActions@odata.count": 2,
+    "ReportActions@Redfish.AllowableValues": [
+        "LogToMetricReportsCollection",
+        "RedfishEvent"
+    ],
+    "ReportActions@Redfish.AllowableValues@odata.count": 2,
+    "Status": {
+        "State": "Disabled"
+    },
+    "Wildcards": [],
+    "Wildcards@odata.count": 0,
+    "Schedule": {
+        "RecurrenceInterval": "PT0H1M0S"
+    },
+    "Metrics": [
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "DIMM.Socket.%",
+                    "Source": null
+                }
+            }
+        }
+    ],
+    "Metrics@odata.count": 1,
+    "Links": {
+        "Triggers": [
+            {
+                "@odata.id": "/redfish/v1/TelemetryService/Triggers/MEMCriticalTrigger"
+            },
+            {
+                "@odata.id": "/redfish/v1/TelemetryService/Triggers/MEMWarnTrigger"
+            }
+        ],
+        "Triggers@odata.count": 2
+    },
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellMetricReportDefinition.v1_1_0.DellMetricReportDefinition",
+            "Digest": "f175a9920977799e4ba363bf4629b74a80bc2529b9faa8d7136d28641d393c3c",
+            "iDRACFirmwareVersion": "5.10.00.00"
+        }
+    }
+}

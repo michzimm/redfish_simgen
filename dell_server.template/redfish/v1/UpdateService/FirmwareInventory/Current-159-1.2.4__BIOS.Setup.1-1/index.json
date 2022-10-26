@@ -1,0 +1,58 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#SoftwareInventory.SoftwareInventory",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-159-1.2.4__BIOS.Setup.1-1",
+    "@odata.type": "#SoftwareInventory.v1_3_0.SoftwareInventory",
+    "Description": "Represents Firmware Inventory",
+    "Id": "Current-159-1.2.4__BIOS.Setup.1-1",
+    "Name": "BIOS",
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellSoftwareInventory": {
+                "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+                "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Current-159-1.2.4__BIOS.Setup.1-1/Oem/Dell/DellSoftwareInventory/DCIM:CURRENT_0x23_741__BIOS.Setup.1-1",
+                "@odata.type": "#DellSoftwareInventory.v1_1_1.DellSoftwareInventory",
+                "BuildNumber": 0,
+                "Classifications": [
+                    "BIOS/FCode"
+                ],
+                "Classifications@odata.count": 1,
+                "ComponentID": "159",
+                "ComponentType": "BIOS",
+                "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+                "DeviceID": null,
+                "ElementName": "BIOS",
+                "HashValue": "d21cc2bbf8116f18535261dd084ee1caa55a91eb21b3c88fd42db209c29983c5",
+                "Id": "DCIM:CURRENT_0x23_741__BIOS.Setup.1-1",
+                "IdentityInfoType": [
+                    "OrgID:ComponentType:ComponentID"
+                ],
+                "IdentityInfoType@odata.count": 1,
+                "IdentityInfoValue": [
+                    "DCIM:BIOS:159"
+                ],
+                "IdentityInfoValue@odata.count": 1,
+                "InstallationDate": "NA",
+                "IsEntity": true,
+                "MajorVersion": 1,
+                "MinorVersion": 2,
+                "Name": "DellSoftwareInventory",
+                "RevisionNumber": 4,
+                "RevisionString": null,
+                "Status": "AvailableForInstallation",
+                "SubDeviceID": null,
+                "SubVendorID": null,
+                "VendorID": null,
+                "impactsTPMmeasurements": true
+            }
+        }
+    },
+    "ReleaseDate": "2021-06-02T00:00:00Z",
+    "SoftwareId": "159",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Updateable": true,
+    "Version": "1.2.4"
+}

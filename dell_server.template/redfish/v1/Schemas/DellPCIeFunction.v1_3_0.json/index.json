@@ -1,0 +1,390 @@
+{
+    "$id": "/redfish/v1/Schemas/DellPCIeFunction.v1_3_0.json",
+    "$ref": "#/definitions/DellPCIeFunction",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DataBusWidth": {
+            "enum": [
+                "128Bit",
+                "12XOrX12",
+                "16Bit",
+                "16XOrX16",
+                "1XOrX1",
+                "2XOrX2",
+                "32Bit",
+                "32XOrX32",
+                "4XOrX4",
+                "64Bit",
+                "8Bit",
+                "8XOrX8",
+                "Other",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "128Bit": "128 bit",
+                "12XOrX12": "12x or x12",
+                "16Bit": "16 bit",
+                "16XOrX16": "16x or x16",
+                "1XOrX1": "1x or x1",
+                "2XOrX2": "2x or x2",
+                "32Bit": "32 bit",
+                "32XOrX32": "32x or x32",
+                "4XOrX4": "4x or x4",
+                "64Bit": "64 bit",
+                "8Bit": "8 bit",
+                "8XOrX8": "8x or x8",
+                "Other": "Other",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "128Bit": "128 bit",
+                "12XOrX12": "12x or x12",
+                "16Bit": "16 bit",
+                "16XOrX16": "16x or x16",
+                "1XOrX1": "1x or x1",
+                "2XOrX2": "2x or x2",
+                "32Bit": "32 bit",
+                "32XOrX32": "32x or x32",
+                "4XOrX4": "4x or x4",
+                "64Bit": "64 bit",
+                "8Bit": "8 bit",
+                "8XOrX8": "8x or x8",
+                "Other": "Other",
+                "Unknown": "Unknown"
+            },
+            "type": "string"
+        },
+        "DellPCIeFunction": {
+            "additionalProperties": false,
+            "description": "An instance of DellPCIeFunction will have PCI device specific data.",
+            "longDescription": "An instance of DellPCIeFunction will have PCI device specific data.",
+            "patternProperties": {
+                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_]*$": {
+                    "description": "This property shall specify a valid odata or Redfish property.",
+                    "type": [
+                        "array",
+                        "boolean",
+                        "integer",
+                        "number",
+                        "null",
+                        "object",
+                        "string"
+                    ]
+                }
+            },
+            "properties": {
+                "@odata.context": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/context"
+                },
+                "@odata.etag": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/etag"
+                },
+                "@odata.id": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/id"
+                },
+                "@odata.type": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/type"
+                },
+                "DataBusWidth": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/DataBusWidth"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Data bus width of the PCI.",
+                    "longDescription": "Data bus width of the PCI.",
+                    "readonly": true
+                },
+                "Description": {
+                    "anyOf": [
+                        {
+                            "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Description"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "readonly": true
+                },
+                "Id": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Id",
+                    "readonly": true
+                },
+                "LastSystemInventoryTime": {
+                    "description": "This property provides the last time System Inventory Collection On Reboot (CSIOR) was performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.",
+                    "format": "date-time",
+                    "longDescription": "This property provides the last time System Inventory Collection On Reboot (CSIOR) was performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "LastUpdateTime": {
+                    "description": "This property provides the last time the data was updated. The value is represented as yyyymmddHHMMSS.",
+                    "format": "date-time",
+                    "longDescription": "This property provides the last time the data was updated. The value is represented as yyyymmddHHMMSS.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "Name": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Name",
+                    "readonly": true
+                },
+                "Oem": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Oem",
+                    "description": "The OEM extension property.",
+                    "longDescription": "This property shall contain the OEM extensions.  All values for properties that this object contains shall conform to the Redfish Specification-described requirements."
+                },
+                "SlotLength": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/SlotLength"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Slot length of the PCI device.",
+                    "longDescription": "Slot length of the PCI device.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "SlotType": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/SlotType"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "Slot type of the PCI device.Note: Depending on value for DriveFormFactor property under DellPCIeSSD or DellDrives,the SlotType value can be EDSFF E1.S or EDSFF E1.L",
+                    "longDescription": "Slot type of the PCI device.Note: Depending on value for DriveFormFactor property under DellPCIeSSD or DellDrives,the SlotType value can be EDSFF E1.S or EDSFF E1.L",
+                    "readonly": true
+                }
+            },
+            "required": [
+                "@odata.id",
+                "@odata.type",
+                "Id",
+                "Name"
+            ],
+            "type": "object"
+        },
+        "SlotLength": {
+            "enum": [
+                "2.5InchDriveFormFactor",
+                "3.5InchDriveFormFactor",
+                "LongLength",
+                "Other",
+                "ShortLength",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "2.5InchDriveFormFactor": "2.5 Inch Drive Form Factor",
+                "3.5InchDriveFormFactor": "3.5 Inch Drive Form Factor",
+                "LongLength": "Long Length",
+                "Other": "Other",
+                "ShortLength": "Short Length",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "2.5InchDriveFormFactor": "2.5 Inch Drive Form Factor",
+                "3.5InchDriveFormFactor": "3.5 Inch Drive Form Factor",
+                "LongLength": "Long Length",
+                "Other": "Other",
+                "ShortLength": "Short Length",
+                "Unknown": "Unknown"
+            },
+            "enumVersionAdded": {
+                "2.5InchDriveFormFactor": "v1_1_0",
+                "3.5InchDriveFormFactor": "v1_1_0",
+                "LongLength": "v1_1_0",
+                "Other": "v1_1_0",
+                "ShortLength": "v1_1_0",
+                "Unknown": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "SlotType": {
+            "enum": [
+                "AGP",
+                "AGP2X",
+                "AGP4X",
+                "AGP8X",
+                "EDSFFE1.S/E1.L",
+                "EISA",
+                "I/ORiserCardSlot",
+                "ISA",
+                "MCA",
+                "NuBus",
+                "Other",
+                "PC-98/C20",
+                "PC-98/C24",
+                "PC-98/Card",
+                "PC-98/E",
+                "PC-98/LocalBus",
+                "PCCard(PCMCIA)",
+                "PCI",
+                "PCI-66MHzCapable",
+                "PCI-X",
+                "PCIExpress",
+                "PCIExpressGen2",
+                "PCIExpressGen2SFF-8639",
+                "PCIExpressGen2X1",
+                "PCIExpressGen2X16",
+                "PCIExpressGen2X2",
+                "PCIExpressGen2X4",
+                "PCIExpressGen2X8",
+                "PCIExpressGen3",
+                "PCIExpressGen3SFF-8639",
+                "PCIExpressGen3X1",
+                "PCIExpressGen3X16",
+                "PCIExpressGen3X2",
+                "PCIExpressGen3X4",
+                "PCIExpressGen3X8",
+                "PCIExpressGen4",
+                "PCIExpressGen4SFF-8639",
+                "PCIExpressGen4X1",
+                "PCIExpressGen4X16",
+                "PCIExpressGen4X2",
+                "PCIExpressGen4X4",
+                "PCIExpressGen4X8",
+                "PCIExpressGen5SFF-8639",
+                "PCIExpressX1",
+                "PCIExpressX16",
+                "PCIExpressX2",
+                "PCIExpressX4",
+                "PCIExpressX8",
+                "ProcessorCardSlot",
+                "Proprietary",
+                "ProprietaryMemoryCardSlot",
+                "Unknown",
+                "VL-VESA"
+            ],
+            "enumDescriptions": {
+                "AGP": "AGP",
+                "AGP2X": "AGP 2X",
+                "AGP4X": "AGP 4X",
+                "AGP8X": "AGP 8X",
+                "EDSFFE1.S/E1.L": "EDSFF E1.S/E1.L",
+                "EISA": "EISA",
+                "I/ORiserCardSlot": "I/O Riser Card Slot",
+                "ISA": "ISA",
+                "MCA": "MCA",
+                "NuBus": "NuBus",
+                "Other": "Other",
+                "PC-98/C20": "PC-98/C20",
+                "PC-98/C24": "PC-98/C24",
+                "PC-98/Card": "PC-98/Card",
+                "PC-98/E": "PC-98/E",
+                "PC-98/LocalBus": "PC-98/Local Bus",
+                "PCCard(PCMCIA)": "PC Card (PCMCIA)",
+                "PCI": "PCI",
+                "PCI-66MHzCapable": "PCI - 66MHz Capable",
+                "PCI-X": "PCI-X",
+                "PCIExpress": "PCI Express",
+                "PCIExpressGen2": "PCI Express Gen 2",
+                "PCIExpressGen2SFF-8639": "PCI Express Gen 2 SFF-8639",
+                "PCIExpressGen2X1": "PCI Express Gen 2 x1",
+                "PCIExpressGen2X16": "PCI Express Gen 2 x16",
+                "PCIExpressGen2X2": "PCI Express Gen 2 x2",
+                "PCIExpressGen2X4": "PCI Express Gen 2 x4",
+                "PCIExpressGen2X8": "PCI Express Gen 2 x8",
+                "PCIExpressGen3": "PCI Express Gen 3",
+                "PCIExpressGen3SFF-8639": "PCI Express Gen 3 SFF-8639",
+                "PCIExpressGen3X1": "PCI Express Gen 3 x1",
+                "PCIExpressGen3X16": "PCI Express Gen 3 x16",
+                "PCIExpressGen3X2": "PCI Express Gen 3 x2",
+                "PCIExpressGen3X4": "PCI Express Gen 3 x4",
+                "PCIExpressGen3X8": "PCI Express Gen 3 x8",
+                "PCIExpressGen4": "PCI Express Gen 4",
+                "PCIExpressGen4SFF-8639": "PCI Express Gen 4 SFF-8639",
+                "PCIExpressGen4X1": "PCI Express Gen 4 x1",
+                "PCIExpressGen4X16": "PCI Express Gen 4 x16",
+                "PCIExpressGen4X2": "PCI Express Gen 4 x2",
+                "PCIExpressGen4X4": "PCI Express Gen 4 x4",
+                "PCIExpressGen4X8": "PCI Express Gen 4 x8",
+                "PCIExpressGen5SFF-8639": "PCI Express Gen 5 SFF-8639",
+                "PCIExpressX1": "PCI Express x1",
+                "PCIExpressX16": "PCI Express x16",
+                "PCIExpressX2": "PCI Express x2",
+                "PCIExpressX4": "PCI Express x4",
+                "PCIExpressX8": "PCI Express x8",
+                "ProcessorCardSlot": "Processor Card Slot",
+                "Proprietary": "Proprietary",
+                "ProprietaryMemoryCardSlot": "Proprietary Memory Card Slot",
+                "Unknown": "Unknown",
+                "VL-VESA": "VL-VESA"
+            },
+            "enumLongDescriptions": {
+                "AGP": "AGP",
+                "AGP2X": "AGP 2X",
+                "AGP4X": "AGP 4X",
+                "AGP8X": "AGP 8X",
+                "EDSFFE1.S/E1.L": "EDSFF E1.S/E1.L",
+                "EISA": "EISA",
+                "I/ORiserCardSlot": "I/O Riser Card Slot",
+                "ISA": "ISA",
+                "MCA": "MCA",
+                "NuBus": "NuBus",
+                "Other": "Other",
+                "PC-98/C20": "PC-98/C20",
+                "PC-98/C24": "PC-98/C24",
+                "PC-98/Card": "PC-98/Card",
+                "PC-98/E": "PC-98/E",
+                "PC-98/LocalBus": "PC-98/Local Bus",
+                "PCCard(PCMCIA)": "PC Card (PCMCIA)",
+                "PCI": "PCI",
+                "PCI-66MHzCapable": "PCI - 66MHz Capable",
+                "PCI-X": "PCI-X",
+                "PCIExpress": "PCI Express",
+                "PCIExpressGen2": "PCI Express Gen 2",
+                "PCIExpressGen2SFF-8639": "PCI Express Gen 2 SFF-8639",
+                "PCIExpressGen2X1": "PCI Express Gen 2 x1",
+                "PCIExpressGen2X16": "PCI Express Gen 2 x16",
+                "PCIExpressGen2X2": "PCI Express Gen 2 x2",
+                "PCIExpressGen2X4": "PCI Express Gen 2 x4",
+                "PCIExpressGen2X8": "PCI Express Gen 2 x8",
+                "PCIExpressGen3": "PCI Express Gen 3",
+                "PCIExpressGen3SFF-8639": "PCI Express Gen 3 SFF-8639",
+                "PCIExpressGen3X1": "PCI Express Gen 3 x1",
+                "PCIExpressGen3X16": "PCI Express Gen 3 x16",
+                "PCIExpressGen3X2": "PCI Express Gen 3 x2",
+                "PCIExpressGen3X4": "PCI Express Gen 3 x4",
+                "PCIExpressGen3X8": "PCI Express Gen 3 x8",
+                "PCIExpressGen4": "PCI Express Gen 4",
+                "PCIExpressGen4SFF-8639": "PCI Express Gen 4 SFF-8639",
+                "PCIExpressGen4X1": "PCI Express Gen 4 x1",
+                "PCIExpressGen4X16": "PCI Express Gen 4 x16",
+                "PCIExpressGen4X2": "PCI Express Gen 4 x2",
+                "PCIExpressGen4X4": "PCI Express Gen 4 x4",
+                "PCIExpressGen4X8": "PCI Express Gen 4 x8",
+                "PCIExpressGen5SFF-8639": "PCI Express Gen 5 SFF-8639",
+                "PCIExpressX1": "PCI Express x1",
+                "PCIExpressX16": "PCI Express x16",
+                "PCIExpressX2": "PCI Express x2",
+                "PCIExpressX4": "PCI Express x4",
+                "PCIExpressX8": "PCI Express x8",
+                "ProcessorCardSlot": "Processor Card Slot",
+                "Proprietary": "Proprietary",
+                "ProprietaryMemoryCardSlot": "Proprietary Memory Card Slot",
+                "Unknown": "Unknown",
+                "VL-VESA": "VL-VESA"
+            },
+            "type": "string"
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellPCIeFunction.v1_3_0.DellPCIeFunction"
+}

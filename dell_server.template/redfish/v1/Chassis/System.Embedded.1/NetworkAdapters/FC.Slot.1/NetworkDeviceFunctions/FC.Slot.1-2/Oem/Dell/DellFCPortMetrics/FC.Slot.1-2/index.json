@@ -1,0 +1,19 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellFCPortMetrics.DellFCPortMetrics",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-2/Oem/Dell/DellFCPortMetrics/FC.Slot.1-2",
+    "@odata.type": "#DellFCPortMetrics.v1_1_1.DellFCPortMetrics",
+    "Description": "This resource shall represents the statistics of the Fibre Channel HBA port.",
+    "FCInvalidCRCs": 0,
+    "FCLinkFailures": 0,
+    "FCLossOfSignals": 0,
+    "FCRxKBCount": 0,
+    "FCRxSequences": null,
+    "FCRxTotalFrames": 0,
+    "FCTxKBCount": 0,
+    "FCTxSequences": null,
+    "FCTxTotalFrames": 0,
+    "Id": "FC.Slot.1-2",
+    "Name": "DellFCPortMetrics",
+    "OSDriverState": "Operational",
+    "PortStatus": "Down"
+}

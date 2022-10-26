@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellNumericSensor.json",
+    "$ref": "#/definitions/DellNumericSensor",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellNumericSensor": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellNumericSensor.v1_1_1.json#/definitions/DellNumericSensor"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellNumericSensor will have data specific to sensor devices that returns only numeric readings and optionally supports thresholds settings.",
+            "insertable": false,
+            "longDescription": "An instance of DellNumericSensor will have data specific to sensor devices that returns only numeric readings and optionally supports thresholds settings.",
+            "updatable": true,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Oem/Dell/DellNumericSensors/{NumericSensorId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellNumericSensor.DellNumericSensor"
+}

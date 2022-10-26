@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_721__FC.Slot.1-2",
+    "@odata.type": "#DellSoftwareInventory.v1_1_1.DellSoftwareInventory",
+    "BuildNumber": 0,
+    "Classifications": [
+        "Firmware"
+    ],
+    "Classifications@odata.count": 1,
+    "ComponentID": "104677",
+    "ComponentType": "FRMW",
+    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+    "DeviceID": "E300",
+    "ElementName": "Port 1: Emulex LightPulse LPe32002-M2-D 2-Port 32Gb Fibre  - FC ",
+    "HashValue": null,
+    "Id": "DCIM:INSTALLED_0x23_721__FC.Slot.1-2",
+    "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+    ],
+    "IdentityInfoType@odata.count": 1,
+    "IdentityInfoValue": [
+        "DCIM:firmware:10DF:E300:10DF:E320"
+    ],
+    "IdentityInfoValue@odata.count": 1,
+    "InstallationDate": "2022-04-29T00:38:57Z",
+    "IsEntity": true,
+    "MajorVersion": 3,
+    "MinorVersion": 0,
+    "Name": "DellSoftwareInventory",
+    "RevisionNumber": 14,
+    "RevisionString": null,
+    "Status": "Installed",
+    "SubDeviceID": "E320",
+    "SubVendorID": "10DF",
+    "VendorID": "10DF",
+    "impactsTPMmeasurements": true
+}

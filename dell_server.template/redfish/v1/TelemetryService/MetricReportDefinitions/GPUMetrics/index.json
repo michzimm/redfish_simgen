@@ -1,0 +1,236 @@
+{
+    "@odata.type": "#MetricReportDefinition.v1_4_0.MetricReportDefinition",
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/GPUMetrics",
+    "Id": "GPUMetrics",
+    "Name": "GPU Health metrics Metric Report",
+    "Description": "Graphics Processing Unit Health metrics",
+    "AppendLimit": 2400,
+    "MetricReportDefinitionEnabled": false,
+    "MetricReportDefinitionType": "Periodic",
+    "MetricReportHeartbeatInterval": "PT0H0M0S",
+    "SuppressRepeatedMetricValue": false,
+    "ReportTimespan": "PT0H0M0S",
+    "ReportUpdates": "Overwrite",
+    "MetricReportDefinitionType@Redfish.AllowableValues": [
+        "Periodic",
+        "OnChange",
+        "OnRequest"
+    ],
+    "MetricReportDefinitionType@Redfish.AllowableValues@odata.count": 3,
+    "ReportUpdates@Redfish.AllowableValues": [
+        "AppendStopsWhenFull",
+        "AppendWrapsWhenFull",
+        "NewReport",
+        "Overwrite"
+    ],
+    "ReportUpdates@Redfish.AllowableValues@odata.count": 4,
+    "ReportActions": [
+        "RedfishEvent",
+        "LogToMetricReportsCollection"
+    ],
+    "ReportActions@odata.count": 2,
+    "ReportActions@Redfish.AllowableValues": [
+        "LogToMetricReportsCollection",
+        "RedfishEvent"
+    ],
+    "ReportActions@Redfish.AllowableValues@odata.count": 2,
+    "Status": {
+        "State": "Disabled"
+    },
+    "Wildcards": [],
+    "Wildcards@odata.count": 0,
+    "Schedule": {
+        "RecurrenceInterval": "PT0H1M0S"
+    },
+    "Metrics": [
+        {
+            "MetricId": "BoardPowerSupplyStatus",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "BoardTemperature",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "GPUHealth",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "GPUStatus",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "MemoryTemperature",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PowerBrakeState",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PowerConsumption",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PowerSupplyStatus",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PrimaryTemperature",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "SecondaryTemperature",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "ThermalAlertState",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        }
+    ],
+    "Metrics@odata.count": 11,
+    "Links": {
+        "Triggers": [],
+        "Triggers@odata.count": 0
+    },
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellMetricReportDefinition.v1_1_0.DellMetricReportDefinition",
+            "Digest": "db4cf6ec4c37086344d07db4a2ecd2915f7b8478f38645de34f48f3d97515e27",
+            "iDRACFirmwareVersion": "5.10.00.00"
+        }
+    }
+}

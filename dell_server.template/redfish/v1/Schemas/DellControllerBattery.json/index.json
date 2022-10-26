@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellControllerBattery.json",
+    "$ref": "#/definitions/DellControllerBattery",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellControllerBattery": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellControllerBattery.v1_0_0.json#/definitions/DellControllerBattery"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellController will have RAID Controller specific data.",
+            "insertable": false,
+            "longDescription": "An instance of DellController will have RAID Controller specific data.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Chassis/{ComputerSystemId}/Oem/Dell/DellControllerBattery/{ControllerBatteryId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/Storage/{StorageId}/Oem/Dell/DellControllerBattery/{ControllerBatteryId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellControllerBattery.DellControllerBattery"
+}

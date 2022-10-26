@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellFCCapabilities.json",
+    "$ref": "#/definitions/DellFCCapabilities",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellFCCapabilities": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellFCCapabilities.v1_0_0.json#/definitions/DellFCCapabilities"
+                }
+            ],
+            "deletable": false,
+            "description": "This resource shall represents Fibre Channel HBA capabilities in the managed system.",
+            "insertable": false,
+            "longDescription": "This resource shall represents Fibre Channel HBA capabilities in the managed system.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Chassis/{ComputerSystemId}/NetworkAdapters/{NetworkId}/NetworkDeviceFunctions/Oem/Dell/DellFCCapabilities/{FCCapabilitiesId}",
+                "/redfish/v1/Chassis/{ComputerSystemId}/NetworkAdapters/{NetworkId}/NetworkDeviceFunctions/{NetworkDeviceId}/Oem/Dell/DellFCCapabilities/{FCCapabilitiesId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellFCCapabilities.DellFCCapabilities"
+}

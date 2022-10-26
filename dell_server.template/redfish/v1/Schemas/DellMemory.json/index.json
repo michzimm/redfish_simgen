@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellMemory.json",
+    "$ref": "#/definitions/DellMemory",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellMemory": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellMemory.v1_1_0.json#/definitions/DellMemory"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellMemory will have Memory Device specific data.",
+            "insertable": false,
+            "longDescription": "An instance of DellMemory will have Memory Device specific data.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Memory/Oem/Dell/DellMemory/{MemoryId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/Memory/{MemoryId}/Oem/Dell/DellMemory/{MemoryId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellMemory.DellMemory"
+}

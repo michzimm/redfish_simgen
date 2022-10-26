@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+    "@odata.type": "#DellSoftwareInventory.v1_1_1.DellSoftwareInventory",
+    "BuildNumber": 57,
+    "Classifications": [
+        "Firmware"
+    ],
+    "Classifications@odata.count": 1,
+    "ComponentID": "25227",
+    "ComponentType": "FRMW",
+    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+    "DeviceID": null,
+    "ElementName": "Integrated Dell Remote Access Controller",
+    "HashValue": "d40231c4209cb4195c54528843632857cc407edc1664be8bf7b3cb21a1b82ef3",
+    "Id": "DCIM:INSTALLED_0x23_iDRAC.Embedded.1-1_0x23_IDRACinfo",
+    "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+    ],
+    "IdentityInfoType@odata.count": 1,
+    "IdentityInfoValue": [
+        "DCIM:firmware:25227"
+    ],
+    "IdentityInfoValue@odata.count": 1,
+    "InstallationDate": "2020-02-07T15:51:48Z",
+    "IsEntity": true,
+    "MajorVersion": 5,
+    "MinorVersion": 10,
+    "Name": "DellSoftwareInventory",
+    "RevisionNumber": 0,
+    "RevisionString": null,
+    "Status": "Installed",
+    "SubDeviceID": null,
+    "SubVendorID": null,
+    "VendorID": null,
+    "impactsTPMmeasurements": false
+}

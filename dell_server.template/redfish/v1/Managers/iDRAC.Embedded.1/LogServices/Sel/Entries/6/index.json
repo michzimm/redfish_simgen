@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#LogEntry.LogEntry",
+    "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/LogServices/Sel/Entries/6",
+    "@odata.type": "#LogEntry.v1_6_1.LogEntry",
+    "Created": "2022-05-18T15:53:35-05:00",
+    "Description": "Log Entry 6",
+    "EntryCode": "Assert",
+    "EntryType": "SEL",
+    "GeneratorId": "0x00b1",
+    "Id": "6",
+    "Links": {},
+    "Message": "A high-severity issue has occurred at the Power-On Self-Test (POST) phase which has resulted in the system BIOS to abruptly stop functioning.",
+    "MessageArgs": [],
+    "MessageArgs@odata.count": 0,
+    "MessageId": "6f0fd2ff",
+    "Name": "Log Entry 6",
+    "SensorNumber": 30,
+    "SensorType": "System Firmware Progress",
+    "Severity": "Critical"
+}

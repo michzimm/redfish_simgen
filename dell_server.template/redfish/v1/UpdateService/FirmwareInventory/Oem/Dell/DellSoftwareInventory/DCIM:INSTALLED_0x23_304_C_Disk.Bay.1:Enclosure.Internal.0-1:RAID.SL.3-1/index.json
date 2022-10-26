@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "@odata.type": "#DellSoftwareInventory.v1_1_1.DellSoftwareInventory",
+    "BuildNumber": null,
+    "Classifications": [
+        "Firmware"
+    ],
+    "Classifications@odata.count": 1,
+    "ComponentID": "109092",
+    "ComponentType": "FRMW",
+    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+    "DeviceID": null,
+    "ElementName": "Disk 1 in Backplane 1 of RAID Controller in SL 3",
+    "HashValue": null,
+    "Id": "DCIM:INSTALLED_0x23_304_C_Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+    ],
+    "IdentityInfoType@odata.count": 1,
+    "IdentityInfoValue": [
+        "DCIM:firmware:109092"
+    ],
+    "IdentityInfoValue@odata.count": 1,
+    "InstallationDate": "2021-07-02T22:40:35Z",
+    "IsEntity": true,
+    "MajorVersion": null,
+    "MinorVersion": null,
+    "Name": "DellSoftwareInventory",
+    "RevisionNumber": null,
+    "RevisionString": null,
+    "Status": "Installed",
+    "SubDeviceID": null,
+    "SubVendorID": null,
+    "VendorID": null,
+    "impactsTPMmeasurements": false
+}

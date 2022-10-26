@@ -1,0 +1,71 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkPort.NetworkPort",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkPorts/FC.Slot.1-1",
+    "@odata.type": "#NetworkPort.v1_2_5.NetworkPort",
+    "ActiveLinkTechnology": "FibreChannel",
+    "AssociatedNetworkAddresses": [
+        "20:00:00:10:9B:5A:4A:58"
+    ],
+    "CurrentLinkSpeedMbps": null,
+    "Description": "Network Port View",
+    "EEEEnabled": null,
+    "FlowControlConfiguration": "None",
+    "FlowControlStatus": "None",
+    "Id": "FC.Slot.1-1",
+    "LinkStatus": "Down",
+    "Name": "Network Port View",
+    "NetDevFuncMaxBWAlloc": [
+        {
+            "MaxBWAllocPercent": null,
+            "NetworkDeviceFunction": {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1"
+            }
+        }
+    ],
+    "NetDevFuncMaxBWAlloc@odata.count": 1,
+    "NetDevFuncMinBWAlloc": [
+        {
+            "MinBWAllocPercent": null,
+            "NetworkDeviceFunction": {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1"
+            }
+        }
+    ],
+    "NetDevFuncMinBWAlloc@odata.count": 1,
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellNetworkTransceiver": {
+                "DeviceDescription": "Network Transceiver in Fibre Channel in Slot 1 Port 1",
+                "FQDD": "NetworkTransceiver.Integrated.1:FC.Slot.1-1",
+                "Id": "NetworkTransceiver.Integrated.1:FC.Slot.1-1",
+                "IdentifierType": "SFP/SFP+/SFP28",
+                "InterfaceType": "OpticalFiber",
+                "Name": "DellNetworkTransceiver",
+                "PartNumber": "AFBR-57G5MZ-ELX",
+                "Revision": " ",
+                "SerialNumber": "AD1827G03D5",
+                "VendorName": "AVAGO",
+                "@odata.context": "/redfish/v1/$metadata#DellNetworkTransceiver.DellNetworkTransceiver",
+                "@odata.type": "#DellNetworkTransceiver.v1_0_0.DellNetworkTransceiver",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkPorts/FC.Slot.1-1/Oem/Dell/DellNetworkTransceivers/NetworkTransceiver.Integrated.1:FC.Slot.1-1"
+            }
+        }
+    },
+    "PhysicalPortNumber": "1",
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "SupportedEthernetCapabilities": [],
+    "SupportedEthernetCapabilities@odata.count": 0,
+    "SupportedLinkCapabilities": [
+        {
+            "LinkNetworkTechnology": "FibreChannel",
+            "LinkSpeedMbps": 0
+        }
+    ],
+    "SupportedLinkCapabilities@odata.count": 1,
+    "VendorId": "10df"
+}

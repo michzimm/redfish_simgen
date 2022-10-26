@@ -1,0 +1,158 @@
+{
+    "@Redfish.Settings": {
+        "@odata.context": "/redfish/v1/$metadata#Settings.Settings",
+        "@odata.type": "#Settings.v1_3_1.Settings",
+        "SettingsObject": {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1/Settings"
+        },
+        "SupportedApplyTimes": [
+            "OnReset",
+            "AtMaintenanceWindowStart",
+            "InMaintenanceWindowOnReset"
+        ]
+    },
+    "@odata.context": "/redfish/v1/$metadata#NetworkDeviceFunction.NetworkDeviceFunction",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1",
+    "@odata.type": "#NetworkDeviceFunction.v1_5_1.NetworkDeviceFunction",
+    "AssignablePhysicalPorts": [
+        {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkPorts/FC.Slot.1-1"
+        }
+    ],
+    "AssignablePhysicalPorts@odata.count": 1,
+    "Description": "NetworkDeviceFunction",
+    "Ethernet": {},
+    "FibreChannel": {
+        "BootTargets": [
+            {
+                "LUNID": "0",
+                "WWPN": "00:00:00:00:00:00:00:00"
+            }
+        ],
+        "BootTargets@odata.count": 1,
+        "FCoEActiveVLANId": null,
+        "FCoELocalVLANId": null,
+        "PermanentWWNN": "20:00:00:10:9B:5A:4A:58",
+        "PermanentWWPN": "10:00:00:10:9B:5A:4A:58",
+        "WWNN": "20:00:00:10:9B:5A:4A:58",
+        "WWNSource": "ProvidedByFabric",
+        "WWPN": "10:00:00:10:9B:5A:4A:58"
+    },
+    "Id": "FC.Slot.1-1",
+    "Links": {
+        "PhysicalPortAssignment": {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkPorts/FC.Slot.1-1"
+        },
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                "DellNetworkAttributes": {
+                    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1/Oem/Dell/DellNetworkAttributes/FC.Slot.1-1"
+                },
+                "CPUAffinity": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                    }
+                ],
+                "CPUAffinity@odata.count": 1
+            }
+        }
+    },
+    "MaxVirtualFunctions": null,
+    "Name": "NetworkDeviceFunction",
+    "NetDevFuncCapabilities": [
+        "Disabled",
+        "FibreChannel"
+    ],
+    "NetDevFuncCapabilities@odata.count": 2,
+    "NetDevFuncType": "FibreChannel",
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellNIC": null,
+            "DellNICPortMetrics": null,
+            "DellNICCapabilities": null,
+            "DellFC": {
+                "Bus": 23,
+                "CableLengthMetres": null,
+                "ChipType": null,
+                "Device": 0,
+                "DeviceDescription": "Fibre Channel in Slot 1 Port 1",
+                "DeviceName": "Port 0: Emulex LightPulse LPe32002-M2-D 2-Port 32Gb Fibre  - FC ",
+                "EFIVersion": "12.0.257.5",
+                "FCTapeEnable": "Disabled",
+                "FabricLoginRetryCount": 0,
+                "FabricLoginTimeout": 0,
+                "FamilyVersion": "03.00.14",
+                "FramePayloadSize": null,
+                "Function": 0,
+                "HardZoneAddress": 0,
+                "HardZoneEnable": "Disabled",
+                "Id": "FC.Slot.1-1",
+                "IdentifierType": null,
+                "LinkDownTimeout": 0,
+                "LoopResetDelay": 0,
+                "Name": "DellFC",
+                "PartNumber": "0MHFHK",
+                "PortDownRetryCount": 0,
+                "PortDownTimeout": 0,
+                "PortLoginRetryCount": 0,
+                "PortLoginTimeout": 1,
+                "Revision": null,
+                "SecondFCTargetLUN": 0,
+                "SecondFCTargetWWPN": "00:00:00:00:00:00:00:00",
+                "SerialNumber": "MYFLPB38BTM033",
+                "TransceiverPartNumber": null,
+                "TransceiverSerialNumber": null,
+                "TransceiverVendorName": null,
+                "@odata.context": "/redfish/v1/$metadata#DellFC.DellFC",
+                "@odata.type": "#DellFC.v1_3_0.DellFC",
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1/Oem/Dell/DellFC/FC.Slot.1-1"
+            },
+            "DellFCPortMetrics": {
+                "FCInvalidCRCs": 0,
+                "FCLinkFailures": 0,
+                "FCLossOfSignals": 0,
+                "FCRxKBCount": 0,
+                "FCRxSequences": null,
+                "FCRxTotalFrames": 0,
+                "FCTxKBCount": 0,
+                "FCTxSequences": null,
+                "FCTxTotalFrames": 0,
+                "Id": "FC.Slot.1-1",
+                "Name": "DellFCPortMetrics",
+                "OSDriverState": "Operational",
+                "PortStatus": "Down",
+                "@odata.context": "/redfish/v1/$metadata#DellFCPortMetrics.DellFCPortMetrics",
+                "@odata.type": "#DellFCPortMetrics.v1_1_1.DellFCPortMetrics",
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1/Oem/Dell/DellFCPortMetrics/FC.Slot.1-1"
+            },
+            "DellFCCapabilities": {
+                "FCMaxNumberExchanges": 6144,
+                "FCMaxNumberOutStandingCommands": 12289,
+                "FeatureLicensingSupport": "NotSupported",
+                "FlexAddressingSupport": "Supported",
+                "Id": "FC.Slot.1-1",
+                "Name": "DellFCCapabilities",
+                "OnChipThermalSensor": "Supported",
+                "PersistencePolicySupport": "Supported",
+                "uEFISupport": "Supported",
+                "@odata.context": "/redfish/v1/$metadata#DellFCCapabilities.DellFCCapabilities",
+                "@odata.type": "#DellFCCapabilities.v1_0_0.DellFCCapabilities",
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1/Oem/Dell/DellFCCapabilities/FC.Slot.1-1"
+            },
+            "DellInfiniBand": null,
+            "DellInfiniBandPortMetrics": null,
+            "DellInfiniBandCapabilities": null
+        }
+    },
+    "PhysicalPortAssignment": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkPorts/FC.Slot.1-1"
+    },
+    "Status": {
+        "State": "Enabled",
+        "Health": "OK",
+        "HealthRollup": "OK"
+    },
+    "iSCSIBoot": {}
+}

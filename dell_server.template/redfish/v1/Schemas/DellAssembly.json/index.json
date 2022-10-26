@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellAssembly.json",
+    "$ref": "#/definitions/DellAssembly",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellAssembly": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellAssembly.v1_0_0.json#/definitions/DellAssembly"
+                }
+            ],
+            "deletable": false,
+            "description": "This resource shall be used to represent an assembly information.",
+            "insertable": false,
+            "longDescription": "This resource shall be used to represent an assembly information.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Chassis/{ComputerSystemId}/Oem/Dell/DellAssembly/{AssemblyId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellAssembly.DellAssembly"
+}

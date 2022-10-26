@@ -1,0 +1,30 @@
+{
+    "$id": "/redfish/v1/Schemas/Thermal.json",
+    "$ref": "#/definitions/Thermal",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright",
+    "definitions": {
+        "Thermal": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/Thermal.v1_6_2.json#/definitions/Thermal"
+                }
+            ],
+            "deletable": false,
+            "description": "The Thermal schema describes temperature monitoring and thermal management subsystems, such as cooling fans, for a computer system or similar devices contained within a chassis.",
+            "insertable": false,
+            "longDescription": "This resource shall contain the thermal management properties for temperature monitoring and management of cooling fans for a Redfish implementation.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/System.Embedded.1/Processors/{ProcessorId}/Oem/Dell/ThermalMetrics",
+                "/redfish/v1/Systems/System.Embedded.1/Processors/{ProcessorId}/FPGA/Oem/Dell/ThermalMetrics",
+                "/redfish/v1/Chassis/{ChassisId}/Thermal"
+            ]
+        }
+    },
+    "owningEntity": "DMTF",
+    "title": "#Thermal.Thermal"
+}

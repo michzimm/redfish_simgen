@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellInfiniBand.json",
+    "$ref": "#/definitions/DellInfiniBand",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellInfiniBand": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellInfiniBand.v1_1_0.json#/definitions/DellInfiniBand"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellInfiniBand will have InfiniBand device specific data.",
+            "insertable": false,
+            "longDescription": "An instance of DellInfiniBand will have InfiniBand device specific data.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/NetworkAdapters/{NetworkId}/NetworkDeviceFunctions/Oem/Dell/DellInfiniBand/{InfiniBandId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/NetworkAdapters/{NetworkId}/NetworkDeviceFunctions/{NetworkDeviceId}/Oem/Dell/DellInfiniBand/{InfiniBandId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellInfiniBand.DellInfiniBand"
+}

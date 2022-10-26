@@ -1,0 +1,63 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "1661896872",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/5-0/PCIeFunctions/5-0-0",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x000001",
+    "Description": "BOSS-S2 Adapter",
+    "DeviceClass": "MassStorageController",
+    "DeviceId": "0x9230",
+    "FunctionId": 0,
+    "FunctionType": "Physical",
+    "Id": "5-0-0",
+    "Links": {
+        "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1/Drives/Disk.Direct.0-0:AHCI.SL.6-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1/Drives/Disk.Direct.1-1:AHCI.SL.6-1"
+            }
+        ],
+        "Drives@odata.count": 2,
+        "EthernetInterfaces": [],
+        "EthernetInterfaces@odata.count": 0,
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/5-0"
+        },
+        "StorageControllers": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1#/StorageControllers/0"
+            }
+        ],
+        "StorageControllers@odata.count": 1
+    },
+    "Name": "BOSS-S2 Adapter",
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellPCIeFunction": {
+                "@odata.context": "/redfish/v1/$metadata#DellPCIeFunction.DellPCIeFunction",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/5-0/PCIeFunctions/5-0-0/Oem/Dell/DellPCIeFunctions/AHCI.SL.6-1",
+                "@odata.type": "#DellPCIeFunction.v1_3_0.DellPCIeFunction",
+                "DataBusWidth": "Unknown",
+                "Description": "An instance of DellPCIeFunction will have PCI device specific data.",
+                "Id": "AHCI.SL.6-1",
+                "LastSystemInventoryTime": "2022-08-30T22:00:48+00:00",
+                "LastUpdateTime": "2022-04-06T08:56:37+00:00",
+                "Name": "DellPCIeFunction",
+                "SlotLength": "Unknown",
+                "SlotType": "Unknown"
+            }
+        }
+    },
+    "RevisionId": "0x11",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x2010",
+    "SubsystemVendorId": "0x1028",
+    "VendorId": "0x1b4b"
+}

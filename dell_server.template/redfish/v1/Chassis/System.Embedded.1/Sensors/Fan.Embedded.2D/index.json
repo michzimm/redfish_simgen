@@ -1,0 +1,50 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Sensor.Sensor",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Sensors/Fan.Embedded.2D",
+    "@odata.type": "#Sensor.v1_1_1.Sensor",
+    "Name": "System Board Fan2D",
+    "Id": "Fan.Embedded.2D",
+    "Description": "Instance of Sensor Id",
+    "ReadingType": "Rotational",
+    "ReadingUnits": "RPM",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "Reading": 5400.0,
+    "PhysicalContext": "SystemBoard",
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOemSensor.v1_0_0.DellOemSensor",
+            "CurrentState": "Normal",
+            "DeviceID": "0x17||Fan.Embedded.2D",
+            "PossibleStates": [
+                "Unknown",
+                "Fatal",
+                "Normal",
+                "Upper Fatal",
+                "Upper Critical",
+                "Upper Non-Critical",
+                "Lower Non-Critical",
+                "Lower Critical",
+                "Lower Fatal"
+            ],
+            "PossibleStates@odata.count": 9,
+            "RequestedState": "NotApplicable"
+        }
+    },
+    "Thresholds": {
+        "UpperCritical": {
+            "Reading": null
+        },
+        "UpperCaution": {
+            "Reading": null
+        },
+        "LowerCaution": {
+            "Reading": 840
+        },
+        "LowerCritical": {
+            "Reading": 480
+        }
+    }
+}

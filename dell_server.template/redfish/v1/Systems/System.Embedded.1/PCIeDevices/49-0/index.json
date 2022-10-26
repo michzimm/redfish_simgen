@@ -1,0 +1,42 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeDevice.PCIeDevice",
+    "@odata.etag": "1661896872",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/49-0",
+    "@odata.type": "#PCIeDevice.v1_4_0.PCIeDevice",
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+    },
+    "AssetTag": null,
+    "Description": "MT27800 Family [ConnectX-5]",
+    "DeviceType": "MultiFunction",
+    "FirmwareVersion": "16.28.45.12",
+    "Id": "49-0",
+    "Links": {
+        "Chassis": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+            }
+        ],
+        "Chassis@odata.count": 1,
+        "PCIeFunctions": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/49-0/PCIeFunctions/49-0-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/49-0/PCIeFunctions/49-0-0"
+            }
+        ],
+        "PCIeFunctions@odata.count": 2
+    },
+    "Manufacturer": "Mellanox Technologies",
+    "Model": null,
+    "Name": "MT27800 Family [ConnectX-5]",
+    "PartNumber": "04TRD3",
+    "SKU": null,
+    "SerialNumber": "INJBNM414TJ0AL",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

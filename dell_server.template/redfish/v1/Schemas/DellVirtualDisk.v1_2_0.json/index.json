@@ -1,0 +1,663 @@
+{
+    "$id": "/redfish/v1/Schemas/DellVirtualDisk.v1_2_0.json",
+    "$ref": "#/definitions/DellVirtualDisk",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "BusProtocol": {
+            "enum": [
+                "FIBRE",
+                "PATA",
+                "PCIE",
+                "SAS",
+                "SATA",
+                "SCSI",
+                "USB",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "FIBRE": "FIBRE",
+                "PATA": "PATA",
+                "PCIE": "PCIE",
+                "SAS": "SAS",
+                "SATA": "SATA",
+                "SCSI": "SCSI",
+                "USB": "USB",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "FIBRE": "FIBRE",
+                "PATA": "PATA",
+                "PCIE": "PCIE",
+                "SAS": "SAS",
+                "SATA": "SATA",
+                "SCSI": "SCSI",
+                "USB": "USB",
+                "Unknown": "Unknown"
+            },
+            "type": "string"
+        },
+        "Cachecade": {
+            "enum": [
+                "CachecadeVD",
+                "NonCachecadeVD"
+            ],
+            "enumDescriptions": {
+                "CachecadeVD": "Cachecade Virtual Disk",
+                "NonCachecadeVD": "Not a Cachecade Virtual Disk"
+            },
+            "enumLongDescriptions": {
+                "CachecadeVD": "Cachecade Virtual Disk",
+                "NonCachecadeVD": "Not a Cachecade Virtual Disk"
+            },
+            "type": "string"
+        },
+        "DellVirtualDisk": {
+            "additionalProperties": false,
+            "description": "An instance of DellVirtualDisk will have data specific to the Virtual Disks in the system.",
+            "longDescription": "An instance of DellVirtualDisk will have data specific to the Virtual Disks in the system.",
+            "patternProperties": {
+                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_]*$": {
+                    "description": "This property shall specify a valid odata or Redfish property.",
+                    "type": [
+                        "array",
+                        "boolean",
+                        "integer",
+                        "number",
+                        "null",
+                        "object",
+                        "string"
+                    ]
+                }
+            },
+            "properties": {
+                "@odata.context": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/context"
+                },
+                "@odata.etag": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/etag"
+                },
+                "@odata.id": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/id"
+                },
+                "@odata.type": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/type"
+                },
+                "BusProtocol": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/BusProtocol"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent the bus protocol.",
+                    "longDescription": "The property shall represent the bus protocol.",
+                    "readonly": true
+                },
+                "Cachecade": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/Cachecade"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent the Cachecade property can have following values and shall be one of the following values:0-Not a cachecade Virtual Disk,  1-Cachecade Virtual Disk.",
+                    "longDescription": "The property shall represent the Cachecade property can have following values and shall be one of the following values:0-Not a cachecade Virtual Disk,  1-Cachecade Virtual Disk.",
+                    "readonly": true
+                },
+                "Description": {
+                    "anyOf": [
+                        {
+                            "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Description"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "readonly": true
+                },
+                "DiskCachePolicy": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/DiskCachePolicy"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent the policy for physical disks included in the virtual disk.",
+                    "longDescription": "The property shall represent the policy for physical disks included in the virtual disk.",
+                    "readonly": true
+                },
+                "Id": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Id",
+                    "readonly": true
+                },
+                "LastSystemInventoryTime": {
+                    "description": "This property provides the time when System Inventory Collection On Reboot (CSIOR) was last performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.",
+                    "format": "date-time",
+                    "longDescription": "This property provides the time when System Inventory Collection On Reboot (CSIOR) was last performed or the object was last updated on iDRAC. The value is represented as yyyymmddHHMMSS.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "LastUpdateTime": {
+                    "description": "This property provides the time when the data was last updated. The value is represented as yyyymmddHHMMSS.",
+                    "format": "date-time",
+                    "longDescription": "This property provides the time when the data was last updated. The value is represented as yyyymmddHHMMSS.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "LockStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/LockStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent if this Virtual Disk is locked.",
+                    "longDescription": "The property shall represent if this Virtual Disk is locked.",
+                    "readonly": true
+                },
+                "MediaType": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/MediaType"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent the drive media type.",
+                    "longDescription": "The property shall represent the drive media type.",
+                    "readonly": true
+                },
+                "Name": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Name",
+                    "readonly": true
+                },
+                "ObjectStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/ObjectStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the virtual disk configuration state.",
+                    "longDescription": "This property represents the virtual disk configuration state.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "Oem": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Oem",
+                    "description": "The OEM extension property.",
+                    "longDescription": "This property shall contain the OEM extensions.  All values for properties that this object contains shall conform to the Redfish Specification-described requirements."
+                },
+                "OperationName": {
+                    "description": "This property represents the operation that is running on a virtual disk in background. If no operation is running, the value is \"None\".",
+                    "longDescription": "This property represents the operation that is running on a virtual disk in background. If no operation is running, the value is \"None\".",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "OperationPercentComplete": {
+                    "description": "This property represents the percentage of completion of the operation that is represented by the OperationName property.",
+                    "longDescription": "This property represents the percentage of completion of the operation that is represented by the OperationName property.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "PrimaryStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/PrimaryStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the status of the device.",
+                    "longDescription": "This property represents the status of the device.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "RaidStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/RaidStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the RAID specific status.",
+                    "longDescription": "This property represents the RAID specific status.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "ReadCachePolicy": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/ReadCachePolicy"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent the current read policy.",
+                    "longDescription": "The property shall represent the current read policy.",
+                    "readonly": true
+                },
+                "RemainingRedundancy": {
+                    "description": "This property provides information about the remaining redundancy of the virtual disk.",
+                    "longDescription": "This property provides information about the remaining redundancy of the virtual disk.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "SpanDepth": {
+                    "description": "The property shall represent the number of spans in virtual disk.",
+                    "longDescription": "The property shall represent the number of spans in virtual disk.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "SpanLength": {
+                    "description": "The property shall represent the number of physical disks per span.",
+                    "longDescription": "The property shall represent the number of physical disks per span.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "StartingLBAinBlocks": {
+                    "description": "This property represents the starting logical block address in blocks for virtual disk.",
+                    "longDescription": "This property represents the starting logical block address in blocks for virtual disk.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "StripeSize": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/StripeSize"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the current strip size.",
+                    "longDescription": "This property represents the current strip size.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "T10PIStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/T10PIStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "T10PIStatus indicates whether T10 Protection Information is enabled on the virtual disk.",
+                    "longDescription": "T10PIStatus indicates whether T10 Protection Information is enabled on the virtual disk.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "VirtualDiskTargetID": {
+                    "description": "The property shall represent the virtual disk target number.",
+                    "longDescription": "The property shall represent the virtual disk target number.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ]
+                },
+                "WriteCachePolicy": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/WriteCachePolicy"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property shall represent the current write policy.",
+                    "longDescription": "The property shall represent the current write policy.",
+                    "readonly": true
+                }
+            },
+            "required": [
+                "@odata.id",
+                "@odata.type",
+                "Id",
+                "Name"
+            ],
+            "type": "object"
+        },
+        "DiskCachePolicy": {
+            "enum": [
+                "Default",
+                "Disabled",
+                "Enabled",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "Default": "Default",
+                "Disabled": "Disabled",
+                "Enabled": "Enabled",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "Default": "Default",
+                "Disabled": "Disabled",
+                "Enabled": "Enabled",
+                "Unknown": "Unknown"
+            },
+            "type": "string"
+        },
+        "LockStatus": {
+            "enum": [
+                "Locked",
+                "Unlocked"
+            ],
+            "enumDescriptions": {
+                "Locked": "Locked",
+                "Unlocked": "Unlocked"
+            },
+            "enumLongDescriptions": {
+                "Locked": "Locked",
+                "Unlocked": "Unlocked"
+            },
+            "type": "string"
+        },
+        "MediaType": {
+            "enum": [
+                "HardDiskDrive",
+                "SolidStateDrive",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "HardDiskDrive": "Hard Disk Drive",
+                "SolidStateDrive": "Solid State Drive",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "HardDiskDrive": "Hard Disk Drive",
+                "SolidStateDrive": "Solid State Drive",
+                "Unknown": "Unknown"
+            },
+            "type": "string"
+        },
+        "ObjectStatus": {
+            "enum": [
+                "Current",
+                "CurrentVirtualDiskPendingDelete",
+                "Pending",
+                "PendingCreate"
+            ],
+            "enumDescriptions": {
+                "Current": "Current",
+                "CurrentVirtualDiskPendingDelete": "Current Virtual Disk Pending Delete",
+                "Pending": "Pending",
+                "PendingCreate": "Pending Create"
+            },
+            "enumLongDescriptions": {
+                "Current": "Current",
+                "CurrentVirtualDiskPendingDelete": "Current Virtual Disk Pending Delete",
+                "Pending": "Pending",
+                "PendingCreate": "Pending Create"
+            },
+            "enumVersionAdded": {
+                "Current": "v1_1_0",
+                "CurrentVirtualDiskPendingDelete": "v1_1_0",
+                "Pending": "v1_1_0",
+                "PendingCreate": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "PrimaryStatus": {
+            "enum": [
+                "Degraded",
+                "Error",
+                "OK",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "Degraded": "Degraded",
+                "Error": "Error",
+                "OK": "OK",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "Degraded": "Degraded",
+                "Error": "Error",
+                "OK": "OK",
+                "Unknown": "Unknown"
+            },
+            "enumVersionAdded": {
+                "Degraded": "v1_1_0",
+                "Error": "v1_1_0",
+                "OK": "v1_1_0",
+                "Unknown": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "RaidStatus": {
+            "enum": [
+                "Blocked",
+                "Degraded",
+                "Failed",
+                "Foreign",
+                "Offline",
+                "Online",
+                "Ready",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "Blocked": "Blocked",
+                "Degraded": "Degraded",
+                "Failed": "Failed",
+                "Foreign": "Foreign",
+                "Offline": "Offline",
+                "Online": "Online",
+                "Ready": "Ready",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "Blocked": "Blocked",
+                "Degraded": "Degraded",
+                "Failed": "Failed",
+                "Foreign": "Foreign",
+                "Offline": "Offline",
+                "Online": "Online",
+                "Ready": "Ready",
+                "Unknown": "Unknown"
+            },
+            "enumVersionAdded": {
+                "Blocked": "v1_1_0",
+                "Degraded": "v1_1_0",
+                "Failed": "v1_1_0",
+                "Foreign": "v1_1_0",
+                "Offline": "v1_1_0",
+                "Online": "v1_1_0",
+                "Ready": "v1_1_0",
+                "Unknown": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "ReadCachePolicy": {
+            "enum": [
+                "AdaptiveReadAhead",
+                "NoReadAhead",
+                "ReadAhead",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "AdaptiveReadAhead": "Adaptive Read Ahead",
+                "NoReadAhead": "No Read Ahead",
+                "ReadAhead": "Read Ahead",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "AdaptiveReadAhead": "Adaptive Read Ahead",
+                "NoReadAhead": "No Read Ahead",
+                "ReadAhead": "Read Ahead",
+                "Unknown": "Unknown"
+            },
+            "type": "string"
+        },
+        "StripeSize": {
+            "enum": [
+                "128KB",
+                "16KB",
+                "16MB",
+                "1KB",
+                "1MB",
+                "256KB",
+                "2KB",
+                "2MB",
+                "32KB",
+                "4KB",
+                "4MB",
+                "512B",
+                "512KB",
+                "64KB",
+                "8KB",
+                "8MB",
+                "Default"
+            ],
+            "enumDescriptions": {
+                "128KB": "128KB",
+                "16KB": "16KB",
+                "16MB": "16MB",
+                "1KB": "1KB",
+                "1MB": "1MB",
+                "256KB": "256KB",
+                "2KB": "2KB",
+                "2MB": "2MB",
+                "32KB": "32KB",
+                "4KB": "4KB",
+                "4MB": "4MB",
+                "512B": "512B",
+                "512KB": "512KB",
+                "64KB": "64KB",
+                "8KB": "8KB",
+                "8MB": "8MB",
+                "Default": "Default"
+            },
+            "enumLongDescriptions": {
+                "128KB": "128KB",
+                "16KB": "16KB",
+                "16MB": "16MB",
+                "1KB": "1KB",
+                "1MB": "1MB",
+                "256KB": "256KB",
+                "2KB": "2KB",
+                "2MB": "2MB",
+                "32KB": "32KB",
+                "4KB": "4KB",
+                "4MB": "4MB",
+                "512B": "512B",
+                "512KB": "512KB",
+                "64KB": "64KB",
+                "8KB": "8KB",
+                "8MB": "8MB",
+                "Default": "Default"
+            },
+            "enumVersionAdded": {
+                "128KB": "v1_1_0",
+                "16KB": "v1_1_0",
+                "16MB": "v1_1_0",
+                "1KB": "v1_1_0",
+                "1MB": "v1_1_0",
+                "256KB": "v1_1_0",
+                "2KB": "v1_1_0",
+                "2MB": "v1_1_0",
+                "32KB": "v1_1_0",
+                "4KB": "v1_1_0",
+                "4MB": "v1_1_0",
+                "512B": "v1_1_0",
+                "512KB": "v1_1_0",
+                "64KB": "v1_1_0",
+                "8KB": "v1_1_0",
+                "8MB": "v1_1_0",
+                "Default": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "T10PIStatus": {
+            "enum": [
+                "Disabled",
+                "Enabled"
+            ],
+            "enumDescriptions": {
+                "Disabled": "Disabled",
+                "Enabled": "Enabled"
+            },
+            "enumLongDescriptions": {
+                "Disabled": "Disabled",
+                "Enabled": "Enabled"
+            },
+            "enumVersionAdded": {
+                "Disabled": "v1_1_0",
+                "Enabled": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "WriteCachePolicy": {
+            "enum": [
+                "Unknown",
+                "WriteBack",
+                "WriteBackForce",
+                "WriteThrough"
+            ],
+            "enumDescriptions": {
+                "Unknown": "Unknown",
+                "WriteBack": "Write Back",
+                "WriteBackForce": "Write Back Force",
+                "WriteThrough": "Write Through"
+            },
+            "enumLongDescriptions": {
+                "Unknown": "Unknown",
+                "WriteBack": "Write Back",
+                "WriteBackForce": "Write Back Force",
+                "WriteThrough": "Write Through"
+            },
+            "type": "string"
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellVirtualDisk.v1_2_0.DellVirtualDisk"
+}

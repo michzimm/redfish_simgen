@@ -1,0 +1,249 @@
+{
+    "@odata.type": "#MetricReportDefinition.v1_4_0.MetricReportDefinition",
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/ThermalMetrics",
+    "Id": "ThermalMetrics",
+    "Name": "Thermal Metrics Metric Report",
+    "Description": "Thermal Metrics",
+    "AppendLimit": 2400,
+    "MetricReportDefinitionEnabled": false,
+    "MetricReportDefinitionType": "Periodic",
+    "MetricReportHeartbeatInterval": "PT0H0M0S",
+    "SuppressRepeatedMetricValue": false,
+    "ReportTimespan": "PT0H0M0S",
+    "ReportUpdates": "Overwrite",
+    "MetricReportDefinitionType@Redfish.AllowableValues": [
+        "Periodic",
+        "OnChange",
+        "OnRequest"
+    ],
+    "MetricReportDefinitionType@Redfish.AllowableValues@odata.count": 3,
+    "ReportUpdates@Redfish.AllowableValues": [
+        "AppendStopsWhenFull",
+        "AppendWrapsWhenFull",
+        "NewReport",
+        "Overwrite"
+    ],
+    "ReportUpdates@Redfish.AllowableValues@odata.count": 4,
+    "ReportActions": [
+        "RedfishEvent",
+        "LogToMetricReportsCollection"
+    ],
+    "ReportActions@odata.count": 2,
+    "ReportActions@Redfish.AllowableValues": [
+        "LogToMetricReportsCollection",
+        "RedfishEvent"
+    ],
+    "ReportActions@Redfish.AllowableValues@odata.count": 2,
+    "Status": {
+        "State": "Disabled"
+    },
+    "Wildcards": [],
+    "Wildcards@odata.count": 0,
+    "Schedule": {
+        "RecurrenceInterval": "PT0H1M0S"
+    },
+    "Metrics": [
+        {
+            "MetricId": "ComputePower",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": "thermalmetrics"
+                }
+            }
+        },
+        {
+            "MetricId": "ITUE",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PSUEfficiency",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PowerToCoolRatio",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "SysAirFlowEfficiency",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "SysAirflowPerFanPower",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "SysAirflowPerSysInputPower",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "SysAirflowUtilization",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "SysNetAirflow",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "SysRackTempDelta",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TotalPSUHeatDissipation",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        }
+    ],
+    "Metrics@odata.count": 11,
+    "Links": {
+        "Triggers": [
+            {
+                "@odata.id": "/redfish/v1/TelemetryService/Triggers/TMPCriticalTrigger"
+            },
+            {
+                "@odata.id": "/redfish/v1/TelemetryService/Triggers/TMPDiskCriticalTrigger"
+            },
+            {
+                "@odata.id": "/redfish/v1/TelemetryService/Triggers/TMPDiskWarnTrigger"
+            },
+            {
+                "@odata.id": "/redfish/v1/TelemetryService/Triggers/TMPWarnTrigger"
+            }
+        ],
+        "Triggers@odata.count": 4
+    },
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellMetricReportDefinition.v1_1_0.DellMetricReportDefinition",
+            "Digest": "a3df3ce87f2578034d9950aba1f033e01a50d17d5a9820d91779ba7495640c1d",
+            "iDRACFirmwareVersion": "5.10.00.00"
+        }
+    }
+}

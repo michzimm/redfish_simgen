@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellNetworkTransceiverPortMetrics.json",
+    "$ref": "#/definitions/DellNetworkTransceiverPortMetrics",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellNetworkTransceiverPortMetrics": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellNetworkTransceiverPortMetrics.v1_0_0.json#/definitions/DellNetworkTransceiverPortMetrics"
+                }
+            ],
+            "deletable": false,
+            "description": "The DellNetworkTransceiverPortMetrics represents the statistics of the Network Transceiver.",
+            "insertable": false,
+            "longDescription": "The DellNetworkTransceiverPortMetrics represents the statistics of the Network Transceiver.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/NetworkAdapters/{NetworkId}/NetworkPorts/Oem/Dell/DellNetworkTransceiverPortMetrics/{NetworkTransceiverPortMetricsId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/NetworkAdapters/{NetworkId}/NetworkPorts/{NetworkPortId}/Oem/Dell/DellNetworkTransceiverPortMetrics/{NetworkTransceiverPortMetricsId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellNetworkTransceiverPortMetrics.DellNetworkTransceiverPortMetrics"
+}

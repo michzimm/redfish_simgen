@@ -1,0 +1,40 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#ManagerAccount.ManagerAccount",
+    "@odata.id": "/redfish/v1/AccountService/Accounts/9",
+    "@odata.type": "#ManagerAccount.v1_6_1.ManagerAccount",
+    "AccountTypes": [
+        "Redfish",
+        "SNMP",
+        "OEM"
+    ],
+    "Description": "User Account",
+    "Enabled": false,
+    "Id": "9",
+    "Links": {
+        "Role": {
+            "@odata.id": "/redfish/v1/AccountService/Roles/None"
+        }
+    },
+    "Locked": false,
+    "Name": "User Account",
+    "OEMAccountTypes": [
+        "IPMI",
+        "SOL",
+        "WSMAN",
+        "UI",
+        "RACADM"
+    ],
+    "Password": null,
+    "PasswordChangeRequired": false,
+    "PasswordExpiration": null,
+    "RoleId": "None",
+    "SNMP": {
+        "AuthenticationKey": null,
+        "AuthenticationKeySet": false,
+        "AuthenticationProtocol": "HMAC_SHA96",
+        "EncryptionKey": null,
+        "EncryptionKeySet": false,
+        "EncryptionProtocol": "CFB128_AES128"
+    },
+    "UserName": ""
+}

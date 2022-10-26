@@ -1,0 +1,22 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellCertificate.DellCertificate",
+    "@odata.id": "/redfish/v1/Managers/iDRAC.Embedded.1/Oem/Dell/HWCertificates/SecurityCertificate.2",
+    "@odata.type": "#DellCertificate.v1_0_1.DellCertificate",
+    "CertificateType": "FACTORY_IDENTITY_CERT",
+    "Description": "Factory Identity Certificate",
+    "Id": "SecurityCertificate.2",
+    "Name": "FactoryIdentity Certificate",
+    "IssuerCommonName_CN": "0IVC00-CE0C-105E-6826",
+    "IssuerCountryCode_CC": "CN",
+    "IssuerLocality_L": "Shanghai",
+    "IssuerOrganization_O": "Inventec",
+    "IssuerState_S": "Shanghai",
+    "SerialNumber": "03000000002328E5",
+    "SubjectCommonName_CN": "b0:7b:25:d1:5a:5a",
+    "SubjectCountryCode_CC": "US",
+    "SubjectLocality_L": "Round Rock",
+    "SubjectOrganization_O": "Dell EMC",
+    "SubjectState_S": "Texas",
+    "ValidFrom": "Apr  1 05:20:12 2021 GMT",
+    "ValidTo": "May 31 05:20:12 2040 GMT"
+}

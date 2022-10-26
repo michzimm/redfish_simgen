@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellInfiniBandCapabilities.json",
+    "$ref": "#/definitions/DellInfiniBandCapabilities",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellInfiniBandCapabilities": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellInfiniBandCapabilities.v1_0_0.json#/definitions/DellInfiniBandCapabilities"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellInfiniBandCapabilities will have data specific to InfiniBand and its port and partitions capabilities.",
+            "insertable": false,
+            "longDescription": "An instance of DellInfiniBandCapabilities will have data specific to InfiniBand and its port and partitions capabilities.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/NetworkAdapters/{NetworkId}/NetworkDeviceFunctions/Oem/Dell/DellInfiniBandCapabilities/{InfiniBandCapabilitiesId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/NetworkAdapters/{NetworkId}/NetworkDeviceFunctions/{NetworkDeviceId}/Oem/Dell/DellInfiniBandCapabilities/{InfiniBandCapabilitiesId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellInfiniBandCapabilities.DellInfiniBandCapabilities"
+}

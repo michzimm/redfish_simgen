@@ -1,0 +1,748 @@
+{
+    "@odata.type": "#MetricReportDefinition.v1_4_0.MetricReportDefinition",
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/NICStatistics",
+    "Id": "NICStatistics",
+    "Name": "NIC Port and Partition Statistics  Metric Report",
+    "Description": "NIC Port and Partition Statistics",
+    "AppendLimit": 2400,
+    "MetricReportDefinitionEnabled": false,
+    "MetricReportDefinitionType": "Periodic",
+    "MetricReportHeartbeatInterval": "PT0H0M0S",
+    "SuppressRepeatedMetricValue": false,
+    "ReportTimespan": "PT0H0M0S",
+    "ReportUpdates": "Overwrite",
+    "MetricReportDefinitionType@Redfish.AllowableValues": [
+        "Periodic",
+        "OnChange",
+        "OnRequest"
+    ],
+    "MetricReportDefinitionType@Redfish.AllowableValues@odata.count": 3,
+    "ReportUpdates@Redfish.AllowableValues": [
+        "AppendStopsWhenFull",
+        "AppendWrapsWhenFull",
+        "NewReport",
+        "Overwrite"
+    ],
+    "ReportUpdates@Redfish.AllowableValues@odata.count": 4,
+    "ReportActions": [
+        "RedfishEvent",
+        "LogToMetricReportsCollection"
+    ],
+    "ReportActions@odata.count": 2,
+    "ReportActions@Redfish.AllowableValues": [
+        "LogToMetricReportsCollection",
+        "RedfishEvent"
+    ],
+    "ReportActions@Redfish.AllowableValues@odata.count": 2,
+    "Status": {
+        "State": "Disabled"
+    },
+    "Wildcards": [],
+    "Wildcards@odata.count": 0,
+    "Schedule": {
+        "RecurrenceInterval": "PT0H1M0S"
+    },
+    "Metrics": [
+        {
+            "MetricId": "DiscardedPkts",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "FCCRCErrorCount",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "FCOELinkFailures",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "FCOEPktRxCount",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "FCOEPktTxCount",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "FCOERxPktDroppedCount",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "LanFCSRxErrors",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "LanUnicastPktRxCount",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "LanUnicastPktTxCount",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "LinkStatus",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "OSDriverState",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PartitionLinkStatus",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PartitionOSDriverState",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMARxTotalBytes",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMARxTotalPackets",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMATotalProtectionErrors",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMATotalProtocolErrors",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMATxTotalBytes",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMATxTotalPackets",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMATxTotalReadReqPkts",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMATxTotalSendPkts",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RDMATxTotalWritePkts",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxBroadcast",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxBytes",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktAlignmentErrors",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxErrorPktFCSErrors",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxFalseCarrierDetection",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxJabberPkt",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxMutlicast",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxPauseXOFFFrames",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxPauseXONFrames",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxRuntPkt",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "RxUnicast",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxBroadcast",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxBytes",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktExcessiveCollision",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktLateCollision",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktMultipleCollision",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxErrorPktSingleCollision",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxMutlicast",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxPauseXOFFFrames",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxPauseXONFrames",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TxUnicast",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": null,
+                    "Source": null
+                }
+            }
+        }
+    ],
+    "Metrics@odata.count": 43,
+    "Links": {
+        "Triggers": [],
+        "Triggers@odata.count": 0
+    },
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellMetricReportDefinition.v1_1_0.DellMetricReportDefinition",
+            "Digest": "15c05affe1f2b23df3f629d5f0202511e3128113af39d391307336cfa97a6772",
+            "iDRACFirmwareVersion": "5.10.00.00"
+        }
+    }
+}

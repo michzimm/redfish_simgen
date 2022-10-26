@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellEnclosureTemperatureSensor.json",
+    "$ref": "#/definitions/DellEnclosureTemperatureSensor",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellEnclosureTemperatureSensor": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellEnclosureTemperatureSensor.v1_1_0.json#/definitions/DellEnclosureTemperatureSensor"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellEnclosureTemperatureSensor will have Storage Enclosure temperature sensor specific data.",
+            "insertable": false,
+            "longDescription": "An instance of DellEnclosureTemperatureSensor will have Storage Enclosure temperature sensor specific data.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Chassis/{ComputerSystemId}/Oem/Dell/DellEnclosureTemperatureSensors/{EnclosureTemperatureSensorId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellEnclosureTemperatureSensor.DellEnclosureTemperatureSensor"
+}

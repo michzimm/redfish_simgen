@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_304_C_Disk.Direct.1-1:AHCI.SL.6-1",
+    "@odata.type": "#DellSoftwareInventory.v1_1_1.DellSoftwareInventory",
+    "BuildNumber": null,
+    "Classifications": [
+        "Firmware"
+    ],
+    "Classifications@odata.count": 1,
+    "ComponentID": "108314",
+    "ComponentType": "FRMW",
+    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+    "DeviceID": null,
+    "ElementName": "Disk 1 on AHCI Controller in SL 6",
+    "HashValue": null,
+    "Id": "DCIM:INSTALLED_0x23_304_C_Disk.Direct.1-1:AHCI.SL.6-1",
+    "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+    ],
+    "IdentityInfoType@odata.count": 1,
+    "IdentityInfoValue": [
+        "DCIM:firmware:108314"
+    ],
+    "IdentityInfoValue@odata.count": 1,
+    "InstallationDate": "2021-07-02T20:31:33Z",
+    "IsEntity": true,
+    "MajorVersion": null,
+    "MinorVersion": null,
+    "Name": "DellSoftwareInventory",
+    "RevisionNumber": null,
+    "RevisionString": null,
+    "Status": "Installed",
+    "SubDeviceID": null,
+    "SubVendorID": null,
+    "VendorID": null,
+    "impactsTPMmeasurements": false
+}

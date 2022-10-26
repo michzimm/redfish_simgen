@@ -1,0 +1,489 @@
+{
+    "$id": "/redfish/v1/Schemas/DellPCIeSSD.v1_4_0.json",
+    "$ref": "#/definitions/DellPCIeSSD",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "BusProtocol": {
+            "enum": [
+                "FIBRE",
+                "NVME",
+                "PATA",
+                "PCIE",
+                "SAS",
+                "SATA",
+                "SCSI",
+                "USB",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "FIBRE": "FIBRE",
+                "NVME": "NVME",
+                "PATA": "PATA",
+                "PCIE": "PCIE",
+                "SAS": "SAS",
+                "SATA": "SATA",
+                "SCSI": "SCSI",
+                "USB": "USB",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "FIBRE": "FIBRE",
+                "NVME": "NVME",
+                "PATA": "PATA",
+                "PCIE": "PCIE",
+                "SAS": "SAS",
+                "SATA": "SATA",
+                "SCSI": "SCSI",
+                "USB": "USB",
+                "Unknown": "Unknown"
+            },
+            "enumVersionAdded": {
+                "FIBRE": "v1_1_0",
+                "NVME": "v1_1_0",
+                "PATA": "v1_1_0",
+                "PCIE": "v1_1_0",
+                "SAS": "v1_1_0",
+                "SATA": "v1_1_0",
+                "SCSI": "v1_1_0",
+                "USB": "v1_1_0",
+                "Unknown": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "DellPCIeSSD": {
+            "additionalProperties": false,
+            "description": "An instance of DellPCIeSSD will have PCIe Solid State Drive specific data.",
+            "longDescription": "An instance of DellPCIeSSD will have PCIe Solid State Drive specific data.",
+            "patternProperties": {
+                "^([a-zA-Z_][a-zA-Z0-9_]*)?@(odata|Redfish|Message)\\.[a-zA-Z_][a-zA-Z0-9_]*$": {
+                    "description": "This property shall specify a valid odata or Redfish property.",
+                    "type": [
+                        "array",
+                        "boolean",
+                        "integer",
+                        "number",
+                        "null",
+                        "object",
+                        "string"
+                    ]
+                }
+            },
+            "properties": {
+                "@odata.context": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/context"
+                },
+                "@odata.etag": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/etag"
+                },
+                "@odata.id": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/id"
+                },
+                "@odata.type": {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/type"
+                },
+                "Bus": {
+                    "description": "This property represents the PCI bus.",
+                    "longDescription": "This property represents the PCI bus.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "BusProtocol": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/BusProtocol"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the bus protocol.",
+                    "longDescription": "This property represents the bus protocol.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "Description": {
+                    "anyOf": [
+                        {
+                            "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Description"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "readonly": true
+                },
+                "Device": {
+                    "description": "This property represents the PCI device.",
+                    "longDescription": "This property represents the PCI device.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "DeviceProtocol": {
+                    "description": "This property indicates the device protocol. For example, NVMe 1.1, NVMe 1.2 and so on.",
+                    "longDescription": "This property indicates the device protocol. For example, NVMe 1.1, NVMe 1.2 and so on.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_2_0"
+                },
+                "DriveFormFactor": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/DriveFormFactor"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property shall represent the physical disk form factor and shall be one of the following values: 0 - Unknown, 1 - 1.8 inch,  2 - 2.5 inch,  3 - 3.5 inch, 4-2.5 inch Add-in card,  5-M.2.",
+                    "longDescription": "This property shall represent the physical disk form factor and shall be one of the following values: 0 - Unknown, 1 - 1.8 inch,  2 - 2.5 inch,  3 - 3.5 inch, 4-2.5 inch Add-in card,  5-M.2.",
+                    "readonly": true
+                },
+                "FreeSizeInBytes": {
+                    "description": "This property represents the free space available for a virtual disk. Note: This field value is applicable when an NVMe drive is behind S140.",
+                    "longDescription": "This property represents the free space available for a virtual disk. Note: This field value is applicable when an NVMe drive is behind S140.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "units": "Bytes",
+                    "versionAdded": "v1_1_0"
+                },
+                "Function": {
+                    "description": "This property represents the PCI function.",
+                    "longDescription": "This property represents the PCI function.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "HotSpareStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/HotSpareStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the hot-spare status and is one of the following values: 0-No, 1-Dedicated, 2-Global. Note: This value is applicable when an NVMe drive is behind S140 controller.",
+                    "longDescription": "This property represents the hot-spare status and is one of the following values: 0-No, 1-Dedicated, 2-Global. Note: This value is applicable when an NVMe drive is behind S140 controller.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "Id": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Id",
+                    "readonly": true
+                },
+                "MediaType": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/MediaType"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the drive media type.",
+                    "longDescription": "This property represents the drive media type.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "Name": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Name",
+                    "readonly": true
+                },
+                "Oem": {
+                    "$ref": "/redfish/v1/Schemas/Resource.json#/definitions/Oem",
+                    "description": "The OEM extension property.",
+                    "longDescription": "This property shall contain the OEM extensions.  All values for properties that this object contains shall conform to the Redfish Specification-described requirements."
+                },
+                "PCIeCapableLinkWidth": {
+                    "description": "The property indicates the Capable Link Width of the PCIe SSD and is one of the following values x1, x2, x4, x8, x12, x16, x32.",
+                    "longDescription": "The property indicates the Capable Link Width of the PCIe SSD and is one of the following values x1, x2, x4, x8, x12, x16, x32.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "PCIeNegotiatedLinkWidth": {
+                    "description": "The property indicates the Negotiated Link width of the PCIe SSD and is one of the following values x1, x2, x4, x8, x12, x16, x32.",
+                    "longDescription": "The property indicates the Negotiated Link width of the PCIe SSD and is one of the following values x1, x2, x4, x8, x12, x16, x32.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "ProductID": {
+                    "description": "This property represents the DeviceID of the PCIe SSD.",
+                    "longDescription": "This property represents the DeviceID of the PCIe SSD.",
+                    "readonly": true,
+                    "type": [
+                        "string",
+                        "null"
+                    ],
+                    "versionAdded": "v1_1_0"
+                },
+                "RAIDType": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/RAIDType"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property indicates type of RAID and indicates if the RAID is software based.",
+                    "longDescription": "The property indicates type of RAID and indicates if the RAID is software based.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "RaidStatus": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/RaidStatus"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "This property represents the RAID specific status.",
+                    "longDescription": "This property represents the RAID specific status.",
+                    "readonly": true,
+                    "versionAdded": "v1_2_0"
+                },
+                "Slot": {
+                    "description": "This property represents the slot where the drive is located.",
+                    "longDescription": "This property represents the slot where the drive is located.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "versionAdded": "v1_3_0"
+                },
+                "SystemEraseCapability": {
+                    "anyOf": [
+                        {
+                            "$ref": "#/definitions/SystemEraseCapability"
+                        },
+                        {
+                            "type": "null"
+                        }
+                    ],
+                    "description": "The property indicates the storage component system-erase capability.",
+                    "longDescription": "The property indicates the storage component system-erase capability.",
+                    "readonly": true,
+                    "versionAdded": "v1_1_0"
+                },
+                "UsedSizeInBytes": {
+                    "description": "This property indicates the space already consumed by virtual disks.",
+                    "longDescription": "This property indicates the space already consumed by virtual disks.",
+                    "readonly": true,
+                    "type": [
+                        "integer",
+                        "null"
+                    ],
+                    "units": "Bytes",
+                    "versionAdded": "v1_4_0"
+                }
+            },
+            "required": [
+                "@odata.id",
+                "@odata.type",
+                "Id",
+                "Name"
+            ],
+            "type": "object"
+        },
+        "DriveFormFactor": {
+            "enum": [
+                "1.8Inch",
+                "2.5Inch",
+                "3.5Inch",
+                "AddInCard",
+                "EDSFF-E1.L",
+                "M.2",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "1.8Inch": "1.8 inch",
+                "2.5Inch": "2.5 inch",
+                "3.5Inch": "3.5 inch",
+                "AddInCard": "Add-in card",
+                "EDSFF-E1.L": "EDSFF-E1.L",
+                "M.2": "M.2",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "1.8Inch": "1.8 inch",
+                "2.5Inch": "2.5 inch",
+                "3.5Inch": "3.5 inch",
+                "AddInCard": "Add-in card",
+                "EDSFF-E1.L": "EDSFF-E1.L",
+                "M.2": "M.2",
+                "Unknown": "Unknown"
+            },
+            "type": "string"
+        },
+        "HotSpareStatus": {
+            "enum": [
+                "Dedicated",
+                "Global",
+                "No"
+            ],
+            "enumDescriptions": {
+                "Dedicated": "Dedicated",
+                "Global": "Global",
+                "No": "No"
+            },
+            "enumLongDescriptions": {
+                "Dedicated": "Dedicated",
+                "Global": "Global",
+                "No": "No"
+            },
+            "enumVersionAdded": {
+                "Dedicated": "v1_1_0",
+                "Global": "v1_1_0",
+                "No": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "MediaType": {
+            "enum": [
+                "HDD",
+                "SolidStateDrive"
+            ],
+            "enumDescriptions": {
+                "HDD": "HDD",
+                "SolidStateDrive": "Solid State Drive"
+            },
+            "enumLongDescriptions": {
+                "HDD": "HDD",
+                "SolidStateDrive": "Solid State Drive"
+            },
+            "enumVersionAdded": {
+                "HDD": "v1_1_0",
+                "SolidStateDrive": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "RAIDType": {
+            "enum": [
+                "HardwareRAID",
+                "MDSoftwareRAID",
+                "Unknown",
+                "WindowsSoftwareRAID"
+            ],
+            "enumDescriptions": {
+                "HardwareRAID": "HardwareRAID",
+                "MDSoftwareRAID": "MDSoftwareRAID",
+                "Unknown": "Unknown",
+                "WindowsSoftwareRAID": "WindowsSoftwareRAID"
+            },
+            "enumLongDescriptions": {
+                "HardwareRAID": "HardwareRAID",
+                "MDSoftwareRAID": "MDSoftwareRAID",
+                "Unknown": "Unknown",
+                "WindowsSoftwareRAID": "WindowsSoftwareRAID"
+            },
+            "enumVersionAdded": {
+                "HardwareRAID": "v1_1_0",
+                "MDSoftwareRAID": "v1_1_0",
+                "Unknown": "v1_1_0",
+                "WindowsSoftwareRAID": "v1_1_0"
+            },
+            "type": "string"
+        },
+        "RaidStatus": {
+            "enum": [
+                "Blocked",
+                "Degraded",
+                "Failed",
+                "Foreign",
+                "NonRAID",
+                "Offline",
+                "Online",
+                "Ready",
+                "Unknown"
+            ],
+            "enumDescriptions": {
+                "Blocked": "Blocked",
+                "Degraded": "Degraded",
+                "Failed": "Failed",
+                "Foreign": "Foreign",
+                "NonRAID": "Non-RAID",
+                "Offline": "Offline",
+                "Online": "Online",
+                "Ready": "Ready",
+                "Unknown": "Unknown"
+            },
+            "enumLongDescriptions": {
+                "Blocked": "Blocked",
+                "Degraded": "Degraded",
+                "Failed": "Failed",
+                "Foreign": "Foreign",
+                "NonRAID": "Non-RAID",
+                "Offline": "Offline",
+                "Online": "Online",
+                "Ready": "Ready",
+                "Unknown": "Unknown"
+            },
+            "enumVersionAdded": {
+                "Blocked": "v1_2_0",
+                "Degraded": "v1_2_0",
+                "Failed": "v1_2_0",
+                "Foreign": "v1_2_0",
+                "NonRAID": "v1_2_0",
+                "Offline": "v1_2_0",
+                "Online": "v1_2_0",
+                "Ready": "v1_2_0",
+                "Unknown": "v1_2_0"
+            },
+            "type": "string"
+        },
+        "SystemEraseCapability": {
+            "enum": [
+                "CryptographicErasePD",
+                "NotSupported",
+                "OverwritePD"
+            ],
+            "enumDescriptions": {
+                "CryptographicErasePD": "CryptographicErasePD",
+                "NotSupported": "Not Supported",
+                "OverwritePD": "OverwritePD"
+            },
+            "enumLongDescriptions": {
+                "CryptographicErasePD": "CryptographicErasePD",
+                "NotSupported": "Not Supported",
+                "OverwritePD": "OverwritePD"
+            },
+            "enumVersionAdded": {
+                "CryptographicErasePD": "v1_1_0",
+                "NotSupported": "v1_1_0",
+                "OverwritePD": "v1_1_0"
+            },
+            "type": "string"
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellPCIeSSD.v1_4_0.DellPCIeSSD"
+}

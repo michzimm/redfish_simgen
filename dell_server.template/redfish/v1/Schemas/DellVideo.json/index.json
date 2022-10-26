@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellVideo.json",
+    "$ref": "#/definitions/DellVideo",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellVideo": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellVideo.v1_1_0.json#/definitions/DellVideo"
+                }
+            ],
+            "deletable": false,
+            "description": "DellVideo provides Video specific data which includes supported GPU properties if supported.",
+            "insertable": false,
+            "longDescription": "DellVideo provides Video specific data which includes supported GPU properties if supported.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Oem/Dell/DellVideo/{VideoId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellVideo.DellVideo"
+}

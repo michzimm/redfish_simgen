@@ -1,0 +1,16 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellNetworkTransceiver.DellNetworkTransceiver",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/NetworkAdapters/NIC.Integrated.1/NetworkPorts/NIC.Integrated.1-2/Oem/Dell/DellNetworkTransceivers/NetworkTransceiver.Integrated.1:NIC.Integrated.1-2",
+    "@odata.type": "#DellNetworkTransceiver.v1_0_0.DellNetworkTransceiver",
+    "Description": "DellNetworkTransceiver represents a Network Transceiver device in the managed system. Instantiating this class represents the specific managed objects and its properties for the number of managed devices present in the system.",
+    "DeviceDescription": "Network Transceiver in Integrated NIC 1 Port 2",
+    "FQDD": "NetworkTransceiver.Integrated.1:NIC.Integrated.1-2",
+    "Id": "NetworkTransceiver.Integrated.1:NIC.Integrated.1-2",
+    "IdentifierType": "SFP/SFP+/SFP28",
+    "InterfaceType": "OpticalFiber",
+    "Name": "DellNetworkTransceiver",
+    "PartNumber": "FTLX8571D3BCL-C2",
+    "Revision": "A",
+    "SerialNumber": "FNS18270TMW",
+    "VendorName": "CISCO-FINISAR"
+}

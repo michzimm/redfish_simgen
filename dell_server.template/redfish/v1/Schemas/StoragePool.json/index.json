@@ -1,0 +1,25 @@
+{
+    "$id": "/redfish/v1/Schemas/StoragePool.json",
+    "$ref": "#/definitions/StoragePool",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2016-2020 Storage Networking Industry Association (SNIA), USA. All rights reserved. For the full SNIA copyright policy, see http://www.snia.org/about/corporate_info/copyright",
+    "definitions": {
+        "StoragePool": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/StoragePool.v1_5_0.json#/definitions/StoragePool"
+                }
+            ],
+            "deletable": true,
+            "description": "A container of data storage.",
+            "insertable": false,
+            "longDescription": "A container of data storage capable of providing capacity conforming to one of its supported classes of service. The storage pool does not support IO to its data storage.",
+            "updatable": true
+        }
+    },
+    "owningEntity": "SNIA",
+    "title": "#StoragePool.StoragePool"
+}

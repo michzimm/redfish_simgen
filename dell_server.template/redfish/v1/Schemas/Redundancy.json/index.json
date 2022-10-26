@@ -1,0 +1,21 @@
+{
+    "$id": "/redfish/v1/Schemas/Redundancy.json",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 DMTF. For the full DMTF copyright policy, see http://www.dmtf.org/about/policies/copyright",
+    "definitions": {
+        "Redundancy": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/Redundancy.v1_3_5.json#/definitions/Redundancy"
+                }
+            ],
+            "description": "The common redundancy definition and structure used in other Redfish schemas.",
+            "longDescription": "This object represents the redundancy element property."
+        }
+    },
+    "owningEntity": "DMTF",
+    "title": "#Redundancy"
+}

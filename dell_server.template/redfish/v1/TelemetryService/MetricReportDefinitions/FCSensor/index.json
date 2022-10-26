@@ -1,0 +1,76 @@
+{
+    "@odata.type": "#MetricReportDefinition.v1_4_0.MetricReportDefinition",
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/FCSensor",
+    "Id": "FCSensor",
+    "Name": "FC Temperature Sensor Metric Report",
+    "Description": "FC Temperature sensors",
+    "AppendLimit": 2400,
+    "MetricReportDefinitionEnabled": false,
+    "MetricReportDefinitionType": "Periodic",
+    "MetricReportHeartbeatInterval": "PT0H0M0S",
+    "SuppressRepeatedMetricValue": false,
+    "ReportTimespan": "PT0H0M0S",
+    "ReportUpdates": "Overwrite",
+    "MetricReportDefinitionType@Redfish.AllowableValues": [
+        "Periodic",
+        "OnChange",
+        "OnRequest"
+    ],
+    "MetricReportDefinitionType@Redfish.AllowableValues@odata.count": 3,
+    "ReportUpdates@Redfish.AllowableValues": [
+        "AppendStopsWhenFull",
+        "AppendWrapsWhenFull",
+        "NewReport",
+        "Overwrite"
+    ],
+    "ReportUpdates@Redfish.AllowableValues@odata.count": 4,
+    "ReportActions": [
+        "RedfishEvent",
+        "LogToMetricReportsCollection"
+    ],
+    "ReportActions@odata.count": 2,
+    "ReportActions@Redfish.AllowableValues": [
+        "LogToMetricReportsCollection",
+        "RedfishEvent"
+    ],
+    "ReportActions@Redfish.AllowableValues@odata.count": 2,
+    "Status": {
+        "State": "Disabled"
+    },
+    "Wildcards": [],
+    "Wildcards@odata.count": 0,
+    "Schedule": {
+        "RecurrenceInterval": "PT0H1M0S"
+    },
+    "Metrics": [
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "FC.%",
+                    "Source": null
+                }
+            }
+        }
+    ],
+    "Metrics@odata.count": 1,
+    "Links": {
+        "Triggers": [],
+        "Triggers@odata.count": 0
+    },
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellMetricReportDefinition.v1_1_0.DellMetricReportDefinition",
+            "Digest": "20f71a2178ea6f8812893dff410a2c64a6c403a257cca8db82364ef0c20e8147",
+            "iDRACFirmwareVersion": "5.10.00.00"
+        }
+    }
+}

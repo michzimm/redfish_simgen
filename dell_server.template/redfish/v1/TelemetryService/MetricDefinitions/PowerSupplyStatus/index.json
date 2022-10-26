@@ -1,0 +1,18 @@
+{
+    "@odata.type": "#MetricDefinition.v1_1_1.MetricDefinition",
+    "@odata.context": "/redfish/v1/$metadata#MetricDefinition.MetricDefinition",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricDefinitions/PowerSupplyStatus",
+    "Id": "PowerSupplyStatus",
+    "Name": "Power Supply Status Metric Definition",
+    "Description": "Specifies Power supply status",
+    "MetricType": "Discrete",
+    "MetricDataType": "Enumeration",
+    "Accuracy": 0,
+    "SensingInterval": "PT5S",
+    "DiscreteValues": [
+        "Disabled",
+        "Enabled",
+        "Not Applicable"
+    ],
+    "DiscreteValues@odata.count": 3
+}

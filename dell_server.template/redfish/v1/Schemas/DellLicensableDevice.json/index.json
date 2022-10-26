@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellLicensableDevice.json",
+    "$ref": "#/definitions/DellLicensableDevice",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellLicensableDevice": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellLicensableDevice.v1_0_0.json#/definitions/DellLicensableDevice"
+                }
+            ],
+            "deletable": false,
+            "description": "DellLicensableDevice represents a device in the system that has registered with the License Manager.",
+            "insertable": false,
+            "longDescription": "DellLicensableDevice represents a device in the system that has registered with the License Manager.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Managers/{ManagerId}/Oem/Dell/DellLicensableDevices/{LicensableDeviceId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellLicensableDevice.DellLicensableDevice"
+}

@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_807__TPM.Integrated.1-1",
+    "@odata.type": "#DellSoftwareInventory.v1_1_1.DellSoftwareInventory",
+    "BuildNumber": null,
+    "Classifications": [
+        "Firmware"
+    ],
+    "Classifications@odata.count": 1,
+    "ComponentID": "0",
+    "ComponentType": "FRMW",
+    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+    "DeviceID": null,
+    "ElementName": "TPM",
+    "HashValue": null,
+    "Id": "DCIM:INSTALLED_0x23_807__TPM.Integrated.1-1",
+    "IdentityInfoType": [
+        "OrgID:ComponentType:ComponentID"
+    ],
+    "IdentityInfoType@odata.count": 1,
+    "IdentityInfoValue": [
+        "DCIM:firmware:0"
+    ],
+    "IdentityInfoValue@odata.count": 1,
+    "InstallationDate": "1970-01-01T00:00:00Z",
+    "IsEntity": true,
+    "MajorVersion": null,
+    "MinorVersion": null,
+    "Name": "DellSoftwareInventory",
+    "RevisionNumber": null,
+    "RevisionString": null,
+    "Status": "Installed",
+    "SubDeviceID": null,
+    "SubVendorID": null,
+    "VendorID": null,
+    "impactsTPMmeasurements": false
+}

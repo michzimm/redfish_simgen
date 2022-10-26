@@ -1,0 +1,129 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "@odata.type": "#Drive.v1_10_0.Drive",
+    "Actions": {
+        "#Drive.SecureErase": {
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_3_1.OperationApplyTimeSupport",
+                "SupportedValues": [
+                    "Immediate",
+                    "OnReset"
+                ]
+            },
+            "target": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1/Actions/Drive.SecureErase"
+        }
+    },
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+    },
+    "BlockSizeBytes": 512,
+    "CapableSpeedGbs": 6,
+    "CapacityBytes": 479559942144,
+    "Description": "Disk 1 in Backplane 1 of RAID Controller in SL 3",
+    "EncryptionAbility": "None",
+    "EncryptionStatus": "Unencrypted",
+    "FailurePredicted": false,
+    "HotspareType": "None",
+    "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+    "Identifiers": [
+        {
+            "DurableName": "3b07b250d514e606",
+            "DurableNameFormat": "NAA"
+        }
+    ],
+    "Identifiers@odata.count": 1,
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.SL.3-1"
+        },
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                "CPUAffinity": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                    }
+                ],
+                "CPUAffinity@odata.count": 1
+            }
+        },
+        "PCIeFunctions": [],
+        "PCIeFunctions@odata.count": 0,
+        "Volumes": [],
+        "Volumes@odata.count": 0
+    },
+    "Location": [],
+    "Manufacturer": "SKhynix",
+    "MediaType": "SSD",
+    "Model": "HFS480G32FEH BA1",
+    "Name": "Solid State Disk 0:1:1",
+    "NegotiatedSpeedGbs": 6,
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellDriveSMARTAttributes": {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1/Oem/Dell/DellDriveSMARTAttributes"
+            },
+            "DellNVMeSMARTAttributes": null,
+            "DellPhysicalDisk": {
+                "@odata.context": "/redfish/v1/$metadata#DellPhysicalDisk.DellPhysicalDisk",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1/Oem/Dell/DellDrives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+                "@odata.type": "#DellPhysicalDisk.v1_4_0.DellPhysicalDisk",
+                "Certified": "Yes",
+                "Connector": 0,
+                "CryptographicEraseCapable": "Capable",
+                "Description": "An instance of DellPhysicalDisk will have Physical Disk specific data.",
+                "DeviceProtocol": null,
+                "DriveFormFactor": "2.5Inch",
+                "EncryptionProtocol": "None",
+                "ForeignKeyIdentifier": null,
+                "FreeSizeInBytes": 479559942144,
+                "Id": "Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1",
+                "LastSystemInventoryTime": "2022-08-30T22:00:48+00:00",
+                "LastUpdateTime": "2022-08-30T23:00:48+00:00",
+                "ManufacturingDay": 0,
+                "ManufacturingWeek": 0,
+                "ManufacturingYear": 0,
+                "Name": "DellPhysicalDisk",
+                "NonRAIDDiskCachePolicy": "Unknown",
+                "OperationName": "None",
+                "OperationPercentCompletePercent": 0,
+                "PCIeCapableLinkWidth": "None",
+                "PCIeNegotiatedLinkWidth": "None",
+                "PPID": "KR0J1TYJSK50015E04GSA00",
+                "PowerStatus": "On",
+                "PredictiveFailureState": "SmartAlertAbsent",
+                "ProductID": null,
+                "RAIDType": "Unknown",
+                "RaidStatus": "Ready",
+                "SASAddress": "3B07B250D514E606",
+                "Slot": 1,
+                "SystemEraseCapability": "CryptographicErasePD",
+                "T10PICapability": "NotSupported",
+                "UsedSizeInBytes": 0,
+                "WWN": "3B07B250D514E606"
+            }
+        }
+    },
+    "Operations": [],
+    "Operations@odata.count": 0,
+    "PartNumber": "KR0J1TYJSK50015E04GSA00",
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationOrdinalValue": 1,
+            "LocationType": "Slot"
+        }
+    },
+    "PredictedMediaLifeLeftPercent": 100,
+    "Protocol": "SATA",
+    "Revision": "DD02",
+    "RotationSpeedRPM": null,
+    "SerialNumber": "ENA5N5616I0305E2M",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "WriteCacheEnabled": false
+}

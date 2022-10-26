@@ -1,0 +1,128 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Drive.Drive",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1/Drives/Disk.Direct.1-1:AHCI.SL.6-1",
+    "@odata.type": "#Drive.v1_10_0.Drive",
+    "Actions": {
+        "#Drive.SecureErase": {
+            "@Redfish.OperationApplyTimeSupport": {
+                "@odata.type": "#Settings.v1_3_1.OperationApplyTimeSupport",
+                "SupportedValues": [
+                    "Immediate",
+                    "OnReset"
+                ]
+            },
+            "target": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1/Drives/Disk.Direct.1-1:AHCI.SL.6-1/Actions/Drive.SecureErase"
+        }
+    },
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+    },
+    "BlockSizeBytes": 512,
+    "CapableSpeedGbs": 6,
+    "CapacityBytes": 480103981056,
+    "Description": "Disk 1 on AHCI Controller in SL 6",
+    "EncryptionAbility": "None",
+    "EncryptionStatus": "Unencrypted",
+    "FailurePredicted": false,
+    "HotspareType": "None",
+    "Id": "Disk.Direct.1-1:AHCI.SL.6-1",
+    "Identifiers": [
+        {
+            "DurableName": null,
+            "DurableNameFormat": null
+        }
+    ],
+    "Identifiers@odata.count": 1,
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+        },
+        "Chassis@odata.count": 1,
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                "CPUAffinity": [],
+                "CPUAffinity@odata.count": 0
+            }
+        },
+        "PCIeFunctions": [],
+        "PCIeFunctions@odata.count": 0,
+        "Volumes": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1/Volumes/Disk.Virtual.0:AHCI.SL.6-1"
+            }
+        ],
+        "Volumes@odata.count": 1
+    },
+    "Location": [],
+    "Manufacturer": "INTEL",
+    "MediaType": "SSD",
+    "Model": "SSDSCKKB480G8R",
+    "Name": "SSD 1",
+    "NegotiatedSpeedGbs": 6,
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellDriveSMARTAttributes": null,
+            "DellNVMeSMARTAttributes": null,
+            "DellPhysicalDisk": {
+                "@odata.context": "/redfish/v1/$metadata#DellPhysicalDisk.DellPhysicalDisk",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/AHCI.SL.6-1/Drives/Disk.Direct.1-1:AHCI.SL.6-1/Oem/Dell/DellDrives/Disk.Direct.1-1:AHCI.SL.6-1",
+                "@odata.type": "#DellPhysicalDisk.v1_4_0.DellPhysicalDisk",
+                "Certified": "NotApplicable",
+                "Connector": 1,
+                "CryptographicEraseCapable": "Capable",
+                "Description": "An instance of DellPhysicalDisk will have Physical Disk specific data.",
+                "DeviceProtocol": null,
+                "DriveFormFactor": "M.2",
+                "EncryptionProtocol": "None",
+                "ForeignKeyIdentifier": null,
+                "FreeSizeInBytes": 0,
+                "Id": "Disk.Direct.1-1:AHCI.SL.6-1",
+                "LastSystemInventoryTime": "2022-08-04T15:53:48+00:00",
+                "LastUpdateTime": "2022-04-06T08:56:37+00:00",
+                "ManufacturingDay": 0,
+                "ManufacturingWeek": 0,
+                "ManufacturingYear": 0,
+                "Name": "DellPhysicalDisk",
+                "NonRAIDDiskCachePolicy": "Unknown",
+                "OperationName": "None",
+                "OperationPercentCompletePercent": 0,
+                "PCIeCapableLinkWidth": "None",
+                "PCIeNegotiatedLinkWidth": "None",
+                "PPID": "CN07FXC3PESIT11Q00GUA02",
+                "PowerStatus": "On",
+                "PredictiveFailureState": "SmartAlertAbsent",
+                "ProductID": null,
+                "RAIDType": "Unknown",
+                "RaidStatus": "Online",
+                "SASAddress": "Not Applicable",
+                "Slot": 1,
+                "SystemEraseCapability": "CryptographicErasePD",
+                "T10PICapability": "NotSupported",
+                "UsedSizeInBytes": 480036847616,
+                "WWN": "Not Applicable"
+            }
+        }
+    },
+    "Operations": [],
+    "Operations@odata.count": 0,
+    "PartNumber": "CN07FXC3PESIT11Q00GUA02",
+    "PhysicalLocation": {
+        "PartLocation": {
+            "LocationOrdinalValue": 1,
+            "LocationType": "Slot"
+        }
+    },
+    "PredictedMediaLifeLeftPercent": 100,
+    "Protocol": "SATA",
+    "Revision": "XC31DL6R",
+    "RotationSpeedRPM": null,
+    "SerialNumber": "BTYH10360QNP480K",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "WriteCacheEnabled": false
+}

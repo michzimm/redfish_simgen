@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Oem/Dell/DellSoftwareInventory/DCIM:INSTALLED_0x23_301_C_AHCI.SL.6-1",
+    "@odata.type": "#DellSoftwareInventory.v1_1_1.DellSoftwareInventory",
+    "BuildNumber": 4008,
+    "Classifications": [
+        "Firmware"
+    ],
+    "Classifications@odata.count": 1,
+    "ComponentID": "0",
+    "ComponentType": "FRMW",
+    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+    "DeviceID": "9230",
+    "ElementName": "BOSS-S2",
+    "HashValue": null,
+    "Id": "DCIM:INSTALLED_0x23_301_C_AHCI.SL.6-1",
+    "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+    ],
+    "IdentityInfoType@odata.count": 1,
+    "IdentityInfoValue": [
+        "DCIM:firmware:1B4B:9230:1028:2010"
+    ],
+    "IdentityInfoValue@odata.count": 1,
+    "InstallationDate": "2021-07-02T20:31:33Z",
+    "IsEntity": true,
+    "MajorVersion": 2,
+    "MinorVersion": 5,
+    "Name": "DellSoftwareInventory",
+    "RevisionNumber": 13,
+    "RevisionString": null,
+    "Status": "Installed",
+    "SubDeviceID": "2010",
+    "SubVendorID": "1028",
+    "VendorID": "1B4B",
+    "impactsTPMmeasurements": true
+}

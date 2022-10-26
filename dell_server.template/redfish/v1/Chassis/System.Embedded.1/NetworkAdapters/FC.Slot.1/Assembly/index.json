@@ -1,0 +1,42 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+    "@odata.type": "#Assembly.v1_2_3.Assembly",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/Assembly",
+    "Assemblies": [
+        {
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/Assembly#/Assemblies/0",
+            "BinaryDataURI": null,
+            "Description": "ELX FC32 LPe32002-M2 Adapter",
+            "EngineeringChangeLevel": "A00",
+            "MemberId": "0",
+            "Model": "ELX FC32 LPe32002-M2 Adapter",
+            "Name": "FC.Slot.1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "DeviceFQDD": "FC.Slot.1",
+                        "Id": "FC.Slot.1#FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Module/Card",
+                        "SerialNumber": "MYFLPB38BTM033",
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/FC.Slot.1_0x23_FRU"
+                    }
+                }
+            },
+            "PartNumber": "0MHFHK",
+            "Producer": "Dell",
+            "ProductionDate": "2018-11-28T20:09:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        }
+    ],
+    "Assemblies@odata.count": 1,
+    "Id": "PCIE Assembly",
+    "Name": "FC.Slot.1#FRU"
+}

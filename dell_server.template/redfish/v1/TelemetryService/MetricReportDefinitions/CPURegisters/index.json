@@ -1,0 +1,63 @@
+{
+    "@odata.type": "#MetricReportDefinition.v1_4_0.MetricReportDefinition",
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.id": "/redfish/v1/TelemetryService/MetricReportDefinitions/CPURegisters",
+    "Id": "CPURegisters",
+    "Name": "CPU Register Dump Metric Report",
+    "Description": "CPU Register dump (uuencoded binary data). This is platform specific. On Intel platform this represents the MSR registers and on AMD platform this represents the MCA registers. Please refer to Oem documentation on how to decode the binary data.",
+    "AppendLimit": 2400,
+    "MetricReportDefinitionEnabled": false,
+    "MetricReportDefinitionType": "OnChange",
+    "MetricReportHeartbeatInterval": "PT0H0M0S",
+    "SuppressRepeatedMetricValue": true,
+    "ReportTimespan": "PT0H1M0S",
+    "ReportUpdates": "AppendWrapsWhenFull",
+    "MetricReportDefinitionType@Redfish.AllowableValues": [
+        "Periodic",
+        "OnChange",
+        "OnRequest"
+    ],
+    "MetricReportDefinitionType@Redfish.AllowableValues@odata.count": 3,
+    "ReportUpdates@Redfish.AllowableValues": [
+        "AppendStopsWhenFull",
+        "AppendWrapsWhenFull",
+        "NewReport",
+        "Overwrite"
+    ],
+    "ReportUpdates@Redfish.AllowableValues@odata.count": 4,
+    "ReportActions": [
+        "RedfishEvent",
+        "LogToMetricReportsCollection"
+    ],
+    "ReportActions@odata.count": 2,
+    "ReportActions@Redfish.AllowableValues": [
+        "LogToMetricReportsCollection",
+        "RedfishEvent"
+    ],
+    "ReportActions@Redfish.AllowableValues@odata.count": 2,
+    "Status": {
+        "State": "Disabled"
+    },
+    "Wildcards": [],
+    "Wildcards@odata.count": 0,
+    "Schedule": {
+        "RecurrenceInterval": "PT0H0M0S"
+    },
+    "Metrics": [],
+    "Metrics@odata.count": 0,
+    "Links": {
+        "Triggers": [
+            {
+                "@odata.id": "/redfish/v1/TelemetryService/Triggers/IERRCriticalTrigger"
+            }
+        ],
+        "Triggers@odata.count": 1
+    },
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellMetricReportDefinition.v1_1_0.DellMetricReportDefinition",
+            "Digest": "1143d17703c0a7a686d77e86949f3c2642e7896a81634c36893336e380171c99",
+            "iDRACFirmwareVersion": "5.10.00.00"
+        }
+    }
+}

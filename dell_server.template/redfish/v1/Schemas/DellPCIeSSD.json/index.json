@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellPCIeSSD.json",
+    "$ref": "#/definitions/DellPCIeSSD",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellPCIeSSD": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellPCIeSSD.v1_4_0.json#/definitions/DellPCIeSSD"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellPCIeSSD will have PCIe Solid State Drive specific data.",
+            "insertable": false,
+            "longDescription": "An instance of DellPCIeSSD will have PCIe Solid State Drive specific data.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Storage/{StorageId}/Drives/Oem/Dell/DellPCIeSSDs/{PCIeSSDId}",
+                "/redfish/v1/Systems/{ComputerSystemId}/Storage/{StorageId}/Drives/{DriveId}/Oem/Dell/DellPCIeSSDs/{PCIeSSDId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellPCIeSSD.DellPCIeSSD"
+}

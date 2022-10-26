@@ -1,0 +1,88 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#NetworkAdapter.NetworkAdapter",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1",
+    "@odata.type": "#NetworkAdapter.v1_4_0.NetworkAdapter",
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/Assembly"
+    },
+    "Controllers": [
+        {
+            "ControllerCapabilities": {
+                "DataCenterBridging": {
+                    "Capable": false
+                },
+                "NPAR": {
+                    "NparCapable": false,
+                    "NparEnabled": false
+                },
+                "NPIV": {
+                    "MaxDeviceLogins": 12288,
+                    "MaxPortLogins": 6144
+                },
+                "NetworkDeviceFunctionCount": 2,
+                "NetworkPortCount": 2,
+                "VirtualizationOffload": {
+                    "SRIOV": {
+                        "SRIOVVEPACapable": false
+                    },
+                    "VirtualFunction": {
+                        "DeviceMaxCount": null,
+                        "MinAssignmentGroupSize": null,
+                        "NetworkPortMaxCount": null
+                    }
+                }
+            },
+            "FirmwarePackageVersion": "03.00.14",
+            "Links": {
+                "NetworkDeviceFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-2"
+                    },
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions/FC.Slot.1-1"
+                    }
+                ],
+                "NetworkDeviceFunctions@odata.count": 2,
+                "NetworkPorts": [
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkPorts/FC.Slot.1-2"
+                    },
+                    {
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkPorts/FC.Slot.1-1"
+                    }
+                ],
+                "NetworkPorts@odata.count": 2,
+                "Oem": {
+                    "Dell": {
+                        "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                        "CPUAffinity": [
+                            {
+                                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                            }
+                        ],
+                        "CPUAffinity@odata.count": 1
+                    }
+                }
+            }
+        }
+    ],
+    "Controllers@odata.count": 1,
+    "Description": "Network Adapter View",
+    "Id": "FC.Slot.1",
+    "Manufacturer": "Emulex Corporation",
+    "Model": "ELX FC32 LPe32002-M2 Adapter",
+    "Name": "Network Adapter View",
+    "NetworkDeviceFunctions": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkDeviceFunctions"
+    },
+    "NetworkPorts": {
+        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/NetworkAdapters/FC.Slot.1/NetworkPorts"
+    },
+    "PartNumber": "0MHFHK",
+    "SerialNumber": "MYFLPB38BTM033",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    }
+}

@@ -1,0 +1,20 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#MessageRegistryFile.MessageRegistryFile",
+    "@odata.id": "/redfish/v1/Registries/NetworkAttributesRegistry",
+    "@odata.type": "#MessageRegistryFile.v1_1_3.MessageRegistryFile",
+    "Description": "Network Attributes Registry File Locations",
+    "Id": "NetworkAttributesRegistry",
+    "Languages": [
+        "En"
+    ],
+    "Languages@odata.count": 1,
+    "Location": [
+        {
+            "Language": "En",
+            "Uri": "/redfish/v1/Registries/NetworkAttributesRegistry/NetworkAttributesRegistry.json"
+        }
+    ],
+    "Location@odata.count": 1,
+    "Name": "Network Attributes Registry File",
+    "Registry": "NetworkAttributeRegistry"
+}

@@ -1,0 +1,37 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellSoftwareInventory.DellSoftwareInventory",
+    "@odata.id": "/redfish/v1/UpdateService/FirmwareInventory/Oem/Dell/DellSoftwareInventory/DCIM:CURRENT_0x23_301_C_RAID.SL.3-1",
+    "@odata.type": "#DellSoftwareInventory.v1_1_1.DellSoftwareInventory",
+    "BuildNumber": 0,
+    "Classifications": [
+        "Firmware"
+    ],
+    "Classifications@odata.count": 1,
+    "ComponentID": "107656",
+    "ComponentType": "FRMW",
+    "Description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+    "DeviceID": "0014",
+    "ElementName": "PERC H745 Front",
+    "HashValue": "fa950ea75be7a72783f5389c4c8f0ab2f178b057a839ac0839576bdc0c63c0cd",
+    "Id": "DCIM:CURRENT_0x23_301_C_RAID.SL.3-1",
+    "IdentityInfoType": [
+        "OrgID:ComponentType:VendorID:DeviceID:SubVendorID:SubDeviceID"
+    ],
+    "IdentityInfoType@odata.count": 1,
+    "IdentityInfoValue": [
+        "DCIM:firmware:1000:0014:1028:1F3B"
+    ],
+    "IdentityInfoValue@odata.count": 1,
+    "InstallationDate": "NA",
+    "IsEntity": true,
+    "MajorVersion": 51,
+    "MinorVersion": 14,
+    "Name": "DellSoftwareInventory",
+    "RevisionNumber": null,
+    "RevisionString": "0-3900",
+    "Status": "AvailableForInstallation",
+    "SubDeviceID": "1F3B",
+    "SubVendorID": "1028",
+    "VendorID": "1000",
+    "impactsTPMmeasurements": true
+}

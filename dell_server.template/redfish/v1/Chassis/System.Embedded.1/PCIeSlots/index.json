@@ -1,0 +1,231 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeSlots.PCIeSlots",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/PCIeSlots",
+    "@odata.type": "#PCIeSlots.v1_3_0.PCIeSlots",
+    "Description": "This Resource shall represent a set of PCIe slot information.",
+    "Id": "PCIeSlots",
+    "Name": "PCIeSlots",
+    "Slots": [
+        {
+            "HotPluggable": false,
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/23-0"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1,
+                "Oem": {
+                    "Dell": {
+                        "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                        "CPUAffinity": [
+                            {
+                                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                            }
+                        ],
+                        "CPUAffinity@odata.count": 1
+                    }
+                }
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 1,
+                    "LocationType": "Slot"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+                    "SlotKey": "PCIe.Slot.1"
+                }
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/102-0"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1,
+                "Oem": {
+                    "Dell": {
+                        "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                        "CPUAffinity": [
+                            {
+                                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                            }
+                        ],
+                        "CPUAffinity@odata.count": 1
+                    }
+                }
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 8,
+                    "LocationType": "Slot"
+                }
+            },
+            "PCIeType": null,
+            "SlotType": "U2",
+            "Status": {
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+                    "SlotKey": "PCIeSSD.BaySlot.8:1"
+                }
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/101-0"
+                    }
+                ],
+                "PCIeDevice@odata.count": 1,
+                "Oem": {
+                    "Dell": {
+                        "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                        "CPUAffinity": [
+                            {
+                                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                            }
+                        ],
+                        "CPUAffinity@odata.count": 1
+                    }
+                }
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 9,
+                    "LocationType": "Slot"
+                }
+            },
+            "PCIeType": null,
+            "SlotType": "U2",
+            "Status": {
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+                    "SlotKey": "PCIeSSD.BaySlot.9:1"
+                }
+            }
+        },
+        {
+            "HotPluggable": false,
+            "Lanes": 16,
+            "Links": {
+                "PCIeDevice": [],
+                "PCIeDevice@odata.count": 0,
+                "Oem": {
+                    "Dell": {
+                        "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                        "CPUAffinity": [
+                            {
+                                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.2"
+                            }
+                        ],
+                        "CPUAffinity@odata.count": 1
+                    }
+                }
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 2,
+                    "LocationType": "Slot"
+                }
+            },
+            "PCIeType": "Gen4",
+            "SlotType": "FullLength",
+            "Status": {
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+                    "SlotKey": "PCIe.Slot.2"
+                }
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [],
+                "PCIeDevice@odata.count": 0,
+                "Oem": {
+                    "Dell": {
+                        "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                        "CPUAffinity": [],
+                        "CPUAffinity@odata.count": 0
+                    }
+                }
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 7,
+                    "LocationType": "Slot"
+                }
+            },
+            "PCIeType": null,
+            "SlotType": "U2",
+            "Status": {
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+                    "SlotKey": "PCIeSSD.BaySlot.7:1"
+                }
+            }
+        },
+        {
+            "HotPluggable": true,
+            "Lanes": 4,
+            "Links": {
+                "PCIeDevice": [],
+                "PCIeDevice@odata.count": 0,
+                "Oem": {
+                    "Dell": {
+                        "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                        "CPUAffinity": [],
+                        "CPUAffinity@odata.count": 0
+                    }
+                }
+            },
+            "Location": {
+                "PartLocation": {
+                    "LocationOrdinalValue": 6,
+                    "LocationType": "Slot"
+                }
+            },
+            "PCIeType": null,
+            "SlotType": "U2",
+            "Status": {
+                "State": "Enabled"
+            },
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellPCIeSlots.v1_0_0.DellPCIeSlots",
+                    "SlotKey": "PCIeSSD.BaySlot.6:1"
+                }
+            }
+        }
+    ],
+    "Slots@odata.count": 6
+}

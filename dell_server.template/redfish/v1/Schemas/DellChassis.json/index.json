@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellChassis.json",
+    "$ref": "#/definitions/DellChassis",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellChassis": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellChassis.v1_0_0.json#/definitions/DellChassis"
+                }
+            ],
+            "deletable": false,
+            "description": "This resource shall provide information about the enclosure or chassis the system is in.",
+            "insertable": false,
+            "longDescription": "This resource shall provide information about the enclosure or chassis the system is in.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Chassis/{ComputerSystemId}/Oem/Dell/DellChassis/{ChassisId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellChassis.DellChassis"
+}

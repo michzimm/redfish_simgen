@@ -1,0 +1,167 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Storage.Storage",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1",
+    "@odata.type": "#Storage.v1_8_1.Storage",
+    "Description": "RAID Controller in SL 3",
+    "Drives": [
+        {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1"
+        },
+        {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1"
+        }
+    ],
+    "Drives@odata.count": 2,
+    "Id": "RAID.SL.3-1",
+    "Links": {
+        "Enclosures": [
+            {
+                "@odata.id": "/redfish/v1/Chassis/Enclosure.Internal.0-1:RAID.SL.3-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+            }
+        ],
+        "Enclosures@odata.count": 2,
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                "CPUAffinity": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                    }
+                ],
+                "CPUAffinity@odata.count": 1
+            }
+        }
+    },
+    "Name": "PERC H745 Front",
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellController": {
+                "@odata.context": "/redfish/v1/$metadata#DellController.DellController",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Oem/Dell/DellControllers/RAID.SL.3-1",
+                "@odata.type": "#DellController.v1_3_0.DellController",
+                "AlarmState": "AlarmNotPresent",
+                "AutoConfigBehavior": "Off",
+                "BootVirtualDiskFQDD": null,
+                "CacheSizeInMB": 4096,
+                "CachecadeCapability": "NotSupported",
+                "ConnectorCount": 4,
+                "ControllerFirmwareVersion": "51.14.0-3900",
+                "CurrentControllerMode": "RAID",
+                "Description": "An instance of DellController will have RAID Controller specific data.",
+                "Device": "0",
+                "DeviceCardDataBusWidth": "Unknown",
+                "DeviceCardSlotLength": "Unknown",
+                "DeviceCardSlotType": "Unknown",
+                "DriverVersion": "7.713.08.00",
+                "EncryptionCapability": "LocalKeyManagementAndSecureEnterpriseKeyManagerCapable",
+                "EncryptionMode": "None",
+                "Id": "RAID.SL.3-1",
+                "KeyID": null,
+                "LastSystemInventoryTime": "2022-08-30T22:00:48+00:00",
+                "LastUpdateTime": "2022-08-30T23:00:48+00:00",
+                "MaxAvailablePCILinkSpeed": null,
+                "MaxPossiblePCILinkSpeed": null,
+                "Name": "DellController",
+                "PCISlot": null,
+                "PatrolReadState": "Stopped",
+                "PersistentHotspare": "Disabled",
+                "RealtimeCapability": "Capable",
+                "RollupStatus": "OK",
+                "SASAddress": "5B07B250D514E600",
+                "SecurityStatus": "EncryptionCapable",
+                "SharedSlotAssignmentAllowed": "NotApplicable",
+                "SlicedVDCapability": "Supported",
+                "SupportControllerBootMode": "NotSupported",
+                "SupportEnhancedAutoForeignImport": "Supported",
+                "SupportRAID10UnevenSpans": "Supported",
+                "SupportsLKMtoSEKMTransition": "No",
+                "T10PICapability": "NotSupported"
+            },
+            "DellControllerBattery": {
+                "@odata.context": "/redfish/v1/$metadata#DellControllerBattery.DellControllerBattery",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Oem/Dell/DellControllerBattery/Battery.Integrated.1:RAID.SL.3-1",
+                "@odata.type": "#DellControllerBattery.v1_0_0.DellControllerBattery",
+                "Description": "An instance of DellController will have RAID Controller specific data.",
+                "FQDD": "Battery.Integrated.1:RAID.SL.3-1",
+                "Id": "Battery.Integrated.1:RAID.SL.3-1",
+                "Name": "Battery on RAID Controller in SL 3",
+                "PrimaryStatus": "OK",
+                "RAIDState": "Ready"
+            }
+        }
+    },
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "StorageControllers": [
+        {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1#/StorageControllers/0",
+            "@odata.type": "#Storage.v1_8_1.StorageController",
+            "Assembly": {
+                "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly"
+            },
+            "CacheSummary": {
+                "TotalCacheSizeMiB": 4096
+            },
+            "ControllerRates": {
+                "ConsistencyCheckRatePercent": 30,
+                "RebuildRatePercent": 30
+            },
+            "FirmwareVersion": "51.14.0-3900",
+            "Identifiers": [
+                {
+                    "DurableName": "5b07b250d514e600",
+                    "DurableNameFormat": "NAA"
+                }
+            ],
+            "Identifiers@odata.count": 1,
+            "Links": {
+                "PCIeFunctions": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/103-0/PCIeFunctions/103-0-0"
+                    }
+                ],
+                "PCIeFunctions@odata.count": 1
+            },
+            "Manufacturer": "DELL",
+            "MemberId": "0",
+            "Model": "PERC H745 Front",
+            "Name": "PERC H745 Front",
+            "SpeedGbps": 12,
+            "Status": {
+                "Health": "OK",
+                "HealthRollup": "OK",
+                "State": "Enabled"
+            },
+            "SupportedControllerProtocols": [
+                "PCIe"
+            ],
+            "SupportedControllerProtocols@odata.count": 1,
+            "SupportedDeviceProtocols": [
+                "SAS",
+                "SATA"
+            ],
+            "SupportedDeviceProtocols@odata.count": 2,
+            "SupportedRAIDTypes": [
+                "RAID0",
+                "RAID1",
+                "RAID5",
+                "RAID6",
+                "RAID10",
+                "RAID50",
+                "RAID60"
+            ],
+            "SupportedRAIDTypes@odata.count": 7
+        }
+    ],
+    "StorageControllers@odata.count": 1,
+    "Volumes": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Volumes"
+    }
+}

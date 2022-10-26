@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellGPUSensor.json",
+    "$ref": "#/definitions/DellGPUSensor",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellGPUSensor": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellGPUSensor.v1_0_0.json#/definitions/DellGPUSensor"
+                }
+            ],
+            "deletable": false,
+            "description": "This resource shall represents a Graphical Processor sensor, which a hardware device capable of measuring the characteristics of a physical property. This resource represents a managed sensor device and its properties that returns GPU sensor readings such as Power, Thermal and Temparature",
+            "insertable": false,
+            "longDescription": "This resource shall represents a Graphical Processor sensor, which a hardware device capable of measuring the characteristics of a physical property. This resource represents a managed sensor device and its properties that returns GPU sensor readings such as Power, Thermal and Temparature",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Oem/Dell/DellGPUSensors/{GPUSensorId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellGPUSensor.DellGPUSensor"
+}

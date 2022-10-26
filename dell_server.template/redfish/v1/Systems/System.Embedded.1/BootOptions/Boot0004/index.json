@@ -1,0 +1,12 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#BootOption.BootOption",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/BootOptions/Boot0004",
+    "@odata.type": "#BootOption.v1_0_4.BootOption",
+    "BootOptionEnabled": true,
+    "BootOptionReference": "Boot0004",
+    "Description": "Current settings of the UEFI Boot option",
+    "DisplayName": "AHCI Controller in SL 6: VMware ESXi",
+    "Id": "Boot0004",
+    "Name": "Uefi Boot Option",
+    "UefiDevicePath": "HD(1,GPT,02BE3442-A00F-477A-B0F0-C387A1B858B7,0x40,0x32000)/\\EFI\\VMware\\safeboot64.efi"
+}

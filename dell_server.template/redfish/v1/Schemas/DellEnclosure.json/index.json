@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellEnclosure.json",
+    "$ref": "#/definitions/DellEnclosure",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellEnclosure": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellEnclosure.v1_1_0.json#/definitions/DellEnclosure"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellEnclosure will have storage enclosure specific data.",
+            "insertable": false,
+            "longDescription": "An instance of DellEnclosure will have storage enclosure specific data.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Chassis/Oem/Dell/DellEnclosures/{EnclosureId}",
+                "/redfish/v1/Chassis/{EnclosureId}/Oem/Dell/DellEnclosures/{EnclosureId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellEnclosure.DellEnclosure"
+}

@@ -1,0 +1,63 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#PCIeFunction.PCIeFunction",
+    "@odata.etag": "1661896871",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/103-0/PCIeFunctions/103-0-0",
+    "@odata.type": "#PCIeFunction.v1_2_3.PCIeFunction",
+    "ClassCode": "0x000001",
+    "Description": "PERC H745 Front",
+    "DeviceClass": "MassStorageController",
+    "DeviceId": "0x0014",
+    "FunctionId": 0,
+    "FunctionType": "Physical",
+    "Id": "103-0-0",
+    "Links": {
+        "Drives": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.1:Enclosure.Internal.0-1:RAID.SL.3-1"
+            },
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1/Drives/Disk.Bay.0:Enclosure.Internal.0-1:RAID.SL.3-1"
+            }
+        ],
+        "Drives@odata.count": 2,
+        "EthernetInterfaces": [],
+        "EthernetInterfaces@odata.count": 0,
+        "PCIeDevice": {
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/103-0"
+        },
+        "StorageControllers": [
+            {
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Storage/RAID.SL.3-1#/StorageControllers/0"
+            }
+        ],
+        "StorageControllers@odata.count": 1
+    },
+    "Name": "PERC H745 Front",
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellPCIeFunction": {
+                "@odata.context": "/redfish/v1/$metadata#DellPCIeFunction.DellPCIeFunction",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/103-0/PCIeFunctions/103-0-0/Oem/Dell/DellPCIeFunctions/RAID.SL.3-1",
+                "@odata.type": "#DellPCIeFunction.v1_3_0.DellPCIeFunction",
+                "DataBusWidth": "Unknown",
+                "Description": "An instance of DellPCIeFunction will have PCI device specific data.",
+                "Id": "RAID.SL.3-1",
+                "LastSystemInventoryTime": "2022-08-30T22:00:48+00:00",
+                "LastUpdateTime": "2022-08-30T23:00:48+00:00",
+                "Name": "DellPCIeFunction",
+                "SlotLength": "Unknown",
+                "SlotType": "Unknown"
+            }
+        }
+    },
+    "RevisionId": "0x01",
+    "Status": {
+        "Health": "OK",
+        "HealthRollup": "OK",
+        "State": "Enabled"
+    },
+    "SubsystemId": "0x1f3b",
+    "SubsystemVendorId": "0x1028",
+    "VendorId": "0x1000"
+}

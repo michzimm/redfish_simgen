@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellSensor.json",
+    "$ref": "#/definitions/DellSensor",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellSensor": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellSensor.v1_0_0.json#/definitions/DellSensor"
+                }
+            ],
+            "deletable": false,
+            "description": "An instance of DellSensor will represent a sensor, a hardware device that is capable of measuring the characteristics of a physical property.",
+            "insertable": false,
+            "longDescription": "An instance of DellSensor will represent a sensor, a hardware device that is capable of measuring the characteristics of a physical property.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Oem/Dell/DellSensors/{SensorId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellSensor.DellSensor"
+}

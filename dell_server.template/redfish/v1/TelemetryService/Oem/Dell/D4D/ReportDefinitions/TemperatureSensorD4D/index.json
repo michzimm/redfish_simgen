@@ -1,0 +1,195 @@
+{
+    "@odata.type": "#MetricReportDefinition.v1_4_0.MetricReportDefinition",
+    "@odata.context": "/redfish/v1/$metadata#MetricReportDefinition.MetricReportDefinition",
+    "@odata.id": "/redfish/v1/TelemetryService/Oem/Dell/D4D/ReportDefinitions/TemperatureSensorD4D",
+    "Id": "TemperatureSensorD4D",
+    "Name": "Temperature Sensor Metric Report",
+    "Description": "Temperature Sensor D4D",
+    "AppendLimit": 2400,
+    "MetricReportDefinitionEnabled": true,
+    "MetricReportDefinitionType": "Periodic",
+    "MetricReportHeartbeatInterval": "PT0H0M0S",
+    "SuppressRepeatedMetricValue": true,
+    "ReportTimespan": "PT0H0M0S",
+    "ReportUpdates": "Overwrite",
+    "ReportActions": [],
+    "ReportActions@odata.count": 0,
+    "ReportActions@Redfish.AllowableValues": [],
+    "ReportActions@Redfish.AllowableValues@odata.count": 0,
+    "MetricReportDefinitionType@Redfish.AllowableValues": [
+        "Periodic",
+        "OnChange"
+    ],
+    "MetricReportDefinitionType@Redfish.AllowableValues@odata.count": 2,
+    "ReportUpdates@Redfish.AllowableValues": [
+        "Overwrite"
+    ],
+    "ReportUpdates@Redfish.AllowableValues@odata.count": 1,
+    "Status": {
+        "State": "Enabled"
+    },
+    "Wildcards": [],
+    "Wildcards@odata.count": 0,
+    "Schedule": {
+        "RecurrenceInterval": "PT2H0M0S"
+    },
+    "Metrics": [
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "NIC.%",
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "ProcAccelerator.%",
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "Disk.Bay.%",
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "FC.Slot.%",
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "DIMM.%",
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PSUTemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "PSU.%",
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "iDRAC.Embedded.1#CPU%",
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "TemperatureReading",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "iDRAC.Embedded.1#SystemBoard%",
+                    "Source": null
+                }
+            }
+        },
+        {
+            "MetricId": "PrimaryTemperature",
+            "MetricProperties": [],
+            "MetricProperties@odata.count": 0,
+            "CollectionFunction": null,
+            "CollectionDuration": null,
+            "CollectionTimeScope": "Point",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellMetric.v1_1_0.DellMetric",
+                    "CustomLabel": null,
+                    "FQDD": "Video.Slot%",
+                    "Source": null
+                }
+            }
+        }
+    ],
+    "Metrics@odata.count": 9,
+    "Links": {
+        "Triggers": [],
+        "Triggers@odata.count": 0
+    },
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellMetricReportDefinition.v1_1_0.DellMetricReportDefinition",
+            "Digest": "2cde8f75d6ea11e152e8c58767209fd0ddd50e2280a06252d99edc310a2f6de3",
+            "iDRACFirmwareVersion": "5.10.00.00",
+            "D4D": true
+        }
+    }
+}

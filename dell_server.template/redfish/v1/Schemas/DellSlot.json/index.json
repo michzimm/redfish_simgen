@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellSlot.json",
+    "$ref": "#/definitions/DellSlot",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellSlot": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellSlot.v1_0_0.json#/definitions/DellSlot"
+                }
+            ],
+            "deletable": false,
+            "description": "DellSlot provides slot occupancy and device correlation information.",
+            "insertable": false,
+            "longDescription": "DellSlot provides slot occupancy and device correlation information.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Systems/{ComputerSystemId}/Oem/Dell/DellSlots/{SlotId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellSlot.DellSlot"
+}

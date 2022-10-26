@@ -1,0 +1,13 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#DellPCIeFunction.DellPCIeFunction",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/PCIeDevices/101-0/PCIeFunctions/101-0-0/Oem/Dell/DellPCIeFunctions/Disk.Bay.9:Enclosure.Internal.0-1",
+    "@odata.type": "#DellPCIeFunction.v1_3_0.DellPCIeFunction",
+    "DataBusWidth": "4XOrX4",
+    "Description": "An instance of DellPCIeFunction will have PCI device specific data.",
+    "Id": "Disk.Bay.9:Enclosure.Internal.0-1",
+    "LastSystemInventoryTime": "2022-08-30T22:00:48+00:00",
+    "LastUpdateTime": "2021-07-02T21:31:25+00:00",
+    "Name": "DellPCIeFunction",
+    "SlotLength": "2.5InchDriveFormFactor",
+    "SlotType": "PCIExpressGen4SFF-8639"
+}

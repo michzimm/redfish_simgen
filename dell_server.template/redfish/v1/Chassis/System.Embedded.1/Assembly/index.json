@@ -1,0 +1,850 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+    "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly",
+    "@odata.type": "#Assembly.v1_2_3.Assembly",
+    "Assemblies": [
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896869",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/0",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "0",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.B6#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B6_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.B6",
+                        "Id": "DIMM.Socket.B6_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "1994CC0E"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896869",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/1",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "1",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.B3#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B3_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.B3",
+                        "Id": "DIMM.Socket.B3_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "1994CC0F"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896869",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/2",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "2",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A3#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A3_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.A3",
+                        "Id": "DIMM.Socket.A3_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A27"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896869",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/3",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "3",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.B1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.B1",
+                        "Id": "DIMM.Socket.B1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A25"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896869",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/4",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "4",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A7#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A7_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.A7",
+                        "Id": "DIMM.Socket.A7_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A67"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896869",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/5",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "5",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.B5#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B5_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.B5",
+                        "Id": "DIMM.Socket.B5_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A52"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896869",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/6",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "6",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A4#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A4_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.A4",
+                        "Id": "DIMM.Socket.A4_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A29"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/7",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "7",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.A1",
+                        "Id": "DIMM.Socket.A1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A6B"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/8",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "8",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A8#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A8_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.A8",
+                        "Id": "DIMM.Socket.A8_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A1F"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/9",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "9",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A5#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A5_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.A5",
+                        "Id": "DIMM.Socket.A5_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A26"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/10",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "10",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A2#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A2_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.A2",
+                        "Id": "DIMM.Socket.A2_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A55"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/11",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "11",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A6#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A6_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.A6",
+                        "Id": "DIMM.Socket.A6_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A56"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/12",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "12",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.B8#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B8_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.B8",
+                        "Id": "DIMM.Socket.B8_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A8A"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/13",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "13",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.B7#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B7_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.B7",
+                        "Id": "DIMM.Socket.B7_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "1994BEBD"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/14",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "14",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.B4#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B4_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.B4",
+                        "Id": "DIMM.Socket.B4_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A66"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896870",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/15",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "15",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.B2#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.B2_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "DIMM.Socket.B2",
+                        "Id": "DIMM.Socket.B2_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A23"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1659740309",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/16",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "SystemPlanar",
+            "EngineeringChangeLevel": "A00",
+            "MemberId": "16",
+            "Model": "SystemPlanar",
+            "Name": "System.Embedded.1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/System.Embedded.1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "System.Embedded.1",
+                        "Id": "System.Embedded.1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Module/Card",
+                        "SerialNumber": "CNIVC0013T0261"
+                    }
+                }
+            },
+            "PartNumber": "0JDN4V",
+            "Producer": "Dell Inc.",
+            "ProductionDate": "2021-04-01T11:55:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1659740309",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/17",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
+            "EngineeringChangeLevel": "A03",
+            "MemberId": "17",
+            "Model": "MLNX 25GbE 2P ConnectX5 OCP3 NIC",
+            "Name": "NIC.Integrated.1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/NIC.Integrated.1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "NIC.Integrated.1",
+                        "Id": "NIC.Integrated.1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Module/Card",
+                        "SerialNumber": "INJBNM414TJ0AL"
+                    }
+                }
+            },
+            "PartNumber": "04TRD3",
+            "Producer": "Dell",
+            "ProductionDate": "2021-04-30T10:54:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1659740309",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/18",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "Dell Storage Cntlr. H745 Front",
+            "EngineeringChangeLevel": "A00",
+            "MemberId": "18",
+            "Model": "Dell Storage Cntlr. H745 Front",
+            "Name": "RAID.SL.3-1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/RAID.SL.3-1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "RAID.SL.3-1",
+                        "Id": "RAID.SL.3-1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Module/Card",
+                        "SerialNumber": "CNIVC0013I0887"
+                    }
+                }
+            },
+            "PartNumber": "0JT47Y",
+            "Producer": "Dell",
+            "ProductionDate": "2021-03-25T08:27:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1659740309",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/19",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "BOSS-S2",
+            "EngineeringChangeLevel": "A00",
+            "MemberId": "19",
+            "Model": "BOSS-S2",
+            "Name": "AHCI.SL.6-1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/AHCI.SL.6-1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "AHCI.SL.6-1",
+                        "Id": "AHCI.SL.6-1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Module/Card",
+                        "SerialNumber": "CNIVC0015I0958"
+                    }
+                }
+            },
+            "PartNumber": "0FGNRW",
+            "Producer": "Dell",
+            "ProductionDate": "2021-05-22T10:53:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1659740309",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/20",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "ELX FC32 LPe32002-M2 Adapter",
+            "EngineeringChangeLevel": "A00",
+            "MemberId": "20",
+            "Model": "ELX FC32 LPe32002-M2 Adapter",
+            "Name": "FC.Slot.1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/FC.Slot.1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "FC.Slot.1",
+                        "Id": "FC.Slot.1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Module/Card",
+                        "SerialNumber": "MYFLPB38BTM033"
+                    }
+                }
+            },
+            "PartNumber": "0MHFHK",
+            "Producer": "Dell",
+            "ProductionDate": "2018-11-28T20:09:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896873",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/21",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "DRIVE BACKPLANE",
+            "EngineeringChangeLevel": "A02",
+            "MemberId": "21",
+            "Model": "DRIVE BACKPLANE",
+            "Name": "Enclosure.Internal.0-1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/Enclosure.Internal.0-1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "Enclosure.Internal.0-1",
+                        "Id": "Enclosure.Internal.0-1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "CrossConnect/Backplane",
+                        "SerialNumber": "CNIVC0013U0560"
+                    }
+                }
+            },
+            "PartNumber": "07JJY5",
+            "Producer": "Dell",
+            "ProductionDate": "2021-04-08T08:59:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896952",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/22",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "Dell Ent NVMe v2 AGN MU U.2 1.6TB",
+            "EngineeringChangeLevel": "A00",
+            "MemberId": "22",
+            "Model": "Dell Ent NVMe v2 AGN MU U.2 1.6TB",
+            "Name": "Disk.Bay.8:Enclosure.Internal.0-1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/Disk.Bay.8:Enclosure.Internal.0-1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "Disk.Bay.8:Enclosure.Internal.0-1",
+                        "Id": "Disk.Bay.8:Enclosure.Internal.0-1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "StorageMediaPackage(E.GDiskOrTapeDrive)",
+                        "SerialNumber": "KRSSK0015M010C"
+                    }
+                }
+            },
+            "PartNumber": "00MNMV",
+            "Producer": "Dell",
+            "ProductionDate": "2021-05-22T00:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        },
+        {
+            "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+            "@odata.etag": "1661896952",
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Assembly#/Assemblies/23",
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "BinaryDataURI": null,
+            "Description": "Dell Ent NVMe v2 AGN MU U.2 1.6TB",
+            "EngineeringChangeLevel": "A00",
+            "MemberId": "23",
+            "Model": "Dell Ent NVMe v2 AGN MU U.2 1.6TB",
+            "Name": "Disk.Bay.9:Enclosure.Internal.0-1#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/Disk.Bay.9:Enclosure.Internal.0-1_0x23_FRU",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "Description": "This resource shall be used to represent an assembly information.",
+                        "DeviceFQDD": "Disk.Bay.9:Enclosure.Internal.0-1",
+                        "Id": "Disk.Bay.9:Enclosure.Internal.0-1_0x23_FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "StorageMediaPackage(E.GDiskOrTapeDrive)",
+                        "SerialNumber": "KRSSK0015M00ZR"
+                    }
+                }
+            },
+            "PartNumber": "00MNMV",
+            "Producer": "Dell",
+            "ProductionDate": "2021-05-22T00:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        }
+    ],
+    "Assemblies@odata.count": 24,
+    "Id": "PCIE Assembly",
+    "Name": "Assembly"
+}

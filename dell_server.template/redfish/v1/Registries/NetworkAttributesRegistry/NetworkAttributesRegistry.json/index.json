@@ -1,0 +1,2946 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#AttributeRegistry.AttributeRegistry",
+    "@odata.id": "/redfish/v1/Registries/NetworkAttributesRegistry/NetworkAttributesRegistry.json",
+    "@odata.type": "#AttributeRegistry.v1_3_3.AttributeRegistry",
+    "Description": "This registry defines a representation of Network Attribute instances",
+    "Id": "NetworkAttributeRegistry",
+    "Language": "en",
+    "Name": "Network Attribute Registry",
+    "OwningEntity": "Dell",
+    "RegistryEntries": {
+        "Attributes": [
+            {
+                "AttributeName": "ChipMdl",
+                "CurrentValue": null,
+                "DisplayName": "Chip Type",
+                "DisplayOrder": 104,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 1024,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "PCIDeviceID",
+                "CurrentValue": null,
+                "DisplayName": "PCI Device ID",
+                "DisplayOrder": 105,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 1024,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "BusDeviceFunction",
+                "CurrentValue": null,
+                "DisplayName": "PCI Address",
+                "DisplayOrder": 106,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 1024,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "MacAddr",
+                "CurrentValue": null,
+                "DisplayName": "MAC Address",
+                "DisplayOrder": 108,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 17,
+                "MenuPath": "./",
+                "MinLength": 17,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VirtMacAddr",
+                "CurrentValue": null,
+                "DisplayName": "Virtual MAC Address",
+                "DisplayOrder": 109,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 17,
+                "MenuPath": "./",
+                "MinLength": 17,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){5}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FCoEOffloadSupport",
+                "CurrentValue": null,
+                "DisplayName": "FCoE Offload Support",
+                "DisplayOrder": 110,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "iSCSIOffloadSupport",
+                "CurrentValue": null,
+                "DisplayName": "iSCSI Offload Support",
+                "DisplayOrder": 111,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "iSCSIBootSupport",
+                "CurrentValue": null,
+                "DisplayName": "iSCSI Boot Support",
+                "DisplayOrder": 112,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "PXEBootSupport",
+                "CurrentValue": null,
+                "DisplayName": "PXE Boot Support",
+                "DisplayOrder": 113,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FCoEBootSupport",
+                "CurrentValue": null,
+                "DisplayName": "FCoE Boot Support",
+                "DisplayOrder": 114,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "NicPartitioningSupport",
+                "CurrentValue": null,
+                "DisplayName": "NIC Partitioning Support",
+                "DisplayOrder": 115,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FlexAddressing",
+                "CurrentValue": null,
+                "DisplayName": "FlexAddressing",
+                "DisplayOrder": 116,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "TXBandwidthControlMaximum",
+                "CurrentValue": null,
+                "DisplayName": "TX Bandwidth Control Maximum",
+                "DisplayOrder": 117,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "TXBandwidthControlMinimum",
+                "CurrentValue": null,
+                "DisplayName": "TX Bandwidth Control Minimum",
+                "DisplayOrder": 118,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "EnergyEfficientEthernet",
+                "CurrentValue": null,
+                "DisplayName": "Energy Efficient Ethernet (EEE)",
+                "DisplayOrder": 119,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 12,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FamilyVersion",
+                "CurrentValue": null,
+                "DisplayName": "Family Firmware Version",
+                "DisplayOrder": 200,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 20,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ControllerBIOSVersion",
+                "CurrentValue": null,
+                "DisplayName": "Controller BIOS Version",
+                "DisplayOrder": 201,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 16,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "EFIVersion",
+                "CurrentValue": null,
+                "DisplayName": "EFI Version",
+                "DisplayOrder": 202,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 16,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "DeviceName",
+                "CurrentValue": null,
+                "DisplayName": "Device Name",
+                "DisplayOrder": 106,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 128,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "TXFlowControl",
+                "CurrentValue": null,
+                "DisplayName": "TX Flow Control",
+                "DisplayOrder": 112,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "RXFlowControl",
+                "CurrentValue": null,
+                "DisplayName": "RX Flow Control",
+                "DisplayOrder": 113,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "InfiniBand",
+                "CurrentValue": null,
+                "DisplayName": "InfiniBand Support",
+                "DisplayOrder": 118,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "DCBXSupport",
+                "CurrentValue": null,
+                "DisplayName": "DCBX Support",
+                "DisplayOrder": 119,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "SNAPI",
+                "CurrentValue": null,
+                "DisplayName": "SNAPI Support",
+                "DisplayOrder": 121,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VPI",
+                "CurrentValue": null,
+                "DisplayName": "VPI Support",
+                "DisplayOrder": 124,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "OnChipThermalSensor",
+                "CurrentValue": null,
+                "DisplayName": "On-Chip Thermal Sensor",
+                "DisplayOrder": 128,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "TOESupport",
+                "CurrentValue": null,
+                "DisplayName": "TOE Support",
+                "DisplayOrder": 131,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "NWManagementPassThrough",
+                "CurrentValue": null,
+                "DisplayName": "Network Management Pass Through",
+                "DisplayOrder": 134,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "RemotePHY",
+                "CurrentValue": null,
+                "DisplayName": "RemotePHY",
+                "DisplayOrder": 137,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FeatureLicensingSupport",
+                "CurrentValue": null,
+                "DisplayName": "Feature Licensing Support",
+                "DisplayOrder": 138,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "OSBMCManagementPassThrough",
+                "CurrentValue": null,
+                "DisplayName": "OS BMC Management Pass Through",
+                "DisplayOrder": 139,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "iSCSIDualIPVersionSupport",
+                "CurrentValue": null,
+                "DisplayName": "iSCSI Dual IP Version Support",
+                "DisplayOrder": 140,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "SRIOVSupport",
+                "CurrentValue": null,
+                "DisplayName": "SR-IOV Support",
+                "DisplayOrder": 204,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VFDistribution",
+                "CurrentValue": null,
+                "DisplayName": "VF Distribution",
+                "DisplayOrder": 207,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 15,
+                "MenuPath": "./",
+                "MinLength": 1,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^[0-9]{1,3}(:[0-9]{1,3})*$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "EVBModesSupport",
+                "CurrentValue": null,
+                "DisplayName": "EVB Modes Support",
+                "DisplayOrder": 208,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 13,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "RDMASupport",
+                "CurrentValue": null,
+                "DisplayName": "RDMA Support",
+                "DisplayOrder": 210,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "EnhancedTransmissionSelection",
+                "CurrentValue": null,
+                "DisplayName": "Enhanced Transmission Selection",
+                "DisplayOrder": 400,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "PriorityFlowControl",
+                "CurrentValue": null,
+                "DisplayName": "Priority Flow Control",
+                "DisplayOrder": 401,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "CongestionNotification",
+                "CurrentValue": null,
+                "DisplayName": "Congestion Notification",
+                "DisplayOrder": 402,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 11,
+                "MenuPath": "./",
+                "MinLength": 9,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiInitiatorIpAddr",
+                "CurrentValue": null,
+                "DisplayName": "IP Address",
+                "DisplayOrder": 900,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 15,
+                "MenuPath": "./",
+                "MinLength": 7,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9]{1,3}\\.){3}[0-9]{1,3}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiInitiatorSubnet",
+                "CurrentValue": null,
+                "DisplayName": "Subnet Mask",
+                "DisplayOrder": 901,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 15,
+                "MenuPath": "./",
+                "MinLength": 7,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9]{1,3}\\.){3}[0-9]{1,3}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiInitiatorGateway",
+                "CurrentValue": null,
+                "DisplayName": "Default Gateway",
+                "DisplayOrder": 902,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 15,
+                "MenuPath": "./",
+                "MinLength": 7,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9]{1,3}\\.){3}[0-9]{1,3}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiInitiatorPrimDns",
+                "CurrentValue": null,
+                "DisplayName": "Primary DNS",
+                "DisplayOrder": 903,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 15,
+                "MenuPath": "./",
+                "MinLength": 7,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9]{1,3}\\.){3}[0-9]{1,3}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiInitiatorName",
+                "CurrentValue": null,
+                "DisplayName": "iSCSI Name",
+                "DisplayOrder": 904,
+                "HelpText": "This field specifies the name of the iSCSI Initiator in IQN format.",
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 223,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^[-0-9a-zA-Z.:_]{0,223}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiInitiatorChapId",
+                "CurrentValue": null,
+                "DisplayName": "CHAP ID",
+                "DisplayOrder": 905,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 128,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^.{0,128}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiInitiatorChapPwd",
+                "CurrentValue": null,
+                "DisplayName": "CHAP Secret",
+                "DisplayOrder": 906,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 16,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^$|^.{12,16}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FirstTgtIpAddress",
+                "CurrentValue": null,
+                "DisplayName": "IP Address",
+                "DisplayOrder": 1001,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 15,
+                "MenuPath": "./",
+                "MinLength": 7,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9]{1,3}\\.){3}[0-9]{1,3}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FirstTgtIscsiName",
+                "CurrentValue": null,
+                "DisplayName": "iSCSI Name",
+                "DisplayOrder": 1004,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 223,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^[-0-9a-zA-Z.:_]{0,223}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FirstTgtChapId",
+                "CurrentValue": null,
+                "DisplayName": "CHAP ID",
+                "DisplayOrder": 1005,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 128,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^.{0,128}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FirstTgtChapPwd",
+                "CurrentValue": null,
+                "DisplayName": "CHAP Secret",
+                "DisplayOrder": 1006,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 16,
+                "MenuPath": "./",
+                "MinLength": 0,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^$|^.{12,16}$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "BlnkLeds",
+                "CurrentValue": null,
+                "DisplayName": "Blink LEDs",
+                "DisplayOrder": 102,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 15,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "BannerMessageTimeout",
+                "CurrentValue": null,
+                "DisplayName": "Banner Message Timeout",
+                "DisplayOrder": 304,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 15,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VLanId",
+                "CurrentValue": null,
+                "DisplayName": "Virtual LAN ID",
+                "DisplayOrder": 308,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 1,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 4094,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "NumberVFSupported",
+                "CurrentValue": null,
+                "DisplayName": "Number of Virtual Functions Supported",
+                "DisplayOrder": 201,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "NumberVFAdvertised",
+                "CurrentValue": null,
+                "DisplayName": "PCI Virtual Functions Advertised",
+                "DisplayOrder": 203,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 1,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 127,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VFAllocMult",
+                "CurrentValue": null,
+                "DisplayName": "VF Allocation Multiple",
+                "DisplayOrder": 206,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "LowerBound": 1,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "NumberPCIFunctionsEnabled",
+                "CurrentValue": null,
+                "DisplayName": "Number of PCI Physical Functions Currently Enabled per Port",
+                "DisplayOrder": 300,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "LowerBound": 1,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 1,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "NumberPCIFunctionsSupported",
+                "CurrentValue": null,
+                "DisplayName": "Number of PCI Physical Functions Supported",
+                "DisplayOrder": 301,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "LowerBound": 1,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 1,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FirstTgtTcpPort",
+                "CurrentValue": null,
+                "DisplayName": "TCP Port",
+                "DisplayOrder": 1002,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 1,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 65535,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FirstTgtBootLun",
+                "CurrentValue": null,
+                "DisplayName": "Boot LUN",
+                "DisplayOrder": 1003,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "EEEControl",
+                "CurrentValue": null,
+                "DisplayName": "Energy Efficient Ethernet",
+                "DisplayOrder": 103,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Maximum Power Savings",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "LinkStatus",
+                "CurrentValue": null,
+                "DisplayName": "Link Status",
+                "DisplayOrder": 107,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disconnected",
+                        "ValueName": "Disconnected"
+                    },
+                    {
+                        "ValueDisplayName": "Connected",
+                        "ValueName": "Connected"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "BootOptionROM",
+                "CurrentValue": null,
+                "DisplayName": "Option ROM",
+                "DisplayOrder": 300,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "LegacyBootProto",
+                "CurrentValue": null,
+                "DisplayName": "Legacy Boot Protocol",
+                "DisplayOrder": 301,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "PXE",
+                        "ValueName": "PXE"
+                    },
+                    {
+                        "ValueDisplayName": "None",
+                        "ValueName": "NONE"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "BootStrapType",
+                "CurrentValue": null,
+                "DisplayName": "Boot Strap Type",
+                "DisplayOrder": 302,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Auto Detect",
+                        "ValueName": "AutoDetect"
+                    },
+                    {
+                        "ValueDisplayName": "BBS",
+                        "ValueName": "BBS"
+                    },
+                    {
+                        "ValueDisplayName": "Int 18h",
+                        "ValueName": "Int18h"
+                    },
+                    {
+                        "ValueDisplayName": "Int 19h",
+                        "ValueName": "Int19h"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "HideSetupPrompt",
+                "CurrentValue": null,
+                "DisplayName": "Hide Setup Prompt",
+                "DisplayOrder": 303,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "LnkSpeed",
+                "CurrentValue": null,
+                "DisplayName": "Link Speed",
+                "DisplayOrder": 305,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Auto Negotiated",
+                        "ValueName": "AutoNeg"
+                    },
+                    {
+                        "ValueDisplayName": "10 Mbps Half",
+                        "ValueName": "10MbpsHalf"
+                    },
+                    {
+                        "ValueDisplayName": "10 Mbps Full",
+                        "ValueName": "10MbpsFull"
+                    },
+                    {
+                        "ValueDisplayName": "100 Mbps Half",
+                        "ValueName": "100MbpsHalf"
+                    },
+                    {
+                        "ValueDisplayName": "100 Mbps Full",
+                        "ValueName": "100MbpsFull"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "WakeOnLan",
+                "CurrentValue": null,
+                "DisplayName": "Wake On LAN",
+                "DisplayOrder": 306,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VLanMode",
+                "CurrentValue": null,
+                "DisplayName": "Virtual LAN Mode",
+                "DisplayOrder": 307,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "PermitTotalPortShutdown",
+                "CurrentValue": null,
+                "DisplayName": "Permit Total Port Shutdown",
+                "DisplayOrder": 309,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "RDMANICModeOnPort",
+                "CurrentValue": null,
+                "DisplayName": "NIC + RDMA Mode",
+                "DisplayOrder": 111,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "NicMode",
+                "CurrentValue": null,
+                "DisplayName": "NIC Mode",
+                "DisplayOrder": 120,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "SNAPIState",
+                "CurrentValue": null,
+                "DisplayName": "SNAPI Operation",
+                "DisplayOrder": 122,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ForwardErrorCorrection",
+                "CurrentValue": null,
+                "DisplayName": "Forward Error Correction",
+                "DisplayOrder": 125,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Fire Code",
+                        "ValueName": "FC"
+                    },
+                    {
+                        "ValueDisplayName": "RS-FEC",
+                        "ValueName": "RS-FEC"
+                    },
+                    {
+                        "ValueDisplayName": "Auto",
+                        "ValueName": "Auto"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VirtualizationMode",
+                "CurrentValue": null,
+                "DisplayName": "Virtualization Mode",
+                "DisplayOrder": 200,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "None",
+                        "ValueName": "NONE"
+                    },
+                    {
+                        "ValueDisplayName": "SR-IOV",
+                        "ValueName": "SRIOV"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "PartitionStateInterpretation",
+                "CurrentValue": null,
+                "DisplayName": "Partition State Interpretation",
+                "DisplayOrder": 202,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Fixed",
+                        "ValueName": "Fixed"
+                    },
+                    {
+                        "ValueDisplayName": "Variable",
+                        "ValueName": "Variable"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VFAllocBasis",
+                "CurrentValue": null,
+                "DisplayName": "VF Allocation Basis",
+                "DisplayOrder": 205,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Device",
+                        "ValueName": "Device"
+                    },
+                    {
+                        "ValueDisplayName": "Port",
+                        "ValueName": "Port"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "RDMAProtocolSupport",
+                "CurrentValue": null,
+                "DisplayName": "RDMA Protocol Support",
+                "DisplayOrder": 209,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "RoCE",
+                        "ValueName": "RoCE"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "WakeOnLanLnkSpeed",
+                "CurrentValue": null,
+                "DisplayName": "Wake On LAN Link Speed",
+                "DisplayOrder": 603,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "1 Gbps",
+                        "ValueName": "1Gbps"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "BootRetryCnt",
+                "CurrentValue": null,
+                "DisplayName": "Boot Retry Count",
+                "DisplayOrder": 607,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "No Retry",
+                        "ValueName": "NoRetry"
+                    },
+                    {
+                        "ValueDisplayName": "1 Retry",
+                        "ValueName": "1Retry"
+                    },
+                    {
+                        "ValueDisplayName": "2 Retries",
+                        "ValueName": "2Retries"
+                    },
+                    {
+                        "ValueDisplayName": "3 Retries",
+                        "ValueName": "3Retries"
+                    },
+                    {
+                        "ValueDisplayName": "4 Retries",
+                        "ValueName": "4Retries"
+                    },
+                    {
+                        "ValueDisplayName": "5 Retries",
+                        "ValueName": "5Retries"
+                    },
+                    {
+                        "ValueDisplayName": "6 Retries",
+                        "ValueName": "6Retries"
+                    },
+                    {
+                        "ValueDisplayName": "Indefinite Retries",
+                        "ValueName": "IndefiniteRetries"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiTgtBoot",
+                "CurrentValue": null,
+                "DisplayName": "Boot to Target",
+                "DisplayOrder": 800,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    },
+                    {
+                        "ValueDisplayName": "One Time Disabled",
+                        "ValueName": "OneTimeDisabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "TcpIpViaDHCP",
+                "CurrentValue": null,
+                "DisplayName": "TCP/IP Parameters via DHCP",
+                "DisplayOrder": 801,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IscsiViaDHCP",
+                "CurrentValue": null,
+                "DisplayName": "iSCSI Parameters via DHCP",
+                "DisplayOrder": 802,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ChapAuthEnable",
+                "CurrentValue": null,
+                "DisplayName": "CHAP Authentication",
+                "DisplayOrder": 803,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ChapMutualAuth",
+                "CurrentValue": null,
+                "DisplayName": "CHAP Mutual Authentication",
+                "DisplayOrder": 804,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "IpVer",
+                "CurrentValue": null,
+                "DisplayName": "IP Version",
+                "DisplayOrder": 805,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "IPv4",
+                        "ValueName": "IPv4"
+                    },
+                    {
+                        "ValueDisplayName": "None",
+                        "ValueName": "None"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ConnectFirstTgt",
+                "CurrentValue": null,
+                "DisplayName": "Connect",
+                "DisplayOrder": 1000,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enabled",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "WWN",
+                "CurrentValue": null,
+                "DisplayName": "World Wide Node Name",
+                "DisplayOrder": 103,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "WWPN",
+                "CurrentValue": null,
+                "DisplayName": "World Wide Port Name",
+                "DisplayOrder": 104,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VirtualWWN",
+                "CurrentValue": null,
+                "DisplayName": "Virtual World Wide Node Name",
+                "DisplayOrder": 105,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "VirtualWWPN",
+                "CurrentValue": null,
+                "DisplayName": "Virtual World Wide Port Name",
+                "DisplayOrder": 106,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FirstFCTargetWWPN",
+                "CurrentValue": null,
+                "DisplayName": "First FC Target World Wide Port Name",
+                "DisplayOrder": 401,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "SecondFCTargetWWPN",
+                "CurrentValue": null,
+                "DisplayName": "Second FC Target World Wide Port Name",
+                "DisplayOrder": 402,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_ThirdFCTargetWWPN",
+                "CurrentValue": null,
+                "DisplayName": "Third FC Target World Wide Port Name",
+                "DisplayOrder": 403,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FourthFCTargetWWPN",
+                "CurrentValue": null,
+                "DisplayName": "Fourth FC Target World Wide Port Name",
+                "DisplayOrder": 404,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FifthFCTargetWWPN",
+                "CurrentValue": null,
+                "DisplayName": "Fifth FC Target World Wide Port Name",
+                "DisplayOrder": 405,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_SixthFCTargetWWPN",
+                "CurrentValue": null,
+                "DisplayName": "Sixth FC Target World Wide Port Name",
+                "DisplayOrder": 406,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_SeventhFCTargetWWPN",
+                "CurrentValue": null,
+                "DisplayName": "Seventh FC Target World Wide Port Name",
+                "DisplayOrder": 407,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_EighthFCTargetWWPN",
+                "CurrentValue": null,
+                "DisplayName": "Eighth FC Target World Wide Port Name",
+                "DisplayOrder": 408,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MaxLength": 23,
+                "MenuPath": "./",
+                "MinLength": 23,
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "Type": "String",
+                "ValueExpression": "^([0-9a-fA-F]{2}:){7}([0-9a-fA-F]{2})$",
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "PortNumber",
+                "CurrentValue": null,
+                "DisplayName": "Port Number",
+                "DisplayOrder": 100,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": true,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "PortLoginTimeout",
+                "CurrentValue": null,
+                "DisplayName": "Port Login Timeout",
+                "DisplayOrder": 200,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 1,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 50,
+                "Type": "Integer",
+                "UpperBound": 255000,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_MaxLUNSPerTarget",
+                "CurrentValue": null,
+                "DisplayName": "Maximum LUNs Per Target",
+                "DisplayOrder": 201,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 1,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 0,
+                "Type": "Integer",
+                "UpperBound": 256,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FirstFCBootDeviceOrder",
+                "CurrentValue": null,
+                "DisplayName": "First Boot Device Order",
+                "DisplayOrder": 203,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 8,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_SecondFCBootDeviceOrder",
+                "CurrentValue": null,
+                "DisplayName": "Second Boot Device Order",
+                "DisplayOrder": 204,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 8,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_ThirdFCBootDeviceOrder",
+                "CurrentValue": null,
+                "DisplayName": "Third Boot Device Order",
+                "DisplayOrder": 205,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 8,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FourthFCBootDeviceOrder",
+                "CurrentValue": null,
+                "DisplayName": "Fourth Boot Device Order",
+                "DisplayOrder": 206,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 8,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FifthFCBootDeviceOrder",
+                "CurrentValue": null,
+                "DisplayName": "Fifth Boot Device Order",
+                "DisplayOrder": 207,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 8,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_SixthFCBootDeviceOrder",
+                "CurrentValue": null,
+                "DisplayName": "Sixth Boot Device Order",
+                "DisplayOrder": 208,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 8,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_SeventhFCBootDeviceOrder",
+                "CurrentValue": null,
+                "DisplayName": "Seventh Boot Device Order",
+                "DisplayOrder": 209,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 8,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_EighthFCBootDeviceOrder",
+                "CurrentValue": null,
+                "DisplayName": "Eighth Boot Device Order",
+                "DisplayOrder": 210,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 8,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "FirstFCTargetLUN",
+                "CurrentValue": null,
+                "DisplayName": "First FC Target LUN",
+                "DisplayOrder": 409,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "SecondFCTargetLUN",
+                "CurrentValue": null,
+                "DisplayName": "Second FC Target LUN",
+                "DisplayOrder": 410,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_ThirdFCTargetLUN",
+                "CurrentValue": null,
+                "DisplayName": "Third FC Target LUN",
+                "DisplayOrder": 411,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FourthFCTargetLUN",
+                "CurrentValue": null,
+                "DisplayName": "Fourth FC Target LUN",
+                "DisplayOrder": 412,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FifthFCTargetLUN",
+                "CurrentValue": null,
+                "DisplayName": "Fifth FC Target LUN",
+                "DisplayOrder": 413,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_SixthFCTargetLUN",
+                "CurrentValue": null,
+                "DisplayName": "Sixth FC Target LUN",
+                "DisplayOrder": 414,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_SeventhFCTargetLUN",
+                "CurrentValue": null,
+                "DisplayName": "Seventh FC Target LUN",
+                "DisplayOrder": 415,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_EighthFCTargetLUN",
+                "CurrentValue": null,
+                "DisplayName": "Eighth FC Target LUN",
+                "DisplayOrder": 416,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "LowerBound": 0,
+                "MenuPath": "./",
+                "ReadOnly": true,
+                "ResetRequired": true,
+                "ScalarIncrement": 1,
+                "Type": "Integer",
+                "UpperBound": 255,
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "PortSpeed",
+                "CurrentValue": null,
+                "DisplayName": "Port Speed",
+                "DisplayOrder": 102,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Auto",
+                        "ValueName": "Auto"
+                    },
+                    {
+                        "ValueDisplayName": "8 Gbps",
+                        "ValueName": "8G"
+                    },
+                    {
+                        "ValueDisplayName": "16 Gbps",
+                        "ValueName": "16G"
+                    },
+                    {
+                        "ValueDisplayName": "32 Gbps",
+                        "ValueName": "32G"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_BootTargetScanMethod",
+                "CurrentValue": null,
+                "DisplayName": "FC Boot Target Scan Method",
+                "DisplayOrder": 202,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Boot Path From NVRAM Targets",
+                        "ValueName": "NVRAM_BOOTSCAN"
+                    },
+                    {
+                        "ValueDisplayName": "Boot Path Discovered Targets",
+                        "ValueName": "ALL_BOOTSCAN"
+                    },
+                    {
+                        "ValueDisplayName": "Do Not Create Boot Path",
+                        "ValueName": "NO_BOOTSCAN"
+                    },
+                    {
+                        "ValueDisplayName": "EFI FC Scan Level: NVRAM Targets",
+                        "ValueName": "TIERED_BOOTSCAN_NVRAM"
+                    },
+                    {
+                        "ValueDisplayName": "EFI FC Scan Level: Discovered Targets",
+                        "ValueName": "TIERED_BOOTSCAN_DISCOVERED"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FaPWWNSupport",
+                "CurrentValue": null,
+                "DisplayName": "Brocade Fabric Assigned Port WWN",
+                "DisplayOrder": 211,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disable Brocade Fabric Assigned Port WWN",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enable Brocade Fabric Assigned Port WWN",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_FABLSupport",
+                "CurrentValue": null,
+                "DisplayName": "Brocade Fabric Assigned Boot LUN",
+                "DisplayOrder": 212,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disable Brocade Boot LUN",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enable Brocade Boot LUN",
+                        "ValueName": "Enabled"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_LegacySpin",
+                "CurrentValue": null,
+                "DisplayName": "Enable or Disable Legacy Spinup Delay",
+                "DisplayOrder": 213,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enable",
+                        "ValueName": "XROM_SPINUP_ENABLE"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_LegacyEDD",
+                "CurrentValue": null,
+                "DisplayName": "Enable or Disable Legacy EDD 3.0",
+                "DisplayOrder": 214,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enable",
+                        "ValueName": "EDD30_ENABLED"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_LegacyStartUnit",
+                "CurrentValue": null,
+                "DisplayName": "Enable or Disable Legacy Start Unit Command",
+                "DisplayOrder": 215,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enable",
+                        "ValueName": "ENABLE_START"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_LegacyEnvVar",
+                "CurrentValue": null,
+                "DisplayName": "Enable or Disable Legacy Environment Variable",
+                "DisplayOrder": 216,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enable",
+                        "ValueName": "ENABLE_EV"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_LegacyAutoBoot",
+                "CurrentValue": null,
+                "DisplayName": "Enable or Disable Legacy Auto Boot Sector",
+                "DisplayOrder": 217,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Enable",
+                        "ValueName": "ENABLE_AUTOSECTOR"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "ELX_LegacyAutoScan",
+                "CurrentValue": null,
+                "DisplayName": "Legacy Auto Scan Setting",
+                "DisplayOrder": 218,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Autoscan disabled",
+                        "ValueName": "DISABLE_AUTOSCAN"
+                    },
+                    {
+                        "ValueDisplayName": "Any first device",
+                        "ValueName": "AUTOSCAN_ANY"
+                    },
+                    {
+                        "ValueDisplayName": "First LUN 0 device",
+                        "ValueName": "AUTOSCAN_LUN0"
+                    },
+                    {
+                        "ValueDisplayName": "First NOT LUN 0 device",
+                        "ValueName": "AUTOSCAN_NON_LUN0"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            },
+            {
+                "AttributeName": "BootScanSelection",
+                "CurrentValue": null,
+                "DisplayName": "Boot Scan Selection",
+                "DisplayOrder": 400,
+                "HelpText": null,
+                "Hidden": false,
+                "Immutable": false,
+                "MenuPath": "./",
+                "ReadOnly": false,
+                "ResetRequired": true,
+                "Type": "Enumeration",
+                "Value": [
+                    {
+                        "ValueDisplayName": "Disabled",
+                        "ValueName": "Disabled"
+                    },
+                    {
+                        "ValueDisplayName": "Specified LUN",
+                        "ValueName": "SpecifiedLUN"
+                    }
+                ],
+                "WarningText": null,
+                "WriteOnly": false
+            }
+        ],
+        "Dependencies": [
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "VLanMode",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "VLanId",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "VLanId",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "FirstFCTargetWWPN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "FirstFCTargetWWPN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "SecondFCTargetWWPN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "SecondFCTargetWWPN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_ThirdFCTargetWWPN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_ThirdFCTargetWWPN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_FourthFCTargetWWPN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_FourthFCTargetWWPN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_FifthFCTargetWWPN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_FifthFCTargetWWPN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_SixthFCTargetWWPN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_SixthFCTargetWWPN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_SeventhFCTargetWWPN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_SeventhFCTargetWWPN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_EighthFCTargetWWPN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_EighthFCTargetWWPN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "FirstFCTargetLUN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "FirstFCTargetLUN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "SecondFCTargetLUN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "SecondFCTargetLUN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_ThirdFCTargetLUN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_ThirdFCTargetLUN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_FourthFCTargetLUN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_FourthFCTargetLUN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_FifthFCTargetLUN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_FifthFCTargetLUN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_SixthFCTargetLUN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_SixthFCTargetLUN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_SeventhFCTargetLUN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_SeventhFCTargetLUN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_EighthFCTargetLUN",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_EighthFCTargetLUN",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_FaPWWNSupport",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_FaPWWNSupport",
+                "Type": "Map"
+            },
+            {
+                "Dependency": {
+                    "MapFrom": [
+                        {
+                            "MapFromAttribute": "BootScanSelection",
+                            "MapFromCondition": "EQU",
+                            "MapFromProperty": "CurrentValue",
+                            "MapFromValue": "Disabled"
+                        }
+                    ],
+                    "MapToAttribute": "ELX_FABLSupport",
+                    "MapToProperty": "ReadOnly",
+                    "MapToValue": true
+                },
+                "DependencyFor": "ELX_FABLSupport",
+                "Type": "Map"
+            }
+        ],
+        "Menus": []
+    },
+    "RegistryVersion": "1.0.0",
+    "SupportedSystems": [
+        {
+            "FirmwareVersion": "1.2.4",
+            "ProductName": "PowerEdge R650",
+            "SystemId": "{{SERVICE_TAG}}"
+        }
+    ]
+}

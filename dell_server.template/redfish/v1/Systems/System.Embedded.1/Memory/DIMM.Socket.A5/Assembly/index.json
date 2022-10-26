@@ -1,0 +1,42 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Assembly.Assembly",
+    "@odata.type": "#Assembly.v1_2_3.Assembly",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A5/Assembly",
+    "Assemblies": [
+        {
+            "@odata.type": "#Assembly.v1_2_3.AssemblyData",
+            "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A5/Assembly#/Assemblies/0",
+            "BinaryDataURI": null,
+            "Description": "DDR4 DIMM",
+            "EngineeringChangeLevel": null,
+            "MemberId": "0",
+            "Model": "DDR4 DIMM",
+            "Name": "DIMM.Socket.A5#FRU",
+            "Oem": {
+                "Dell": {
+                    "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+                    "DellAssembly": {
+                        "DeviceFQDD": "DIMM.Socket.A5",
+                        "Id": "DIMM.Socket.A5#FRU",
+                        "Name": "DellAssembly",
+                        "PackageType": "Memory",
+                        "SerialNumber": "19949A26",
+                        "@odata.context": "/redfish/v1/$metadata#DellAssembly.DellAssembly",
+                        "@odata.type": "#DellAssembly.v1_0_0.DellAssembly",
+                        "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Oem/Dell/DellAssembly/DIMM.Socket.A5_0x23_FRU"
+                    }
+                }
+            },
+            "PartNumber": "M393A1K43DB2-CWE",
+            "Producer": "Samsung",
+            "ProductionDate": "2021-04-26T07:00:00Z",
+            "SKU": null,
+            "SparePartNumber": null,
+            "Vendor": "DELL",
+            "Version": null
+        }
+    ],
+    "Assemblies@odata.count": 1,
+    "Id": "PCIE Assembly",
+    "Name": "DIMM.Socket.A5#FRU"
+}

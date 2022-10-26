@@ -1,0 +1,29 @@
+{
+    "$id": "/redfish/v1/Schemas/DellSoftwareInventory.json",
+    "$ref": "#/definitions/DellSoftwareInventory",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellSoftwareInventory": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellSoftwareInventory.v1_1_1.json#/definitions/DellSoftwareInventory"
+                }
+            ],
+            "deletable": false,
+            "description": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+            "insertable": false,
+            "longDescription": "The DellSoftwareInventory resource is a representation of an available device firmware in the managed system.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/UpdateService/FirmwareInventory/Oem/Dell/DellSoftwareInventory/{SoftwareInventoryId}",
+                "/redfish/v1/UpdateService/FirmwareInventory/{InventoryId}/Oem/Dell/DellSoftwareInventory/{SoftwareInventoryId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellSoftwareInventory.DellSoftwareInventory"
+}

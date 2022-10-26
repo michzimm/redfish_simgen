@@ -1,0 +1,86 @@
+{
+    "@odata.context": "/redfish/v1/$metadata#Memory.Memory",
+    "@odata.type": "#Memory.v1_9_2.Memory",
+    "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8",
+    "AllowedSpeedsMHz": [
+        3200
+    ],
+    "AllowedSpeedsMHz@odata.count": 1,
+    "Assembly": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8/Assembly"
+    },
+    "BaseModuleType": null,
+    "BusWidthBits": 72,
+    "CacheSizeMiB": 0,
+    "CapacityMiB": 8192,
+    "DataWidthBits": 64,
+    "Description": "DIMM A8",
+    "DeviceLocator": "DIMM A8",
+    "ErrorCorrection": "MultiBitECC",
+    "FirmwareRevision": null,
+    "Id": "DIMM.Socket.A8",
+    "Links": {
+        "Chassis": {
+            "@odata.id": "/redfish/v1/Chassis/System.Embedded.1"
+        },
+        "Oem": {
+            "Dell": {
+                "@odata.type": "#DellOem.v1_2_0.DellOemLinks",
+                "CPUAffinity": [
+                    {
+                        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Processors/CPU.Socket.1"
+                    }
+                ],
+                "CPUAffinity@odata.count": 1
+            }
+        }
+    },
+    "LogicalSizeMiB": 0,
+    "Manufacturer": "Samsung",
+    "MaxTDPMilliWatts": [],
+    "MaxTDPMilliWatts@odata.count": 0,
+    "MemoryDeviceType": "DDR4",
+    "MemorySubsystemControllerManufacturerID": null,
+    "MemorySubsystemControllerProductID": null,
+    "MemoryType": "DRAM",
+    "Metrics": {
+        "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8/MemoryMetrics"
+    },
+    "ModuleManufacturerID": "0xce80",
+    "ModuleProductID": null,
+    "Name": "DIMM A8",
+    "NonVolatileSizeMiB": 0,
+    "Oem": {
+        "Dell": {
+            "@odata.type": "#DellOem.v1_2_0.DellOemResources",
+            "DellMemory": {
+                "BankLabel": "A",
+                "Id": "DIMM.Socket.A8",
+                "LastSystemInventoryTime": "2022-08-30T22:00:48+00:00",
+                "LastUpdateTime": "2021-07-02T21:31:25+00:00",
+                "ManufactureDate": "Mon Apr 26 07:00:00 2021 UTC",
+                "MemoryTechnology": "DRAM",
+                "Model": "DDR4 DIMM",
+                "Name": "DellMemory",
+                "RemainingRatedWriteEndurancePercent": null,
+                "SystemEraseCapability": "NotSupported",
+                "@odata.context": "/redfish/v1/$metadata#DellMemory.DellMemory",
+                "@odata.type": "#DellMemory.v1_1_0.DellMemory",
+                "@odata.id": "/redfish/v1/Systems/System.Embedded.1/Memory/DIMM.Socket.A8/Oem/Dell/DellMemory/DIMM.Socket.A8"
+            }
+        }
+    },
+    "OperatingMemoryModes": [
+        "Volatile"
+    ],
+    "OperatingMemoryModes@odata.count": 1,
+    "OperatingSpeedMhz": 2933,
+    "PartNumber": "M393A1K43DB2-CWE",
+    "RankCount": 1,
+    "SerialNumber": "19949A1F",
+    "Status": {
+        "Health": "OK",
+        "State": "Enabled"
+    },
+    "VolatileSizeMiB": 8192
+}

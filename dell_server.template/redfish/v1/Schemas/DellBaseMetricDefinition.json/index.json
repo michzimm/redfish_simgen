@@ -1,0 +1,28 @@
+{
+    "$id": "/redfish/v1/Schemas/DellBaseMetricDefinition.json",
+    "$ref": "#/definitions/DellBaseMetricDefinition",
+    "$schema": "/redfish/v1/Schemas/redfish-schema-v1.json",
+    "copyright": "Copyright 2014-2020 Dell, Inc. or its subsidiaries. All Rights Reserved.",
+    "definitions": {
+        "DellBaseMetricDefinition": {
+            "anyOf": [
+                {
+                    "$ref": "/redfish/v1/Schemas/odata-v4.json#/definitions/idRef"
+                },
+                {
+                    "$ref": "/redfish/v1/Schemas/DellBaseMetricDefinition.v1_0_0.json#/definitions/DellBaseMetricDefinition"
+                }
+            ],
+            "deletable": false,
+            "description": "DellBaseMetricDefinition represents the definitional aspects of a metric.",
+            "insertable": false,
+            "longDescription": "DellBaseMetricDefinition represents the definitional aspects of a metric.",
+            "updatable": false,
+            "uris": [
+                "/redfish/v1/Managers/{ManagerId}/Oem/Dell/DellBaseMetricDefinitions/{BaseMetricDefinitionId}"
+            ]
+        }
+    },
+    "owningEntity": "Dell",
+    "title": "#DellBaseMetricDefinition.DellBaseMetricDefinition"
+}
