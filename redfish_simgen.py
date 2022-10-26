@@ -51,8 +51,8 @@ if sim_type == 'hp':
     instance_name = "hp_server."+serial
 
     # Create new directory tree for server, copy from template
-    source_dir = "./hp_server.template"
-    dest_dir = "./instances/"+instance_name
+    source_dir = "/opt/redfish_simgen/hp_server.template"
+    dest_dir = "/opt/redfish_simgen/instances/"+instance_name
     shutil.copytree(source_dir, dest_dir)
 
     # Replace unique identifiers (serial, hostname, server_name, ip) in server directory tree
