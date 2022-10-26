@@ -29,7 +29,7 @@ while True:
     if sim_type in ['hp','HP','Hp']:
         break
     else:
-        print(Fore.GREEN+"Not a supported option, try again!"+Style.RESET_ALL)
+        print(Fore.RED+"Not a supported option, try again!"+Style.RESET_ALL)
 
 
 print("\n")
