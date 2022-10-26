@@ -51,10 +51,10 @@ if sim_type == 'hp':
     ip = "10."+(".".join(str(random.randint(0, 255)) for _ in range(3)))
 
     print(Style.BRIGHT+Fore.GREEN+"Creating simulated redfish server as a container with the following randomly generated attributes...")
-    print(Style.BRIGHT+Fore.WHITE+"  --> Serial Number: "+Style.RESET_ALL+serial)
-    print(Style.BRIGHT+Fore.WHITE+"  --> ILO Hostname: "+Style.RESET_ALL+hostname)
-    print(Style.BRIGHT+Fore.WHITE+"  --> Server Name: "+Style.RESET_ALL+server_name)
-    print(Style.BRIGHT+Fore.WHITE+"  --> IP Address: "+Style.RESET_ALL+ip)
+    print(Style.BRIGHT+Fore.CYAN+"  --> Serial Number: "+Style.RESET_ALL+serial)
+    print(Style.BRIGHT+Fore.CYAN+"  --> ILO Hostname: "+Style.RESET_ALL+hostname)
+    print(Style.BRIGHT+Fore.CYAN+"  --> Server Name: "+Style.RESET_ALL+server_name)
+    print(Style.BRIGHT+Fore.CYAN+"  --> IP Address: "+Style.RESET_ALL+ip)
 
     # Generate instance name
     instance_name = "hp_server."+serial
@@ -82,9 +82,9 @@ elif sim_type == 'dell':
     ip = "10."+(".".join(str(random.randint(0, 255)) for _ in range(3)))
 
     print(Style.BRIGHT+Fore.GREEN+"Creating simulated redfish server as a container with the following randomly generated attributes...")
-    print(Style.BRIGHT+Fore.WHITE+"  --> Serial Number: "+Style.RESET_ALL+serial_num)
-    print(Style.BRIGHT+Fore.WHITE+"  --> Service Tag: "+Style.RESET_ALL+service_tag)
-    print(Style.BRIGHT+Fore.WHITE+"  --> IP Address: "+Style.RESET_ALL+ip)
+    print(Style.BRIGHT+Fore.CYAN+"  --> Serial Number: "+Style.RESET_ALL+serial_num)
+    print(Style.BRIGHT+Fore.CYAN+"  --> Service Tag: "+Style.RESET_ALL+service_tag)
+    print(Style.BRIGHT+Fore.CYAN+"  --> IP Address: "+Style.RESET_ALL+ip)
 
     # Generate instance name
     instance_name = "dell_server."+service_tag
@@ -114,11 +114,11 @@ for ifaceName in interfaces():
         print(hostip)
 
 print(Style.BRIGHT+Fore.GREEN+"When claiming this instance as a \"Redfish Server Target\" in Intersight, use the following information..."+Style.RESET_ALL)
-print(Style.BRIGHT+Fore.WHITE+"  --> Intersight Assist: "+Style.RESET_ALL+"Select your local Intersight Assist.")
-print(Style.BRIGHT+Fore.WHITE+"  --> Hostname/IPAddress: "+Style.RESET_ALL+hostip)
-print(Style.BRIGHT+Fore.WHITE+"  --> Port: "+Style.RESET_ALL+container.ports['8000/tcp'][0]['HostPort'])
-print(Style.BRIGHT+Fore.WHITE+"  --> Username: "+Style.RESET_ALL+"administrator")
-print(Style.BRIGHT+Fore.WHITE+"  --> Password: "+Style.RESET_ALL+"password")
-print(Style.BRIGHT+Fore.WHITE+"  --> Secure: "+Style.RESET_ALL+"enabled")
+print(Style.BRIGHT+Fore.CYAN+"  --> Intersight Assist: "+Style.RESET_ALL+"Select your local Intersight Assist.")
+print(Style.BRIGHT+Fore.CYAN+"  --> Hostname/IPAddress: "+Style.RESET_ALL+hostip)
+print(Style.BRIGHT+Fore.CYAN+"  --> Port: "+Style.RESET_ALL+container.ports['8000/tcp'][0]['HostPort'])
+print(Style.BRIGHT+Fore.CYAN+"  --> Username: "+Style.RESET_ALL+"administrator")
+print(Style.BRIGHT+Fore.CYAN+"  --> Password: "+Style.RESET_ALL+"password")
+print(Style.BRIGHT+Fore.CYAN+"  --> Secure: "+Style.RESET_ALL+"enabled")
 print("      "+u'\U0001F44D'+" Done.")
 print("\n")
