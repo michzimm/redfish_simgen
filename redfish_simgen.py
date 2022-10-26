@@ -71,13 +71,17 @@ if sim_type == 'hp':
 
 elif sim_type == 'dell':
     
-    # Generate random serial number
+    # Generate random service tag
     service_tag = str(''.join(random.choices(string.ascii_uppercase + string.digits, k=7)))
+
+    # Generate random serial number
+    serial_num = str(''.join(random.choices(string.ascii_uppercase + string.digits, k=14)))
 
     # Generate random IP address
     ip = "10."+(".".join(str(random.randint(0, 255)) for _ in range(3)))
 
     print(Style.BRIGHT+Fore.GREEN+"Creating simulated redfish server as a container with the following randomly generated attributes...")
+    print(Style.BRIGHT+Fore.WHITE+"  --> Serial Number: "+Style.RESET_ALL+serial_num)
     print(Style.BRIGHT+Fore.WHITE+"  --> Service Tag: "+Style.RESET_ALL+service_tag)
     print(Style.BRIGHT+Fore.WHITE+"  --> IP Address: "+Style.RESET_ALL+ip)
 
@@ -92,6 +96,7 @@ elif sim_type == 'dell':
     # Replace unique identifiers (serial, hostname, server_name, ip) in server directory tree
     findReplace(dest_dir, "{{SERVICE_TAG}}", service_tag, "*")
     findReplace(dest_dir, "{{IP_ADDRESS}}", ip, "*")
+    findReplace(dest_dir, "{{SERIAL_NUMBER}}", serial_num, "*")
 
 
 client = docker.from_env()

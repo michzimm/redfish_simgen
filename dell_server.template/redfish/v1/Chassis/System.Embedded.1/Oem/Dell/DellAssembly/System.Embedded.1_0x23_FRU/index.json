@@ -7,5 +7,5 @@
     "Id": "System.Embedded.1_0x23_FRU",
     "Name": "DellAssembly",
     "PackageType": "Module/Card",
-    "SerialNumber": "CNIVC0013T0261"
+    "SerialNumber": "{{SERIAL_NUMBER}}"
 }

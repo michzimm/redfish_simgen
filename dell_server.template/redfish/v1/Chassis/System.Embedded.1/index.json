@@ -239,7 +239,7 @@
     "Sensors": {
         "@odata.id": "/redfish/v1/Chassis/System.Embedded.1/Sensors"
     },
-    "SerialNumber": "CNIVC0013T0261",
+    "SerialNumber": "{{SERIAL_NUMBER}}",
     "Status": {
         "Health": "OK",
         "HealthRollup": "OK",

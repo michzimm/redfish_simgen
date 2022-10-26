@@ -387,7 +387,7 @@
     "SecureBoot": {
         "@odata.id": "/redfish/v1/Systems/System.Embedded.1/SecureBoot"
     },
-    "SerialNumber": "CNIVC0013T0261",
+    "SerialNumber": "{{SERIAL_NUMBER}}",
     "SimpleStorage": {
         "@odata.id": "/redfish/v1/Systems/System.Embedded.1/SimpleStorage"
     },
