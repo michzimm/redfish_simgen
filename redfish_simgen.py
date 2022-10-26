@@ -26,7 +26,7 @@ def findReplace(directory, find, replace, filePattern):
 print("\n")
 while True:
     sim_type = input(Style.BRIGHT+Fore.CYAN+"Please select simulated server type "+Style.RESET_ALL+"[ hp ]: ")
-    if sim_type in ['hp','HP','Hp']:
+    if sim_type in ['hp','HP','Hp','dell','Dell','DELL']:
         sim_type = sim_type.lower()
         break
     else:
@@ -68,6 +68,31 @@ if sim_type == 'hp':
     findReplace(dest_dir, "{{ILO_HOSTNAME}}", hostname, "*")
     findReplace(dest_dir, "{{SERVER_NAME}}", server_name, "*")
     findReplace(dest_dir, "{{IP_ADDRESS}}", ip, "*")
+
+elif sim_type == 'dell':
+    
+    # Generate random serial number
+    service_tag = str(''.join(random.choices(string.ascii_uppercase + string.digits, k=7)))
+
+    # Generate random IP address
+    ip = "10."+(".".join(str(random.randint(0, 255)) for _ in range(3)))
+
+    print(Style.BRIGHT+Fore.GREEN+"Creating simulated redfish server as a container with the following randomly generated attributes...")
+    print(Style.BRIGHT+Fore.WHITE+"  --> Service Tag: "+Style.RESET_ALL+service_tag)
+    print(Style.BRIGHT+Fore.WHITE+"  --> IP Address: "+Style.RESET_ALL+ip)
+
+    # Generate instance name
+    instance_name = "dell_server."+service_tag
+
+    # Create new directory tree for server, copy from template
+    source_dir = "/opt/redfish_simgen/dell_server.template"
+    dest_dir = "/opt/redfish_simgen/instances/"+instance_name
+    shutil.copytree(source_dir, dest_dir)
+
+    # Replace unique identifiers (serial, hostname, server_name, ip) in server directory tree
+    findReplace(dest_dir, "{{SERVICE_TAG}}", service_tag, "*")
+    findReplace(dest_dir, "{{IP_ADDRESS}}", ip, "*")
+
 
 client = docker.from_env()
 container = client.containers.run('michzimm/redfish_sim:1.0', command=None, name=instance_name, volumes=['/opt/redfish_simgen/instances/'+instance_name+':/usr/src/app/instance'], ports={'8000/tcp': None}, detach=True)
