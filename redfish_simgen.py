@@ -9,6 +9,7 @@ import fnmatch
 import docker
 import socket
 from colorama import Style, Fore
+from netifaces import interfaces, ifaddresses
 
 
 # Functions
@@ -107,9 +108,14 @@ print("\n")
 
 container.reload()
 
+for ifaceName in interfaces():
+    if ifaceName == 'ens160':
+        hostip = ifaddresses(ifaceName)[2][0]['addr']
+        print(hostip)
+
 print(Style.BRIGHT+Fore.GREEN+"When claiming this instance as a \"Redfish Server Target\" in Intersight, use the following information..."+Style.RESET_ALL)
 print(Style.BRIGHT+Fore.WHITE+"  --> Intersight Assist: "+Style.RESET_ALL+"Select your local Intersight Assist.")
-print(Style.BRIGHT+Fore.WHITE+"  --> Hostname/IPAddress: "+Style.RESET_ALL+socket.gethostbyname(socket.gethostname()))
+print(Style.BRIGHT+Fore.WHITE+"  --> Hostname/IPAddress: "+Style.RESET_ALL+hostip)
 print(Style.BRIGHT+Fore.WHITE+"  --> Port: "+Style.RESET_ALL+container.ports['8000/tcp'][0]['HostPort'])
 print(Style.BRIGHT+Fore.WHITE+"  --> Username: "+Style.RESET_ALL+"administrator")
 print(Style.BRIGHT+Fore.WHITE+"  --> Password: "+Style.RESET_ALL+"password")
