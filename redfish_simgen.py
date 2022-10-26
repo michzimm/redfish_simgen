@@ -24,7 +24,12 @@ def findReplace(directory, find, replace, filePattern):
 
 #Get inputs
 print("\n")
-sim_type = input(Style.BRIGHT+Fore.CYAN+"Please select simulated server type "+Style.RESET_ALL+"[hp, dell]: ")
+while True:
+    sim_type = input(Style.BRIGHT+Fore.CYAN+"Please select simulated server type "+Style.RESET_ALL+"[ hp ]: ")
+    if sim_type in ['hp','HP','Hp']:
+        break
+
+
 print("\n")
 
 if sim_type == 'hp':
