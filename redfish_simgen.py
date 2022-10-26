@@ -27,6 +27,7 @@ print("\n")
 while True:
     sim_type = input(Style.BRIGHT+Fore.CYAN+"Please select simulated server type "+Style.RESET_ALL+"[ hp ]: ")
     if sim_type in ['hp','HP','Hp']:
+        sim_type = sim_type.lower()
         break
     else:
         print(Fore.RED+"Not a supported option, try again!"+Style.RESET_ALL)
