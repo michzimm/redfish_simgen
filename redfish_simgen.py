@@ -84,7 +84,7 @@ elif sim_type == 'dell':
     print(Style.BRIGHT+Fore.CYAN+"  --> IP Address: "+Style.RESET_ALL+ip)
 
     # Generate instance name
-    instance_name = "dell_server."+service_tag
+    instance_name = "dell_server."+serial_num
 
     # Create new directory tree for server, copy from template
     source_dir = "/opt/redfish_simgen/dell_server.template"
